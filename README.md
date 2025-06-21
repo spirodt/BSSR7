@@ -1,2 +1,2 @@
 # BSSR7
-New version
+Test Github repo
