@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "XBSSR DATABASE", "XBSSR DATABASE.sqlproj", "{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Debug|x86.ActiveCfg = Debug|x86
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Debug|x86.Build.0 = Debug|x86
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Debug|x86.Deploy.0 = Debug|x86
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Release|x86.ActiveCfg = Release|x86
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Release|x86.Build.0 = Release|x86
+		{A2B80FA4-2055-40C9-8FB5-3BE472DF76F5}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4881C317-AF0C-4985-A37B-B4C8BB95EF37}
+	EndGlobalSection
+EndGlobal

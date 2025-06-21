@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="14.7" version="14.7" Modules="update" RootPath="." Language="en" Id="{D51B56C8-7719-4921-9669-03D3AD2510E1}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="TilesComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;aiu-ue.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;aiu-ue_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.UpdaterEditorComponent">
+    <ROW Section="Update" Key="Name" Value="BSS"/>
+    <ROW Section="Update" Key="ProductVersion" Value="5.0.7702.20847" ValueLocId="-"/>
+    <ROW Section="Update" Key="URL" Value="http://bssr.mk/BSS_DEV/Installer/Setup%20Files/BSS.exe" ValueLocId="-"/>
+    <ROW Section="Update" Key="URL1" Value="http://bssr.mk/BSS_DEV/Installer/Setup%20Files/BSS.exe" ValueLocId="-"/>
+    <ROW Section="Update" Key="Size" Value="Setup Files\BSS.exe" ValueLocId="-"/>
+    <ROW Section="Update" Key="ServerFileName" Value="BSS.exe" ValueLocId="-"/>
+    <ROW Section="Update" Key="Flags" Value="NoRedetect" ValueLocId="-"/>
+    <ROW Section="Update" Key="FilePath" Value="[APPDIR]Bssr.exe" ValueLocId="-"/>
+    <ROW Section="Update" Key="Version" Value="5.0.7702.20847" ValueLocId="-"/>
+    <ROW Section="Update" Key="Description" Value="Update to the latest version"/>
+    <ROW Section="Update" Key="AutoCloseApplication" Value="[APPDIR]bssr.exe|;;AlwaysRestart" ValueLocId="-"/>
+    <ATTRIBUTE name="OutputFileName" value="updates.txt"/>
+    <ATTRIBUTE name="OutputFolder" value="Setup Files"/>
+  </COMPONENT>
+</DOCUMENT>

@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA166269-6D3E-4DFC-BCC2-12D4CD86DE0C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MReport</RootNamespace>
+    <AssemblyName>MReport</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\AppOut\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\AppOut\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\MReport.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\AppOut\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\MReport.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bssIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bin|x86'">
+    <OutputPath>bin\x86\Bin\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bin|AnyCPU'">
+    <OutputPath>..\AppOut\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bin|x64'">
+    <OutputPath>bin\x64\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.AxShockwaveFlashObjects.13.0.4003\lib\net40\AxShockwaveFlashObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.Design.13.0.4003\lib\net40\CrystalDecisions.CrystalReports.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonObjectModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CubeDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataSetConversion, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64" />
+    <Reference Include="CrystalDecisions.ReportAppServer.ObjectFactory, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.ReportAppServer.ObjectFactory.13.0.4003\lib\net40\CrystalDecisions.ReportAppServer.ObjectFactory.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Prompting, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.ReportAppServer.Prompting.13.0.4003\lib\net40\CrystalDecisions.ReportAppServer.Prompting.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.XmlSerialize, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Data.Desktop.21.2.6\lib\net452\DevExpress.Data.Desktop.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Data.21.2.6\lib\net452\DevExpress.Data.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Images.21.2.6\lib\net452\DevExpress.Images.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Office.Core.21.2.6\lib\net452\DevExpress.Office.v21.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Pdf.Core.21.2.6\lib\net452\DevExpress.Pdf.v21.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v21.2.Drawing, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Pdf.Drawing.21.2.6\lib\net452\DevExpress.Pdf.v21.2.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.PivotGrid.Core.21.2.6\lib\net452\DevExpress.PivotGrid.v21.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Printing.Core.21.2.6\lib\net452\DevExpress.Printing.v21.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.RichEdit.Core.21.2.6\lib\net452\DevExpress.RichEdit.v21.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v21.2.Export, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.RichEdit.Export.21.2.6\lib\net452\DevExpress.RichEdit.v21.2.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Sparkline.Core.21.2.6\lib\net452\DevExpress.Sparkline.v21.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Utils.21.2.6\lib\net452\DevExpress.Utils.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.Navigation.21.2.6\lib\net452\DevExpress.XtraBars.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.Navigation.21.2.6\lib\net452\DevExpress.XtraEditors.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.Grid.21.2.6\lib\net452\DevExpress.XtraGrid.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.Navigation.21.2.6\lib\net452\DevExpress.XtraLayout.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.21.2.6\lib\net452\DevExpress.XtraNavBar.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.PivotGrid.21.2.6\lib\net452\DevExpress.XtraPivotGrid.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.Printing.21.2.6\lib\net452\DevExpress.XtraPrinting.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.Scheduler.21.2.6\lib\net452\DevExpress.XtraScheduler.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Scheduler.Core.21.2.6\lib\net452\DevExpress.XtraScheduler.v21.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v21.2.Core.Desktop, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Scheduler.CoreDesktop.21.2.6\lib\net452\DevExpress.XtraScheduler.v21.2.Core.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.TreeList.21.2.6\lib\net452\DevExpress.XtraTreeList.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.VerticalGrid.21.2.6\lib\net452\DevExpress.XtraVerticalGrid.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.21.2.6\lib\net452\DevExpress.XtraWizard.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=3.1.0.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.3.1.0\lib\net462\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="ShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.ShockwaveFlashObjects.13.0.4003\lib\net40\ShockwaveFlashObjects.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmDolziPobaruvaSitePartneri.resx">
+      <DependentUpon>frmDolziPobaruvaSitePartneri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDospeaniFakturi.resx">
+      <DependentUpon>frmDospeaniFakturi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGenerirajDokumenti.resx">
+      <DependentUpon>frmGenerirajDokumenti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmIzvestajPoVraboten.resx">
+      <DependentUpon>frmIzvestajPoVraboten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmIzvestajZaPerdiodFakturi.resx">
+      <DependentUpon>frmIzvestajZaPerdiodFakturi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmKartickaNaKupecDobavauvac.resx">
+      <DependentUpon>frmKartickaNaKupecDobavauvac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmKDFI.resx">
+      <DependentUpon>frmKDFI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmKolicinaNaPorcii.resx">
+      <DependentUpon>frmKolicinaNaPorcii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmListaNaDolznici.resx">
+      <DependentUpon>frmListaNaDolznici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmObrabotkaNaSmetki.resx">
+      <DependentUpon>frmObrabotkaNaSmetki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPlacanjaOdPartnerPodDokument.resx">
+      <DependentUpon>frmPlacanjaOdPartnerPodDokument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPlacanjaOdPartner.resx">
+      <DependentUpon>frmPlacanjaOdPartner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPotroseniMaterijaliGrupirani.resx">
+      <DependentUpon>frmPotroseniMaterijaliGrupirani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPregledNaGodisnoSaldo.resx">
+      <DependentUpon>frmPregledNaGodisnoSaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPregledNaPlacanjePoDokument.resx">
+      <DependentUpon>frmPregledNaPlacanjePoDokument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPregledNaNaloziPoObjekt.resx">
+      <DependentUpon>frmPregledNaNaloziPoObjekt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPregledNaSmetkiTretaSmena.resx">
+      <DependentUpon>frmPregledNaSmetkiTretaSmena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProdazbaOdSmetki.resx">
+      <DependentUpon>frmProdazbaOdSmetki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPotroseniMaterijali.resx">
+      <DependentUpon>frmPotroseniMaterijali.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPotroseniMaterijaliKujna.resx">
+      <DependentUpon>frmPotroseniMaterijaliKujna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPregledNaFiskalniSmetki.resx">
+      <DependentUpon>frmPregledNaFiskalniSmetki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPregledNaIzmenetiSmetki.resx">
+      <DependentUpon>frmPregledNaIzmenetiSmetki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPregledNaNalozi.resx">
+      <DependentUpon>frmPregledNaNalozi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPregledNaNarackiZaDen.resx">
+      <DependentUpon>frmPregledNaNarackiZaDen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPregledNaSmetki.resx">
+      <DependentUpon>frmPregledNaSmetki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSodrzinaNaNormativi.resx">
+      <DependentUpon>frmSodrzinaNaNormativi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\IzvestajPoVrabotenSkraten.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IzvestajPoVrabotenSkraten.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Elements\" />
+    <Folder Include="Reports\mk\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BSSRDataSet.cs">
+      <DependentUpon>BSSRDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BSSRDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BSSRDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDolziPobaruvaSitePartneri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDolziPobaruvaSitePartneri.Designer.cs">
+      <DependentUpon>frmDolziPobaruvaSitePartneri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDospeaniFakturi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDospeaniFakturi.Designer.cs">
+      <DependentUpon>frmDospeaniFakturi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGenerirajDokumenti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGenerirajDokumenti.Designer.cs">
+      <DependentUpon>frmGenerirajDokumenti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmIzvestajPoVraboten.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmIzvestajPoVraboten.Designer.cs">
+      <DependentUpon>frmIzvestajPoVraboten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmIzvestajZaPerdiodFakturi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmIzvestajZaPerdiodFakturi.Designer.cs">
+      <DependentUpon>frmIzvestajZaPerdiodFakturi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmKartickaNaKupecDobavauvac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmKartickaNaKupecDobavauvac.Designer.cs">
+      <DependentUpon>frmKartickaNaKupecDobavauvac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmKDFI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmKDFI.Designer.cs">
+      <DependentUpon>frmKDFI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmKolicinaNaPorcii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmKolicinaNaPorcii.Designer.cs">
+      <DependentUpon>frmKolicinaNaPorcii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmListaNaDolznici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmListaNaDolznici.Designer.cs">
+      <DependentUpon>frmListaNaDolznici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmObrabotkaNaSmetki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmObrabotkaNaSmetki.Designer.cs">
+      <DependentUpon>frmObrabotkaNaSmetki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPlacanjaOdPartnerPodDokument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPlacanjaOdPartnerPodDokument.Designer.cs">
+      <DependentUpon>frmPlacanjaOdPartnerPodDokument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPlacanjaOdPartner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPlacanjaOdPartner.Designer.cs">
+      <DependentUpon>frmPlacanjaOdPartner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPotroseniMaterijaliGrupirani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPotroseniMaterijaliGrupirani.Designer.cs">
+      <DependentUpon>frmPotroseniMaterijaliGrupirani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaGodisnoSaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaGodisnoSaldo.Designer.cs">
+      <DependentUpon>frmPregledNaGodisnoSaldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaPlacanjePoDokument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaPlacanjePoDokument.Designer.cs">
+      <DependentUpon>frmPregledNaPlacanjePoDokument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaNaloziPoObjekt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaNaloziPoObjekt.Designer.cs">
+      <DependentUpon>frmPregledNaNaloziPoObjekt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaSmetkiTretaSmena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaSmetkiTretaSmena.Designer.cs">
+      <DependentUpon>frmPregledNaSmetkiTretaSmena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProdazbaOdSmetki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProdazbaOdSmetki.Designer.cs">
+      <DependentUpon>frmProdazbaOdSmetki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPotroseniMaterijali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPotroseniMaterijali.Designer.cs">
+      <DependentUpon>frmPotroseniMaterijali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPotroseniMaterijaliKujna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPotroseniMaterijaliKujna.Designer.cs">
+      <DependentUpon>frmPotroseniMaterijaliKujna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaFiskalniSmetki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaFiskalniSmetki.Designer.cs">
+      <DependentUpon>frmPregledNaFiskalniSmetki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaIzmenetiSmetki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaIzmenetiSmetki.Designer.cs">
+      <DependentUpon>frmPregledNaIzmenetiSmetki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaNalozi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaNalozi.Designer.cs">
+      <DependentUpon>frmPregledNaNalozi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaNarackiZaDen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaNarackiZaDen.Designer.cs">
+      <DependentUpon>frmPregledNaNarackiZaDen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaSmetki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPregledNaSmetki.Designer.cs">
+      <DependentUpon>frmPregledNaSmetki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSodrzinaNaNormativi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSodrzinaNaNormativi.Designer.cs">
+      <DependentUpon>frmSodrzinaNaNormativi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="..\BSS\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\IzvestajPoVrabotenSkraten.cs">
+      <DependentUpon>IzvestajPoVrabotenSkraten.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BSS\BSS.csproj">
+      <Project>{05992E0A-3166-489D-9BAC-CE3A71FB5F4C}</Project>
+      <Name>BSS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MFakturi\MFakturi.csproj">
+      <Project>{2286937a-6e71-443b-9c18-6eb2c1d5a481}</Project>
+      <Name>MFakturi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MFiskalna\MFiskalna.csproj">
+      <Project>{6d853692-2be7-4f60-803f-0a72a8094017}</Project>
+      <Name>MFiskalna</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BSSRDataSet.xsc">
+      <DependentUpon>BSSRDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BSSRDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BSSRDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BSSRDataSet.xss">
+      <DependentUpon>BSSRDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MReport.Forms.frmListaNaDolznici.datasource" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiskalna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_to2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bssIcon.ico" />
+    <None Include="Resources\pecati.png" />
+    <None Include="Resources\bssIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

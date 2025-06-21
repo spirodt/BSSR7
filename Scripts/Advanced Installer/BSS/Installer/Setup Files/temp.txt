@@ -1,0 +1,13 @@
+;aiu;
+
+[Update]
+Name = BSS
+ProductVersion = [ProductVersion]
+URL = http://bssr.mk/BSS/Installer/Setup%20Files/BSS.exe
+Size = [Size]
+ServerFileName = BSS.exe
+Flags = NoRedetect
+FilePath = [APPDIR]Bssr.exe
+Version = [ProductVersion]
+Description = [Description]
+AutoCloseApplication = [APPDIR]bssr.exe|;;AlwaysRestart

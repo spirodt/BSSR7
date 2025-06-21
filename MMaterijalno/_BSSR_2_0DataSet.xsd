@@ -1,0 +1,1330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="_BSSR_2_0DataSet" targetNamespace="http://tempuri.org/_BSSR_2_0DataSet.xsd" xmlns:mstns="http://tempuri.org/_BSSR_2_0DataSet.xsd" xmlns="http://tempuri.org/_BSSR_2_0DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BSSRConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BSSRConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MMaterijalno.Properties.Settings.GlobalReference.Default.BSSRConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewDokumentiTableAdapter" GeneratorDataComponentClassName="viewDokumentiTableAdapter" Name="viewDokumenti" UserDataComponentName="viewDokumentiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.viewDokumenti" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ID, Broj, TipDokumentID, TipNaDokument, Datum, Zabeleska, ObejektDO, ObjektOD, UserName, DoObjektID, OdObjektID, tblPartnerID, TipNaKnizenje, KodNaDokument, NazivPartner, SifraPartner, DDVIznos, DDVIznos18, DDVIznos5, IznosBezDDV, IznosSoDDV, Interen FROM dbo.viewDokumenti</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Broj" DataSetColumn="Broj" />
+              <Mapping SourceColumn="TipDokumentID" DataSetColumn="TipDokumentID" />
+              <Mapping SourceColumn="TipNaDokument" DataSetColumn="TipNaDokument" />
+              <Mapping SourceColumn="Datum" DataSetColumn="Datum" />
+              <Mapping SourceColumn="Zabeleska" DataSetColumn="Zabeleska" />
+              <Mapping SourceColumn="ObejektDO" DataSetColumn="ObejektDO" />
+              <Mapping SourceColumn="ObjektOD" DataSetColumn="ObjektOD" />
+              <Mapping SourceColumn="UserName" DataSetColumn="UserName" />
+              <Mapping SourceColumn="DoObjektID" DataSetColumn="DoObjektID" />
+              <Mapping SourceColumn="OdObjektID" DataSetColumn="OdObjektID" />
+              <Mapping SourceColumn="tblPartnerID" DataSetColumn="tblPartnerID" />
+              <Mapping SourceColumn="TipNaKnizenje" DataSetColumn="TipNaKnizenje" />
+              <Mapping SourceColumn="KodNaDokument" DataSetColumn="KodNaDokument" />
+              <Mapping SourceColumn="NazivPartner" DataSetColumn="NazivPartner" />
+              <Mapping SourceColumn="SifraPartner" DataSetColumn="SifraPartner" />
+              <Mapping SourceColumn="DDVIznos" DataSetColumn="DDVIznos" />
+              <Mapping SourceColumn="DDVIznos18" DataSetColumn="DDVIznos18" />
+              <Mapping SourceColumn="DDVIznos5" DataSetColumn="DDVIznos5" />
+              <Mapping SourceColumn="IznosBezDDV" DataSetColumn="IznosBezDDV" />
+              <Mapping SourceColumn="IznosSoDDV" DataSetColumn="IznosSoDDV" />
+              <Mapping SourceColumn="Interen" DataSetColumn="Interen" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewDokumentiStavkiTableAdapter" GeneratorDataComponentClassName="viewDokumentiStavkiTableAdapter" Name="viewDokumentiStavki" UserDataComponentName="viewDokumentiStavkiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="[BSSR 2.0].dbo.viewDokumentiStavki" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select *  FROM dbo.viewDokumentiStavki</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="tblDokumentID" DataSetColumn="tblDokumentID" />
+              <Mapping SourceColumn="AltSifra" DataSetColumn="AltSifra" />
+              <Mapping SourceColumn="NormativSifra" DataSetColumn="NormativSifra" />
+              <Mapping SourceColumn="BrojNaDokument" DataSetColumn="BrojNaDokument" />
+              <Mapping SourceColumn="TipNadokument" DataSetColumn="TipNadokument" />
+              <Mapping SourceColumn="ArikalNaziv" DataSetColumn="ArikalNaziv" />
+              <Mapping SourceColumn="ArtikalID" DataSetColumn="ArtikalID" />
+              <Mapping SourceColumn="NormativNaziv" DataSetColumn="NormativNaziv" />
+              <Mapping SourceColumn="NormativID" DataSetColumn="NormativID" />
+              <Mapping SourceColumn="isNormativ" DataSetColumn="isNormativ" />
+              <Mapping SourceColumn="NazivNaProdukt" DataSetColumn="NazivNaProdukt" />
+              <Mapping SourceColumn="DDVStapka" DataSetColumn="DDVStapka" />
+              <Mapping SourceColumn="EdinecnaMerka" DataSetColumn="EdinecnaMerka" />
+              <Mapping SourceColumn="DDVIznos" DataSetColumn="DDVIznos" />
+              <Mapping SourceColumn="IznosBezDDV" DataSetColumn="IznosBezDDV" />
+              <Mapping SourceColumn="CenaSoRabatIddv" DataSetColumn="CenaSoRabatIddv" />
+              <Mapping SourceColumn="Kolicina" DataSetColumn="Kolicina" />
+              <Mapping SourceColumn="Cena" DataSetColumn="Cena" />
+              <Mapping SourceColumn="Rabat1" DataSetColumn="Rabat1" />
+              <Mapping SourceColumn="Iznos" DataSetColumn="Iznos" />
+              <Mapping SourceColumn="TipNaDokumentID" DataSetColumn="TipNaDokumentID" />
+              <Mapping SourceColumn="DatumNaDokument" DataSetColumn="DatumNaDokument" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="[BSSR 2.0].dbo.viewDokumentiStavki" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select *  FROM dbo.viewDokumentiStavki
+where DatumNaDokument between @DatumPocetok and @DatumKraj</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumPocetok" ColumnName="DatumNaDokument" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@DatumPocetok" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumKraj" ColumnName="DatumNaDokument" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@DatumKraj" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="[BSSR 2.0].dbo.viewDokumentiStavki" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy1" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy2" GeneratorSourceName="FillBy1" GetMethodModifier="Public" GetMethodName="GetDataBy2" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="FillBy1">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select *  FROM dbo.viewDokumentiStavki
+where DatumNaDokument between @DatumPocetok and @DatumKraj and ArtikalID = @Artikal  and TipNaDokumentID = @TipNaDokumentID</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumPocetok" ColumnName="DatumNaDokument" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@DatumPocetok" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumKraj" ColumnName="DatumNaDokument" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@DatumKraj" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Artikal" ColumnName="ArtikalID" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Artikal" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ArtikalID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="TipNaDokumentID" ColumnName="TipNaDokumentID" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@TipNaDokumentID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="TipNaDokumentID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="[BSSR 2.0].dbo.viewDokumentiStavki" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByArtikal" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="FillByArtikal" GetMethodModifier="Public" GetMethodName="GetDataBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="FillByArtikal">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select *  FROM dbo.viewDokumentiStavki
+where DatumNaDokument between @DatumPocetok and @DatumKraj and ArtikalID = @Artikal </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumPocetok" ColumnName="DatumNaDokument" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@DatumPocetok" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumKraj" ColumnName="DatumNaDokument" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@DatumKraj" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Artikal" ColumnName="ArtikalID" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Artikal" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ArtikalID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="[BSSR 2.0].dbo.viewDokumentiStavki" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByTipNaDokumentID" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy3" GeneratorSourceName="FillByTipNaDokumentID" GetMethodModifier="Public" GetMethodName="GetDataBy3" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="FillByTipNaDokumentID">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select *  FROM dbo.viewDokumentiStavki
+where DatumNaDokument between @DatumPocetok and @DatumKraj and TipNaDokumentID = @TipNaDokumentID</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumPocetok" ColumnName="DatumNaDokument" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@DatumPocetok" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumKraj" ColumnName="DatumNaDokument" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@DatumKraj" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="TipNaDokumentID" ColumnName="TipNaDokumentID" DataSourceName="[BSSR 2.0].dbo.viewDokumentiStavki" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@TipNaDokumentID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="TipNaDokumentID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewDokumentiZaPlakjanjeTableAdapter" GeneratorDataComponentClassName="viewDokumentiZaPlakjanjeTableAdapter" Name="viewDokumentiZaPlakjanje" UserDataComponentName="viewDokumentiZaPlakjanjeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="[BSSR 2.0].dbo.viewDokumentiZaPlakjanje" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TipNaDokument, ID, tblPartnerID, Broj, Datum, DocNaziv, IznosNaDokument, PreostanatoZaPlacanje, PlatenoZaDokument FROM dbo.viewDokumentiZaPlakjanje</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TipNaDokument" DataSetColumn="TipNaDokument" />
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="tblPartnerID" DataSetColumn="tblPartnerID" />
+              <Mapping SourceColumn="Broj" DataSetColumn="Broj" />
+              <Mapping SourceColumn="Datum" DataSetColumn="Datum" />
+              <Mapping SourceColumn="DocNaziv" DataSetColumn="DocNaziv" />
+              <Mapping SourceColumn="IznosNaDokument" DataSetColumn="IznosNaDokument" />
+              <Mapping SourceColumn="PreostanatoZaPlacanje" DataSetColumn="PreostanatoZaPlacanje" />
+              <Mapping SourceColumn="PlatenoZaDokument" DataSetColumn="PlatenoZaDokument" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewDospeaniFakturiTableAdapter" GeneratorDataComponentClassName="viewDospeaniFakturiTableAdapter" Name="viewDospeaniFakturi" UserDataComponentName="viewDospeaniFakturiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="[BSSR 2.0].dbo.viewDospeaniFakturi" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TipNaDokument, ID, tblPartnerID, Broj, Valuta, Datum, DocNaziv, SifraPartner, NazivPartner, IznosNaDokument, PreostanatoZaPlacanje, PlatenoZaDokument FROM dbo.viewDospeaniFakturi</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TipNaDokument" DataSetColumn="TipNaDokument" />
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="tblPartnerID" DataSetColumn="tblPartnerID" />
+              <Mapping SourceColumn="Broj" DataSetColumn="Broj" />
+              <Mapping SourceColumn="Valuta" DataSetColumn="Valuta" />
+              <Mapping SourceColumn="Datum" DataSetColumn="Datum" />
+              <Mapping SourceColumn="DocNaziv" DataSetColumn="DocNaziv" />
+              <Mapping SourceColumn="SifraPartner" DataSetColumn="SifraPartner" />
+              <Mapping SourceColumn="NazivPartner" DataSetColumn="NazivPartner" />
+              <Mapping SourceColumn="IznosNaDokument" DataSetColumn="IznosNaDokument" />
+              <Mapping SourceColumn="PreostanatoZaPlacanje" DataSetColumn="PreostanatoZaPlacanje" />
+              <Mapping SourceColumn="PlatenoZaDokument" DataSetColumn="PlatenoZaDokument" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="KoliciniNaArtikliTableAdapter" GeneratorDataComponentClassName="KoliciniNaArtikliTableAdapter" Name="KoliciniNaArtikli" UserDataComponentName="KoliciniNaArtikliTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.KoliciniNaArtikli" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT * FROM KoliciniNaArtikli</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Sifra" DataSetColumn="Sifra" />
+              <Mapping SourceColumn="Naziv" DataSetColumn="Naziv" />
+              <Mapping SourceColumn="Vlez" DataSetColumn="Vlez" />
+              <Mapping SourceColumn="Izlez" DataSetColumn="Izlez" />
+              <Mapping SourceColumn="Saldo" DataSetColumn="Saldo" />
+              <Mapping SourceColumn="ZalihaSoVrednost" DataSetColumn="ZalihaSoVrednost" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="getPregeledNaNabavkiPoPartnerIPlakjanjaTableAdapter" GeneratorDataComponentClassName="getPregeledNaNabavkiPoPartnerIPlakjanjaTableAdapter" Name="getPregeledNaNabavkiPoPartnerIPlakjanja" UserDataComponentName="getPregeledNaNabavkiPoPartnerIPlakjanjaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSMARKET.dbo.getPregeledNaNabavkiPoPartnerIPlakjanja" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="FillByPartnerID" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="FillByPartnerID" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="FillByPartnerID">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.getPregeledNaNabavkiPoPartnerIPlakjanja</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@tblPartnerID" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@DatumOd" Precision="10" ProviderType="Date" Scale="0" Size="3" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@DatumDO" Precision="10" ProviderType="Date" Scale="0" Size="3" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="RedenBroj" DataSetColumn="RedenBroj" />
+              <Mapping SourceColumn="DatumNaDokument" DataSetColumn="DatumNaDokument" />
+              <Mapping SourceColumn="BrojNaDokument" DataSetColumn="BrojNaDokument" />
+              <Mapping SourceColumn="IznosNaDokument" DataSetColumn="IznosNaDokument" />
+              <Mapping SourceColumn="PlatenoZaDokument" DataSetColumn="PlatenoZaDokument" />
+              <Mapping SourceColumn="ZatvorenDokument" DataSetColumn="ZatvorenDokument" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PregledPoTipNaDokumentZbirenTableAdapter" GeneratorDataComponentClassName="PregledPoTipNaDokumentZbirenTableAdapter" Name="PregledPoTipNaDokumentZbiren" UserDataComponentName="PregledPoTipNaDokumentZbirenTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.viewDokumentiStavki" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillDatumNaPocetok" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="FillDatumNaPocetok" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="FillDatumNaPocetok">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+	CAST(DatumNaDokument AS DATE) AS Datum,  
+	AltSifra,
+	TipNadokument,
+	ArikalNaziv,
+	AVG(CenaSoRabatIddv) AS ProsecnCenaSoRabatIddv,
+	SUM(Kolicina) AS Kolicina,
+	SUM(Iznos) AS Iznos,
+	SUM(IznosBezDDV) AS IznosBezDDV
+FROM viewDokumentiStavki
+WHERE DatumNaDokument BETWEEN @DatumPocetok  AND @DatumKraj 
+GROUP BY CAST(DatumNaDokument AS DATE),AltSifra,TipNadokument,ArikalNaziv
+</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumPocetok" ColumnName="DatumNaDokument" DataSourceName="BSSR_DEV.dbo.viewDokumentiStavki" DataTypeServer="date" DbType="DateTime" Direction="Input" ParameterName="@DatumPocetok" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumKraj" ColumnName="DatumNaDokument" DataSourceName="BSSR_DEV.dbo.viewDokumentiStavki" DataTypeServer="date" DbType="DateTime" Direction="Input" ParameterName="@DatumKraj" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Datum" DataSetColumn="Datum" />
+              <Mapping SourceColumn="AltSifra" DataSetColumn="AltSifra" />
+              <Mapping SourceColumn="TipNadokument" DataSetColumn="TipNadokument" />
+              <Mapping SourceColumn="ArikalNaziv" DataSetColumn="ArikalNaziv" />
+              <Mapping SourceColumn="ProsecnCenaSoRabatIddv" DataSetColumn="ProsecnCenaSoRabatIddv" />
+              <Mapping SourceColumn="Kolicina" DataSetColumn="Kolicina" />
+              <Mapping SourceColumn="Iznos" DataSetColumn="Iznos" />
+              <Mapping SourceColumn="IznosBezDDV" DataSetColumn="IznosBezDDV" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.viewDokumentiStavki" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByDatumNaPocetokITipNaDokument" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillByDatumNaPocetokITipNaDokument" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillByDatumNaPocetokITipNaDokument">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>
+SELECT 
+	GETDATE() AS Datum,  
+	AltSifra,
+	TipNadokument,
+	ArikalNaziv,
+	AVG(CenaSoRabatIddv) AS ProsecnCenaSoRabatIddv,
+	SUM(Kolicina) AS Kolicina,
+	SUM(Iznos) AS Iznos,
+	SUM(IznosBezDDV) AS IznosBezDDV
+FROM viewDokumentiStavki
+WHERE DatumNaDokument BETWEEN @DatumPocetok  AND @DatumKraj  AND TipNaDokumentID = @TipNaDokumentID
+GROUP BY AltSifra,TipNadokument,ArikalNaziv</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumPocetok" ColumnName="DatumNaDokument" DataSourceName="BSSR_DEV.dbo.viewDokumentiStavki" DataTypeServer="date" DbType="DateTime" Direction="Input" ParameterName="@DatumPocetok" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="DatumKraj" ColumnName="DatumNaDokument" DataSourceName="BSSR_DEV.dbo.viewDokumentiStavki" DataTypeServer="date" DbType="DateTime" Direction="Input" ParameterName="@DatumKraj" Precision="0" ProviderType="DateTime" Scale="0" Size="3" SourceColumn="DatumNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="TipNaDokumentID" ColumnName="TipNaDokumentID" DataSourceName="BSSR_DEV.dbo.viewDokumentiStavki" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@TipNaDokumentID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="TipNaDokumentID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DbVersionTableAdapter" GeneratorDataComponentClassName="DbVersionTableAdapter" Name="DbVersion" UserDataComponentName="DbVersionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.DbVersion" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [DbVersion] WHERE (([ID] = @Original_ID) AND ([DbVersion] = @Original_DbVersion) AND ([LastAlterScriptName] = @Original_LastAlterScriptName))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_DbVersion" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="DbVersion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_LastAlterScriptName" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="LastAlterScriptName" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [DbVersion] ([DbVersion], [LastAlterScriptName]) VALUES (@DbVersion, @LastAlterScriptName);
+SELECT ID, DbVersion, LastAlterScriptName FROM DbVersion WHERE (ID = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@DbVersion" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="DbVersion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@LastAlterScriptName" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="LastAlterScriptName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        DbVersion.*
+FROM            DbVersion</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [DbVersion] SET [DbVersion] = @DbVersion, [LastAlterScriptName] = @LastAlterScriptName WHERE (([ID] = @Original_ID) AND ([DbVersion] = @Original_DbVersion) AND ([LastAlterScriptName] = @Original_LastAlterScriptName));
+SELECT ID, DbVersion, LastAlterScriptName FROM DbVersion WHERE (ID = @ID)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@DbVersion" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="DbVersion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@LastAlterScriptName" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="LastAlterScriptName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_DbVersion" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="DbVersion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_LastAlterScriptName" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="LastAlterScriptName" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="ID" ColumnName="ID" DataSourceName="BSSR_DEV.dbo.DbVersion" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@ID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="DbVersion" DataSetColumn="DbVersion" />
+              <Mapping SourceColumn="LastAlterScriptName" DataSetColumn="LastAlterScriptName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblPartneriTableAdapter" GeneratorDataComponentClassName="tblPartneriTableAdapter" Name="tblPartneri" UserDataComponentName="tblPartneriTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.tblPartneri" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [tblPartneri] WHERE (([ID] = @Original_ID) AND ([DataVersion] = @Original_DataVersion))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Binary" Direction="Input" ParameterName="@Original_DataVersion" Precision="0" ProviderType="Timestamp" Scale="0" Size="0" SourceColumn="DataVersion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [tblPartneri] ([Sifra], [Naziv], [Adresa], [Telefoni], [Email], [EDB], [Mesto], [Tip], [Status], [FirmaID], [tblPresmetkovnaEdinicaID], [Notes], [DefaultKolicina], [BrojNaStan], [TipNaDostava], [DateModified], [AltSifra]) VALUES (@Sifra, @Naziv, @Adresa, @Telefoni, @Email, @EDB, @Mesto, @Tip, @Status, @FirmaID, @tblPresmetkovnaEdinicaID, @Notes, @DefaultKolicina, @BrojNaStan, @TipNaDostava, @DateModified, @AltSifra);
+SELECT ID, Sifra, Naziv, Adresa, Telefoni, Email, EDB, Mesto, Tip, Status, FirmaID, tblPresmetkovnaEdinicaID, DataVersion, Notes, DefaultKolicina, BrojNaStan, TipNaDostava, DateModified, AltSifra FROM tblPartneri WHERE (ID = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Sifra" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Sifra" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Naziv" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Naziv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Adresa" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Adresa" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Telefoni" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Telefoni" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Email" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Email" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@EDB" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="EDB" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Mesto" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Mesto" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Tip" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tip" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Status" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Status" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@FirmaID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="FirmaID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@tblPresmetkovnaEdinicaID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblPresmetkovnaEdinicaID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Notes" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Notes" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@DefaultKolicina" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DefaultKolicina" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BrojNaStan" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="BrojNaStan" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@TipNaDostava" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TipNaDostava" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DateModified" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DateModified" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@AltSifra" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="AltSifra" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from tblPartneri</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [tblPartneri] SET [Sifra] = @Sifra, [Naziv] = @Naziv, [Adresa] = @Adresa, [Telefoni] = @Telefoni, [Email] = @Email, [EDB] = @EDB, [Mesto] = @Mesto, [Tip] = @Tip, [Status] = @Status, [FirmaID] = @FirmaID, [tblPresmetkovnaEdinicaID] = @tblPresmetkovnaEdinicaID, [Notes] = @Notes, [DefaultKolicina] = @DefaultKolicina, [BrojNaStan] = @BrojNaStan, [TipNaDostava] = @TipNaDostava, [DateModified] = @DateModified, [AltSifra] = @AltSifra WHERE (([ID] = @Original_ID) AND ([DataVersion] = @Original_DataVersion));
+SELECT ID, Sifra, Naziv, Adresa, Telefoni, Email, EDB, Mesto, Tip, Status, FirmaID, tblPresmetkovnaEdinicaID, DataVersion, Notes, DefaultKolicina, BrojNaStan, TipNaDostava, DateModified, AltSifra FROM tblPartneri WHERE (ID = @ID)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Sifra" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Sifra" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Naziv" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Naziv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Adresa" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Adresa" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Telefoni" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Telefoni" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Email" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Email" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@EDB" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="EDB" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Mesto" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Mesto" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Tip" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tip" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Status" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Status" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@FirmaID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="FirmaID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@tblPresmetkovnaEdinicaID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblPresmetkovnaEdinicaID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Notes" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Notes" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@DefaultKolicina" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DefaultKolicina" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BrojNaStan" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="BrojNaStan" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@TipNaDostava" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TipNaDostava" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DateModified" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DateModified" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@AltSifra" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="AltSifra" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Binary" Direction="Input" ParameterName="@Original_DataVersion" Precision="0" ProviderType="Timestamp" Scale="0" Size="0" SourceColumn="DataVersion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="ID" ColumnName="ID" DataSourceName="BSSR_DEV.dbo.tblPartneri" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@ID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Sifra" DataSetColumn="Sifra" />
+              <Mapping SourceColumn="Naziv" DataSetColumn="Naziv" />
+              <Mapping SourceColumn="Adresa" DataSetColumn="Adresa" />
+              <Mapping SourceColumn="Telefoni" DataSetColumn="Telefoni" />
+              <Mapping SourceColumn="Email" DataSetColumn="Email" />
+              <Mapping SourceColumn="EDB" DataSetColumn="EDB" />
+              <Mapping SourceColumn="Mesto" DataSetColumn="Mesto" />
+              <Mapping SourceColumn="Tip" DataSetColumn="Tip" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="FirmaID" DataSetColumn="FirmaID" />
+              <Mapping SourceColumn="tblPresmetkovnaEdinicaID" DataSetColumn="tblPresmetkovnaEdinicaID" />
+              <Mapping SourceColumn="DataVersion" DataSetColumn="DataVersion" />
+              <Mapping SourceColumn="Notes" DataSetColumn="Notes" />
+              <Mapping SourceColumn="DefaultKolicina" DataSetColumn="DefaultKolicina" />
+              <Mapping SourceColumn="BrojNaStan" DataSetColumn="BrojNaStan" />
+              <Mapping SourceColumn="TipNaDostava" DataSetColumn="TipNaDostava" />
+              <Mapping SourceColumn="DateModified" DataSetColumn="DateModified" />
+              <Mapping SourceColumn="AltSifra" DataSetColumn="AltSifra" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.tblPartneri" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from tblPartneri
+Where ID = @ID</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="ID" ColumnName="ID" DataSourceName="BSSR_DEV.dbo.tblPartneri" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@ID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.tblPartneri" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillByTowerB" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy1" GeneratorSourceName="FillByTowerB" GetMethodModifier="Public" GetMethodName="GetDataBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="FillByTowerB">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select * from tblPartneri where Sifra not LIKE '00-%'</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblDogovoriTableAdapter" GeneratorDataComponentClassName="tblDogovoriTableAdapter" Name="tblDogovori" UserDataComponentName="tblDogovoriTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.tblDogovori" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [tblDogovori] WHERE (([ID] = @Original_ID) AND ([Naziv] = @Original_Naziv) AND ((@IsNull_Zabeleska = 1 AND [Zabeleska] IS NULL) OR ([Zabeleska] = @Original_Zabeleska)) AND ((@IsNull_DatumOd = 1 AND [DatumOd] IS NULL) OR ([DatumOd] = @Original_DatumOd)) AND ((@IsNull_DatumDo = 1 AND [DatumDo] IS NULL) OR ([DatumDo] = @Original_DatumDo)) AND ([tblPartnerId] = @Original_tblPartnerId) AND ((@IsNull_BrojNaDogovor = 1 AND [BrojNaDogovor] IS NULL) OR ([BrojNaDogovor] = @Original_BrojNaDogovor)) AND ((@IsNull_BrojNaTender = 1 AND [BrojNaTender] IS NULL) OR ([BrojNaTender] = @Original_BrojNaTender)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Naziv" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Naziv" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Zabeleska" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Zabeleska" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Zabeleska" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Zabeleska" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DatumOd" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DatumOd" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@Original_DatumOd" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DatumOd" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DatumDo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DatumDo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@Original_DatumDo" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DatumDo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_tblPartnerId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblPartnerId" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_BrojNaDogovor" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="BrojNaDogovor" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_BrojNaDogovor" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BrojNaDogovor" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_BrojNaTender" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="BrojNaTender" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_BrojNaTender" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BrojNaTender" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [tblDogovori] ([Naziv], [Zabeleska], [DatumOd], [DatumDo], [tblPartnerId], [BrojNaDogovor], [BrojNaTender]) VALUES (@Naziv, @Zabeleska, @DatumOd, @DatumDo, @tblPartnerId, @BrojNaDogovor, @BrojNaTender);
+SELECT ID, Naziv, Zabeleska, DatumOd, DatumDo, tblPartnerId, BrojNaDogovor, BrojNaTender FROM tblDogovori WHERE (ID = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Naziv" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Naziv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Zabeleska" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Zabeleska" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@DatumOd" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DatumOd" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@DatumDo" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DatumDo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@tblPartnerId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblPartnerId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@BrojNaDogovor" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BrojNaDogovor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@BrojNaTender" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BrojNaTender" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select * from tblDogovori</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [tblDogovori] SET [Naziv] = @Naziv, [Zabeleska] = @Zabeleska, [DatumOd] = @DatumOd, [DatumDo] = @DatumDo, [tblPartnerId] = @tblPartnerId, [BrojNaDogovor] = @BrojNaDogovor, [BrojNaTender] = @BrojNaTender WHERE (([ID] = @Original_ID) AND ([Naziv] = @Original_Naziv) AND ((@IsNull_Zabeleska = 1 AND [Zabeleska] IS NULL) OR ([Zabeleska] = @Original_Zabeleska)) AND ((@IsNull_DatumOd = 1 AND [DatumOd] IS NULL) OR ([DatumOd] = @Original_DatumOd)) AND ((@IsNull_DatumDo = 1 AND [DatumDo] IS NULL) OR ([DatumDo] = @Original_DatumDo)) AND ([tblPartnerId] = @Original_tblPartnerId) AND ((@IsNull_BrojNaDogovor = 1 AND [BrojNaDogovor] IS NULL) OR ([BrojNaDogovor] = @Original_BrojNaDogovor)) AND ((@IsNull_BrojNaTender = 1 AND [BrojNaTender] IS NULL) OR ([BrojNaTender] = @Original_BrojNaTender)));
+SELECT ID, Naziv, Zabeleska, DatumOd, DatumDo, tblPartnerId, BrojNaDogovor, BrojNaTender FROM tblDogovori WHERE (ID = @ID)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Naziv" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Naziv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Zabeleska" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Zabeleska" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@DatumOd" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DatumOd" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@DatumDo" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DatumDo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@tblPartnerId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblPartnerId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@BrojNaDogovor" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BrojNaDogovor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@BrojNaTender" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BrojNaTender" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Naziv" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Naziv" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Zabeleska" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Zabeleska" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Zabeleska" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Zabeleska" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DatumOd" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DatumOd" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@Original_DatumOd" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DatumOd" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DatumDo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DatumDo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@Original_DatumDo" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DatumDo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_tblPartnerId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblPartnerId" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_BrojNaDogovor" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="BrojNaDogovor" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_BrojNaDogovor" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BrojNaDogovor" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_BrojNaTender" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="BrojNaTender" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_BrojNaTender" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BrojNaTender" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="ID" ColumnName="ID" DataSourceName="BSSR_DEV.dbo.tblDogovori" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@ID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Naziv" DataSetColumn="Naziv" />
+              <Mapping SourceColumn="Zabeleska" DataSetColumn="Zabeleska" />
+              <Mapping SourceColumn="DatumOd" DataSetColumn="DatumOd" />
+              <Mapping SourceColumn="DatumDo" DataSetColumn="DatumDo" />
+              <Mapping SourceColumn="tblPartnerId" DataSetColumn="tblPartnerId" />
+              <Mapping SourceColumn="BrojNaDogovor" DataSetColumn="BrojNaDogovor" />
+              <Mapping SourceColumn="BrojNaTender" DataSetColumn="BrojNaTender" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblDokumentiTableAdapter" GeneratorDataComponentClassName="tblDokumentiTableAdapter" Name="tblDokumenti" UserDataComponentName="tblDokumentiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.tblDokumenti" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [tblDokumenti] WHERE (([ID] = @Original_ID) AND ([DataVersion] = @Original_DataVersion))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Binary" Direction="Input" ParameterName="@Original_DataVersion" Precision="0" ProviderType="Timestamp" Scale="0" Size="0" SourceColumn="DataVersion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [tblDokumenti] ([Broj], [TipNaDokument], [Datum], [OdObjektID], [DoObjektID], [tblUserID], [Zabeleska], [tblPartnerID], [FirmaID], [KodNaDokument], [BrojNaDokument], [DateModified], [UniqueIdPlacanje], [DatumNaValuta], [DatumPeriod], [Notes], [tblDogovoriID]) VALUES (@Broj, @TipNaDokument, @Datum, @OdObjektID, @DoObjektID, @tblUserID, @Zabeleska, @tblPartnerID, @FirmaID, @KodNaDokument, @BrojNaDokument, @DateModified, @UniqueIdPlacanje, @DatumNaValuta, @DatumPeriod, @Notes, @tblDogovoriID);
+SELECT ID, Broj, TipNaDokument, Datum, OdObjektID, DoObjektID, tblUserID, Zabeleska, tblPartnerID, FirmaID, KodNaDokument, BrojNaDokument, DataVersion, DateModified, UniqueIdPlacanje, DatumNaValuta, DatumPeriod, Notes, tblDogovoriID FROM tblDokumenti WHERE (ID = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Broj" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Broj" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@TipNaDokument" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TipNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@Datum" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Datum" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@OdObjektID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="OdObjektID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@DoObjektID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DoObjektID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@tblUserID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblUserID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Zabeleska" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Zabeleska" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@tblPartnerID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblPartnerID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@FirmaID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="FirmaID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@KodNaDokument" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="KodNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@BrojNaDokument" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BrojNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DateModified" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DateModified" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@UniqueIdPlacanje" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="UniqueIdPlacanje" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DatumNaValuta" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DatumNaValuta" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DatumPeriod" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DatumPeriod" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Notes" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Notes" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@tblDogovoriID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblDogovoriID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select * from tblDokumenti</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [tblDokumenti] SET [Broj] = @Broj, [TipNaDokument] = @TipNaDokument, [Datum] = @Datum, [OdObjektID] = @OdObjektID, [DoObjektID] = @DoObjektID, [tblUserID] = @tblUserID, [Zabeleska] = @Zabeleska, [tblPartnerID] = @tblPartnerID, [FirmaID] = @FirmaID, [KodNaDokument] = @KodNaDokument, [BrojNaDokument] = @BrojNaDokument, [DateModified] = @DateModified, [UniqueIdPlacanje] = @UniqueIdPlacanje, [DatumNaValuta] = @DatumNaValuta, [DatumPeriod] = @DatumPeriod, [Notes] = @Notes, [tblDogovoriID] = @tblDogovoriID WHERE (([ID] = @Original_ID) AND ([DataVersion] = @Original_DataVersion));
+SELECT ID, Broj, TipNaDokument, Datum, OdObjektID, DoObjektID, tblUserID, Zabeleska, tblPartnerID, FirmaID, KodNaDokument, BrojNaDokument, DataVersion, DateModified, UniqueIdPlacanje, DatumNaValuta, DatumPeriod, Notes, tblDogovoriID FROM tblDokumenti WHERE (ID = @ID)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Broj" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Broj" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@TipNaDokument" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TipNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@Datum" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Datum" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@OdObjektID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="OdObjektID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@DoObjektID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DoObjektID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@tblUserID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblUserID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Zabeleska" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Zabeleska" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@tblPartnerID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblPartnerID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@FirmaID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="FirmaID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@KodNaDokument" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="KodNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@BrojNaDokument" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BrojNaDokument" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DateModified" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DateModified" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@UniqueIdPlacanje" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="UniqueIdPlacanje" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DatumNaValuta" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DatumNaValuta" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DatumPeriod" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DatumPeriod" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Notes" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Notes" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@tblDogovoriID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="tblDogovoriID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Binary" Direction="Input" ParameterName="@Original_DataVersion" Precision="0" ProviderType="Timestamp" Scale="0" Size="0" SourceColumn="DataVersion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="ID" ColumnName="ID" DataSourceName="BSSR_DEV.dbo.tblDokumenti" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@ID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Broj" DataSetColumn="Broj" />
+              <Mapping SourceColumn="TipNaDokument" DataSetColumn="TipNaDokument" />
+              <Mapping SourceColumn="Datum" DataSetColumn="Datum" />
+              <Mapping SourceColumn="OdObjektID" DataSetColumn="OdObjektID" />
+              <Mapping SourceColumn="DoObjektID" DataSetColumn="DoObjektID" />
+              <Mapping SourceColumn="tblUserID" DataSetColumn="tblUserID" />
+              <Mapping SourceColumn="Zabeleska" DataSetColumn="Zabeleska" />
+              <Mapping SourceColumn="tblPartnerID" DataSetColumn="tblPartnerID" />
+              <Mapping SourceColumn="FirmaID" DataSetColumn="FirmaID" />
+              <Mapping SourceColumn="KodNaDokument" DataSetColumn="KodNaDokument" />
+              <Mapping SourceColumn="BrojNaDokument" DataSetColumn="BrojNaDokument" />
+              <Mapping SourceColumn="DataVersion" DataSetColumn="DataVersion" />
+              <Mapping SourceColumn="DateModified" DataSetColumn="DateModified" />
+              <Mapping SourceColumn="UniqueIdPlacanje" DataSetColumn="UniqueIdPlacanje" />
+              <Mapping SourceColumn="DatumNaValuta" DataSetColumn="DatumNaValuta" />
+              <Mapping SourceColumn="DatumPeriod" DataSetColumn="DatumPeriod" />
+              <Mapping SourceColumn="Notes" DataSetColumn="Notes" />
+              <Mapping SourceColumn="tblDogovoriID" DataSetColumn="tblDogovoriID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewDokumentiStavki1TableAdapter" GeneratorDataComponentClassName="viewDokumentiStavki1TableAdapter" Name="viewDokumentiStavki1" UserDataComponentName="viewDokumentiStavki1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BSSRConnectionString (Settings)" DbObjectName="BSSR_DEV.dbo.viewDokumentiStavki" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from viewDokumentiStavki</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="tblDokumentID" DataSetColumn="tblDokumentID" />
+              <Mapping SourceColumn="AltSifra" DataSetColumn="AltSifra" />
+              <Mapping SourceColumn="NormativSifra" DataSetColumn="NormativSifra" />
+              <Mapping SourceColumn="BrojNaDokument" DataSetColumn="BrojNaDokument" />
+              <Mapping SourceColumn="TipNadokument" DataSetColumn="TipNadokument" />
+              <Mapping SourceColumn="ArikalNaziv" DataSetColumn="ArikalNaziv" />
+              <Mapping SourceColumn="ArtikalID" DataSetColumn="ArtikalID" />
+              <Mapping SourceColumn="NotesText" DataSetColumn="NotesText" />
+              <Mapping SourceColumn="NotesBroj" DataSetColumn="NotesBroj" />
+              <Mapping SourceColumn="NotesREF" DataSetColumn="NotesREF" />
+              <Mapping SourceColumn="NormativNaziv" DataSetColumn="NormativNaziv" />
+              <Mapping SourceColumn="NormativID" DataSetColumn="NormativID" />
+              <Mapping SourceColumn="isNormativ" DataSetColumn="isNormativ" />
+              <Mapping SourceColumn="NazivNaProdukt" DataSetColumn="NazivNaProdukt" />
+              <Mapping SourceColumn="DDVStapka" DataSetColumn="DDVStapka" />
+              <Mapping SourceColumn="EdinecnaMerka" DataSetColumn="EdinecnaMerka" />
+              <Mapping SourceColumn="DDVIznos" DataSetColumn="DDVIznos" />
+              <Mapping SourceColumn="IznosBezDDV" DataSetColumn="IznosBezDDV" />
+              <Mapping SourceColumn="CenaBezDDV" DataSetColumn="CenaBezDDV" />
+              <Mapping SourceColumn="CenaSoRabatIddv" DataSetColumn="CenaSoRabatIddv" />
+              <Mapping SourceColumn="Kolicina" DataSetColumn="Kolicina" />
+              <Mapping SourceColumn="Cena" DataSetColumn="Cena" />
+              <Mapping SourceColumn="Rabat1" DataSetColumn="Rabat1" />
+              <Mapping SourceColumn="Iznos" DataSetColumn="Iznos" />
+              <Mapping SourceColumn="TipNaDokumentID" DataSetColumn="TipNaDokumentID" />
+              <Mapping SourceColumn="DatumNaDokument" DataSetColumn="DatumNaDokument" />
+              <Mapping SourceColumn="ProsecnaNabavnaCena" DataSetColumn="ProsecnaNabavnaCena" />
+              <Mapping SourceColumn="ProsecnaNabavnaCenaBezDDV" DataSetColumn="ProsecnaNabavnaCenaBezDDV" />
+              <Mapping SourceColumn="NabavnaVrednostBezDDVIznos" DataSetColumn="NabavnaVrednostBezDDVIznos" />
+              <Mapping SourceColumn="PlanskaCena" DataSetColumn="PlanskaCena" />
+              <Mapping SourceColumn="PlanskaVrednost" DataSetColumn="PlanskaVrednost" />
+              <Mapping SourceColumn="ProdaznaCena" DataSetColumn="ProdaznaCena" />
+              <Mapping SourceColumn="ProdaznaVrednostSoDDV" DataSetColumn="ProdaznaVrednostSoDDV" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="_BSSR_2_0DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="_BSSR_2_0DataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="_BSSR_2_0DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="viewDokumenti" msprop:Generator_RowEvHandlerName="viewDokumentiRowChangeEventHandler" msprop:Generator_RowDeletedName="viewDokumentiRowDeleted" msprop:Generator_RowDeletingName="viewDokumentiRowDeleting" msprop:Generator_RowEvArgName="viewDokumentiRowChangeEvent" msprop:Generator_TablePropName="viewDokumenti" msprop:Generator_RowChangedName="viewDokumentiRowChanged" msprop:Generator_UserTableName="viewDokumenti" msprop:Generator_RowChangingName="viewDokumentiRowChanging" msprop:Generator_RowClassName="viewDokumentiRow" msprop:Generator_TableClassName="viewDokumentiDataTable" msprop:Generator_TableVarName="tableviewDokumenti">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="Broj" msprop:Generator_ColumnPropNameInTable="BrojColumn" msprop:Generator_ColumnPropNameInRow="Broj" msprop:Generator_UserColumnName="Broj" msprop:Generator_ColumnVarNameInTable="columnBroj" type="xs:int" />
+              <xs:element name="TipDokumentID" msprop:Generator_ColumnPropNameInTable="TipDokumentIDColumn" msprop:Generator_ColumnPropNameInRow="TipDokumentID" msprop:Generator_UserColumnName="TipDokumentID" msprop:Generator_ColumnVarNameInTable="columnTipDokumentID" type="xs:int" />
+              <xs:element name="TipNaDokument" msprop:Generator_ColumnPropNameInTable="TipNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="TipNaDokument" msprop:Generator_UserColumnName="TipNaDokument" msprop:Generator_ColumnVarNameInTable="columnTipNaDokument" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Datum" msprop:Generator_ColumnPropNameInTable="DatumColumn" msprop:Generator_ColumnPropNameInRow="Datum" msprop:Generator_UserColumnName="Datum" msprop:Generator_ColumnVarNameInTable="columnDatum" type="xs:dateTime" />
+              <xs:element name="Zabeleska" msprop:Generator_ColumnPropNameInTable="ZabeleskaColumn" msprop:Generator_ColumnPropNameInRow="Zabeleska" msprop:Generator_UserColumnName="Zabeleska" msprop:Generator_ColumnVarNameInTable="columnZabeleska" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ObejektDO" msprop:Generator_ColumnPropNameInTable="ObejektDOColumn" msprop:Generator_ColumnPropNameInRow="ObejektDO" msprop:Generator_UserColumnName="ObejektDO" msprop:Generator_ColumnVarNameInTable="columnObejektDO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ObjektOD" msprop:Generator_ColumnPropNameInTable="ObjektODColumn" msprop:Generator_ColumnPropNameInRow="ObjektOD" msprop:Generator_UserColumnName="ObjektOD" msprop:Generator_ColumnVarNameInTable="columnObjektOD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_UserColumnName="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DoObjektID" msprop:Generator_ColumnPropNameInTable="DoObjektIDColumn" msprop:Generator_ColumnPropNameInRow="DoObjektID" msprop:Generator_UserColumnName="DoObjektID" msprop:Generator_ColumnVarNameInTable="columnDoObjektID" type="xs:int" minOccurs="0" />
+              <xs:element name="OdObjektID" msprop:Generator_ColumnPropNameInTable="OdObjektIDColumn" msprop:Generator_ColumnPropNameInRow="OdObjektID" msprop:Generator_UserColumnName="OdObjektID" msprop:Generator_ColumnVarNameInTable="columnOdObjektID" type="xs:int" />
+              <xs:element name="tblPartnerID" msprop:Generator_ColumnPropNameInTable="tblPartnerIDColumn" msprop:Generator_ColumnPropNameInRow="tblPartnerID" msprop:Generator_UserColumnName="tblPartnerID" msprop:Generator_ColumnVarNameInTable="columntblPartnerID" type="xs:int" minOccurs="0" />
+              <xs:element name="TipNaKnizenje" msprop:Generator_ColumnPropNameInTable="TipNaKnizenjeColumn" msprop:Generator_ColumnPropNameInRow="TipNaKnizenje" msprop:Generator_UserColumnName="TipNaKnizenje" msprop:Generator_ColumnVarNameInTable="columnTipNaKnizenje" type="xs:int" minOccurs="0" />
+              <xs:element name="KodNaDokument" msprop:Generator_ColumnPropNameInTable="KodNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="KodNaDokument" msprop:Generator_UserColumnName="KodNaDokument" msprop:Generator_ColumnVarNameInTable="columnKodNaDokument" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NazivPartner" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="NazivPartnerColumn" msprop:Generator_ColumnPropNameInRow="NazivPartner" msprop:Generator_UserColumnName="NazivPartner" msprop:Generator_ColumnVarNameInTable="columnNazivPartner" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SifraPartner" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="SifraPartnerColumn" msprop:Generator_ColumnPropNameInRow="SifraPartner" msprop:Generator_UserColumnName="SifraPartner" msprop:Generator_ColumnVarNameInTable="columnSifraPartner" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DDVIznos" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DDVIznosColumn" msprop:Generator_ColumnPropNameInRow="DDVIznos" msprop:Generator_UserColumnName="DDVIznos" msprop:Generator_ColumnVarNameInTable="columnDDVIznos" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DDVIznos18" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DDVIznos18Column" msprop:Generator_ColumnPropNameInRow="DDVIznos18" msprop:Generator_UserColumnName="DDVIznos18" msprop:Generator_ColumnVarNameInTable="columnDDVIznos18" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DDVIznos5" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DDVIznos5Column" msprop:Generator_ColumnPropNameInRow="DDVIznos5" msprop:Generator_UserColumnName="DDVIznos5" msprop:Generator_ColumnVarNameInTable="columnDDVIznos5" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IznosBezDDV" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="IznosBezDDVColumn" msprop:Generator_ColumnPropNameInRow="IznosBezDDV" msprop:Generator_UserColumnName="IznosBezDDV" msprop:Generator_ColumnVarNameInTable="columnIznosBezDDV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IznosSoDDV" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="IznosSoDDVColumn" msprop:Generator_ColumnPropNameInRow="IznosSoDDV" msprop:Generator_UserColumnName="IznosSoDDV" msprop:Generator_ColumnVarNameInTable="columnIznosSoDDV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Interen" msprop:Generator_ColumnPropNameInTable="InterenColumn" msprop:Generator_ColumnPropNameInRow="Interen" msprop:Generator_UserColumnName="Interen" msprop:Generator_ColumnVarNameInTable="columnInteren" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewDokumentiStavki" msprop:Generator_RowEvHandlerName="viewDokumentiStavkiRowChangeEventHandler" msprop:Generator_RowDeletedName="viewDokumentiStavkiRowDeleted" msprop:Generator_RowDeletingName="viewDokumentiStavkiRowDeleting" msprop:Generator_RowEvArgName="viewDokumentiStavkiRowChangeEvent" msprop:Generator_TablePropName="viewDokumentiStavki" msprop:Generator_RowChangedName="viewDokumentiStavkiRowChanged" msprop:Generator_UserTableName="viewDokumentiStavki" msprop:Generator_RowChangingName="viewDokumentiStavkiRowChanging" msprop:Generator_RowClassName="viewDokumentiStavkiRow" msprop:Generator_TableClassName="viewDokumentiStavkiDataTable" msprop:Generator_TableVarName="tableviewDokumentiStavki">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="tblDokumentID" msprop:Generator_ColumnPropNameInTable="tblDokumentIDColumn" msprop:Generator_ColumnPropNameInRow="tblDokumentID" msprop:Generator_UserColumnName="tblDokumentID" msprop:Generator_ColumnVarNameInTable="columntblDokumentID" type="xs:int" />
+              <xs:element name="AltSifra" msprop:Generator_ColumnPropNameInTable="AltSifraColumn" msprop:Generator_ColumnPropNameInRow="AltSifra" msprop:Generator_UserColumnName="AltSifra" msprop:Generator_ColumnVarNameInTable="columnAltSifra" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NormativSifra" msprop:Generator_ColumnPropNameInTable="NormativSifraColumn" msprop:Generator_ColumnPropNameInRow="NormativSifra" msprop:Generator_UserColumnName="NormativSifra" msprop:Generator_ColumnVarNameInTable="columnNormativSifra" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BrojNaDokument" msprop:Generator_ColumnPropNameInTable="BrojNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="BrojNaDokument" msprop:Generator_UserColumnName="BrojNaDokument" msprop:Generator_ColumnVarNameInTable="columnBrojNaDokument" type="xs:int" minOccurs="0" />
+              <xs:element name="TipNadokument" msprop:Generator_ColumnPropNameInTable="TipNadokumentColumn" msprop:Generator_ColumnPropNameInRow="TipNadokument" msprop:Generator_UserColumnName="TipNadokument" msprop:Generator_ColumnVarNameInTable="columnTipNadokument" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ArikalNaziv" msprop:Generator_ColumnPropNameInTable="ArikalNazivColumn" msprop:Generator_ColumnPropNameInRow="ArikalNaziv" msprop:Generator_UserColumnName="ArikalNaziv" msprop:Generator_ColumnVarNameInTable="columnArikalNaziv" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ArtikalID" msprop:Generator_ColumnPropNameInTable="ArtikalIDColumn" msprop:Generator_ColumnPropNameInRow="ArtikalID" msprop:Generator_UserColumnName="ArtikalID" msprop:Generator_ColumnVarNameInTable="columnArtikalID" type="xs:int" minOccurs="0" />
+              <xs:element name="NormativNaziv" msprop:Generator_ColumnPropNameInTable="NormativNazivColumn" msprop:Generator_ColumnPropNameInRow="NormativNaziv" msprop:Generator_UserColumnName="NormativNaziv" msprop:Generator_ColumnVarNameInTable="columnNormativNaziv" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NormativID" msprop:Generator_ColumnPropNameInTable="NormativIDColumn" msprop:Generator_ColumnPropNameInRow="NormativID" msprop:Generator_UserColumnName="NormativID" msprop:Generator_ColumnVarNameInTable="columnNormativID" type="xs:int" minOccurs="0" />
+              <xs:element name="isNormativ" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="isNormativColumn" msprop:Generator_ColumnPropNameInRow="isNormativ" msprop:Generator_UserColumnName="isNormativ" msprop:Generator_ColumnVarNameInTable="columnisNormativ" type="xs:int" minOccurs="0" />
+              <xs:element name="NazivNaProdukt" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="NazivNaProduktColumn" msprop:Generator_ColumnPropNameInRow="NazivNaProdukt" msprop:Generator_UserColumnName="NazivNaProdukt" msprop:Generator_ColumnVarNameInTable="columnNazivNaProdukt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DDVStapka" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DDVStapkaColumn" msprop:Generator_ColumnPropNameInRow="DDVStapka" msprop:Generator_UserColumnName="DDVStapka" msprop:Generator_ColumnVarNameInTable="columnDDVStapka" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EdinecnaMerka" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="EdinecnaMerkaColumn" msprop:Generator_ColumnPropNameInRow="EdinecnaMerka" msprop:Generator_UserColumnName="EdinecnaMerka" msprop:Generator_ColumnVarNameInTable="columnEdinecnaMerka" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DDVIznos" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DDVIznosColumn" msprop:Generator_ColumnPropNameInRow="DDVIznos" msprop:Generator_UserColumnName="DDVIznos" msprop:Generator_ColumnVarNameInTable="columnDDVIznos" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IznosBezDDV" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="IznosBezDDVColumn" msprop:Generator_ColumnPropNameInRow="IznosBezDDV" msprop:Generator_UserColumnName="IznosBezDDV" msprop:Generator_ColumnVarNameInTable="columnIznosBezDDV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CenaSoRabatIddv" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="CenaSoRabatIddvColumn" msprop:Generator_ColumnPropNameInRow="CenaSoRabatIddv" msprop:Generator_UserColumnName="CenaSoRabatIddv" msprop:Generator_ColumnVarNameInTable="columnCenaSoRabatIddv" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Kolicina" msprop:Generator_ColumnPropNameInTable="KolicinaColumn" msprop:Generator_ColumnPropNameInRow="Kolicina" msprop:Generator_UserColumnName="Kolicina" msprop:Generator_ColumnVarNameInTable="columnKolicina" type="xs:decimal" />
+              <xs:element name="Cena" msprop:Generator_ColumnPropNameInTable="CenaColumn" msprop:Generator_ColumnPropNameInRow="Cena" msprop:Generator_UserColumnName="Cena" msprop:Generator_ColumnVarNameInTable="columnCena" type="xs:decimal" />
+              <xs:element name="Rabat1" msprop:Generator_ColumnPropNameInTable="Rabat1Column" msprop:Generator_ColumnPropNameInRow="Rabat1" msprop:Generator_UserColumnName="Rabat1" msprop:Generator_ColumnVarNameInTable="columnRabat1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Iznos" msprop:Generator_ColumnPropNameInTable="IznosColumn" msprop:Generator_ColumnPropNameInRow="Iznos" msprop:Generator_UserColumnName="Iznos" msprop:Generator_ColumnVarNameInTable="columnIznos" type="xs:decimal" />
+              <xs:element name="TipNaDokumentID" msprop:Generator_ColumnPropNameInTable="TipNaDokumentIDColumn" msprop:Generator_ColumnPropNameInRow="TipNaDokumentID" msprop:Generator_UserColumnName="TipNaDokumentID" msprop:Generator_ColumnVarNameInTable="columnTipNaDokumentID" type="xs:int" minOccurs="0" />
+              <xs:element name="DatumNaDokument" msprop:Generator_ColumnPropNameInTable="DatumNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="DatumNaDokument" msprop:Generator_UserColumnName="DatumNaDokument" msprop:Generator_ColumnVarNameInTable="columnDatumNaDokument" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewDokumentiZaPlakjanje" msprop:Generator_RowEvHandlerName="viewDokumentiZaPlakjanjeRowChangeEventHandler" msprop:Generator_RowDeletedName="viewDokumentiZaPlakjanjeRowDeleted" msprop:Generator_RowDeletingName="viewDokumentiZaPlakjanjeRowDeleting" msprop:Generator_RowEvArgName="viewDokumentiZaPlakjanjeRowChangeEvent" msprop:Generator_TablePropName="viewDokumentiZaPlakjanje" msprop:Generator_RowChangedName="viewDokumentiZaPlakjanjeRowChanged" msprop:Generator_UserTableName="viewDokumentiZaPlakjanje" msprop:Generator_RowChangingName="viewDokumentiZaPlakjanjeRowChanging" msprop:Generator_RowClassName="viewDokumentiZaPlakjanjeRow" msprop:Generator_TableClassName="viewDokumentiZaPlakjanjeDataTable" msprop:Generator_TableVarName="tableviewDokumentiZaPlakjanje">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TipNaDokument" msprop:Generator_ColumnPropNameInTable="TipNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="TipNaDokument" msprop:Generator_UserColumnName="TipNaDokument" msprop:Generator_ColumnVarNameInTable="columnTipNaDokument" type="xs:int" />
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="tblPartnerID" msprop:Generator_ColumnPropNameInTable="tblPartnerIDColumn" msprop:Generator_ColumnPropNameInRow="tblPartnerID" msprop:Generator_UserColumnName="tblPartnerID" msprop:Generator_ColumnVarNameInTable="columntblPartnerID" type="xs:int" />
+              <xs:element name="Broj" msprop:Generator_ColumnPropNameInTable="BrojColumn" msprop:Generator_ColumnPropNameInRow="Broj" msprop:Generator_UserColumnName="Broj" msprop:Generator_ColumnVarNameInTable="columnBroj" type="xs:int" />
+              <xs:element name="Datum" msprop:Generator_ColumnPropNameInTable="DatumColumn" msprop:Generator_ColumnPropNameInRow="Datum" msprop:Generator_UserColumnName="Datum" msprop:Generator_ColumnVarNameInTable="columnDatum" type="xs:dateTime" />
+              <xs:element name="DocNaziv" msprop:Generator_ColumnPropNameInTable="DocNazivColumn" msprop:Generator_ColumnPropNameInRow="DocNaziv" msprop:Generator_UserColumnName="DocNaziv" msprop:Generator_ColumnVarNameInTable="columnDocNaziv" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IznosNaDokument" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="IznosNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="IznosNaDokument" msprop:Generator_UserColumnName="IznosNaDokument" msprop:Generator_ColumnVarNameInTable="columnIznosNaDokument" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PreostanatoZaPlacanje" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="PreostanatoZaPlacanjeColumn" msprop:Generator_ColumnPropNameInRow="PreostanatoZaPlacanje" msprop:Generator_UserColumnName="PreostanatoZaPlacanje" msprop:Generator_ColumnVarNameInTable="columnPreostanatoZaPlacanje" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PlatenoZaDokument" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="PlatenoZaDokumentColumn" msprop:Generator_ColumnPropNameInRow="PlatenoZaDokument" msprop:Generator_UserColumnName="PlatenoZaDokument" msprop:Generator_ColumnVarNameInTable="columnPlatenoZaDokument" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viewDospeaniFakturi" msprop:Generator_RowEvHandlerName="viewDospeaniFakturiRowChangeEventHandler" msprop:Generator_RowDeletedName="viewDospeaniFakturiRowDeleted" msprop:Generator_RowDeletingName="viewDospeaniFakturiRowDeleting" msprop:Generator_RowEvArgName="viewDospeaniFakturiRowChangeEvent" msprop:Generator_TablePropName="viewDospeaniFakturi" msprop:Generator_RowChangedName="viewDospeaniFakturiRowChanged" msprop:Generator_UserTableName="viewDospeaniFakturi" msprop:Generator_RowChangingName="viewDospeaniFakturiRowChanging" msprop:Generator_RowClassName="viewDospeaniFakturiRow" msprop:Generator_TableClassName="viewDospeaniFakturiDataTable" msprop:Generator_TableVarName="tableviewDospeaniFakturi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TipNaDokument" msprop:Generator_ColumnPropNameInTable="TipNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="TipNaDokument" msprop:Generator_UserColumnName="TipNaDokument" msprop:Generator_ColumnVarNameInTable="columnTipNaDokument" type="xs:int" />
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="tblPartnerID" msprop:Generator_ColumnPropNameInTable="tblPartnerIDColumn" msprop:Generator_ColumnPropNameInRow="tblPartnerID" msprop:Generator_UserColumnName="tblPartnerID" msprop:Generator_ColumnVarNameInTable="columntblPartnerID" type="xs:int" />
+              <xs:element name="Broj" msprop:Generator_ColumnPropNameInTable="BrojColumn" msprop:Generator_ColumnPropNameInRow="Broj" msprop:Generator_UserColumnName="Broj" msprop:Generator_ColumnVarNameInTable="columnBroj" type="xs:int" />
+              <xs:element name="Valuta" msprop:Generator_ColumnPropNameInTable="ValutaColumn" msprop:Generator_ColumnPropNameInRow="Valuta" msprop:Generator_UserColumnName="Valuta" msprop:Generator_ColumnVarNameInTable="columnValuta" type="xs:dateTime" />
+              <xs:element name="Datum" msprop:Generator_ColumnPropNameInTable="DatumColumn" msprop:Generator_ColumnPropNameInRow="Datum" msprop:Generator_UserColumnName="Datum" msprop:Generator_ColumnVarNameInTable="columnDatum" type="xs:dateTime" />
+              <xs:element name="DocNaziv" msprop:Generator_ColumnPropNameInTable="DocNazivColumn" msprop:Generator_ColumnPropNameInRow="DocNaziv" msprop:Generator_UserColumnName="DocNaziv" msprop:Generator_ColumnVarNameInTable="columnDocNaziv" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SifraPartner" msprop:Generator_ColumnPropNameInTable="SifraPartnerColumn" msprop:Generator_ColumnPropNameInRow="SifraPartner" msprop:Generator_UserColumnName="SifraPartner" msprop:Generator_ColumnVarNameInTable="columnSifraPartner" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NazivPartner" msprop:Generator_ColumnPropNameInTable="NazivPartnerColumn" msprop:Generator_ColumnPropNameInRow="NazivPartner" msprop:Generator_UserColumnName="NazivPartner" msprop:Generator_ColumnVarNameInTable="columnNazivPartner" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IznosNaDokument" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="IznosNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="IznosNaDokument" msprop:Generator_UserColumnName="IznosNaDokument" msprop:Generator_ColumnVarNameInTable="columnIznosNaDokument" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PreostanatoZaPlacanje" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="PreostanatoZaPlacanjeColumn" msprop:Generator_ColumnPropNameInRow="PreostanatoZaPlacanje" msprop:Generator_UserColumnName="PreostanatoZaPlacanje" msprop:Generator_ColumnVarNameInTable="columnPreostanatoZaPlacanje" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PlatenoZaDokument" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="PlatenoZaDokumentColumn" msprop:Generator_ColumnPropNameInRow="PlatenoZaDokument" msprop:Generator_UserColumnName="PlatenoZaDokument" msprop:Generator_ColumnVarNameInTable="columnPlatenoZaDokument" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="KoliciniNaArtikli" msprop:Generator_RowEvHandlerName="KoliciniNaArtikliRowChangeEventHandler" msprop:Generator_RowDeletedName="KoliciniNaArtikliRowDeleted" msprop:Generator_RowDeletingName="KoliciniNaArtikliRowDeleting" msprop:Generator_RowEvArgName="KoliciniNaArtikliRowChangeEvent" msprop:Generator_TablePropName="KoliciniNaArtikli" msprop:Generator_RowChangedName="KoliciniNaArtikliRowChanged" msprop:Generator_UserTableName="KoliciniNaArtikli" msprop:Generator_RowChangingName="KoliciniNaArtikliRowChanging" msprop:Generator_RowClassName="KoliciniNaArtikliRow" msprop:Generator_TableClassName="KoliciniNaArtikliDataTable" msprop:Generator_TableVarName="tableKoliciniNaArtikli">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="Sifra" msprop:Generator_ColumnPropNameInTable="SifraColumn" msprop:Generator_ColumnPropNameInRow="Sifra" msprop:Generator_UserColumnName="Sifra" msprop:Generator_ColumnVarNameInTable="columnSifra" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Naziv" msprop:Generator_ColumnPropNameInTable="NazivColumn" msprop:Generator_ColumnPropNameInRow="Naziv" msprop:Generator_UserColumnName="Naziv" msprop:Generator_ColumnVarNameInTable="columnNaziv">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Vlez" msprop:Generator_ColumnPropNameInTable="VlezColumn" msprop:Generator_ColumnPropNameInRow="Vlez" msprop:Generator_UserColumnName="Vlez" msprop:Generator_ColumnVarNameInTable="columnVlez" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Izlez" msprop:Generator_ColumnPropNameInTable="IzlezColumn" msprop:Generator_ColumnPropNameInRow="Izlez" msprop:Generator_UserColumnName="Izlez" msprop:Generator_ColumnVarNameInTable="columnIzlez" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Saldo" msprop:Generator_ColumnPropNameInTable="SaldoColumn" msprop:Generator_ColumnPropNameInRow="Saldo" msprop:Generator_UserColumnName="Saldo" msprop:Generator_ColumnVarNameInTable="columnSaldo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ZalihaSoVrednost" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="ZalihaSoVrednostColumn" msprop:Generator_ColumnPropNameInRow="ZalihaSoVrednost" msprop:Generator_UserColumnName="ZalihaSoVrednost" msprop:Generator_ColumnVarNameInTable="columnZalihaSoVrednost" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="getPregeledNaNabavkiPoPartnerIPlakjanja" msprop:Generator_RowEvHandlerName="getPregeledNaNabavkiPoPartnerIPlakjanjaRowChangeEventHandler" msprop:Generator_RowDeletedName="getPregeledNaNabavkiPoPartnerIPlakjanjaRowDeleted" msprop:Generator_RowDeletingName="getPregeledNaNabavkiPoPartnerIPlakjanjaRowDeleting" msprop:Generator_RowEvArgName="getPregeledNaNabavkiPoPartnerIPlakjanjaRowChangeEvent" msprop:Generator_TablePropName="getPregeledNaNabavkiPoPartnerIPlakjanja" msprop:Generator_RowChangedName="getPregeledNaNabavkiPoPartnerIPlakjanjaRowChanged" msprop:Generator_UserTableName="getPregeledNaNabavkiPoPartnerIPlakjanja" msprop:Generator_RowChangingName="getPregeledNaNabavkiPoPartnerIPlakjanjaRowChanging" msprop:Generator_RowClassName="getPregeledNaNabavkiPoPartnerIPlakjanjaRow" msprop:Generator_TableClassName="getPregeledNaNabavkiPoPartnerIPlakjanjaDataTable" msprop:Generator_TableVarName="tablegetPregeledNaNabavkiPoPartnerIPlakjanja">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" minOccurs="0" />
+              <xs:element name="RedenBroj" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="RedenBrojColumn" msprop:Generator_ColumnPropNameInRow="RedenBroj" msprop:Generator_UserColumnName="RedenBroj" msprop:Generator_ColumnVarNameInTable="columnRedenBroj" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DatumNaDokument" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DatumNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="DatumNaDokument" msprop:Generator_UserColumnName="DatumNaDokument" msprop:Generator_ColumnVarNameInTable="columnDatumNaDokument" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BrojNaDokument" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="BrojNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="BrojNaDokument" msprop:Generator_UserColumnName="BrojNaDokument" msprop:Generator_ColumnVarNameInTable="columnBrojNaDokument" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IznosNaDokument" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="IznosNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="IznosNaDokument" msprop:Generator_UserColumnName="IznosNaDokument" msprop:Generator_ColumnVarNameInTable="columnIznosNaDokument" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PlatenoZaDokument" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="PlatenoZaDokumentColumn" msprop:Generator_ColumnPropNameInRow="PlatenoZaDokument" msprop:Generator_UserColumnName="PlatenoZaDokument" msprop:Generator_ColumnVarNameInTable="columnPlatenoZaDokument" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ZatvorenDokument" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="ZatvorenDokumentColumn" msprop:Generator_ColumnPropNameInRow="ZatvorenDokument" msprop:Generator_UserColumnName="ZatvorenDokument" msprop:Generator_ColumnVarNameInTable="columnZatvorenDokument" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PregledPoTipNaDokumentZbiren" msprop:Generator_RowEvHandlerName="PregledPoTipNaDokumentZbirenRowChangeEventHandler" msprop:Generator_RowDeletedName="PregledPoTipNaDokumentZbirenRowDeleted" msprop:Generator_RowDeletingName="PregledPoTipNaDokumentZbirenRowDeleting" msprop:Generator_RowEvArgName="PregledPoTipNaDokumentZbirenRowChangeEvent" msprop:Generator_TablePropName="PregledPoTipNaDokumentZbiren" msprop:Generator_RowChangedName="PregledPoTipNaDokumentZbirenRowChanged" msprop:Generator_UserTableName="PregledPoTipNaDokumentZbiren" msprop:Generator_RowChangingName="PregledPoTipNaDokumentZbirenRowChanging" msprop:Generator_RowClassName="PregledPoTipNaDokumentZbirenRow" msprop:Generator_TableClassName="PregledPoTipNaDokumentZbirenDataTable" msprop:Generator_TableVarName="tablePregledPoTipNaDokumentZbiren">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Datum" msprop:Generator_ColumnPropNameInTable="DatumColumn" msprop:Generator_ColumnPropNameInRow="Datum" msprop:Generator_UserColumnName="Datum" msprop:Generator_ColumnVarNameInTable="columnDatum" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AltSifra" msprop:Generator_ColumnPropNameInTable="AltSifraColumn" msprop:Generator_ColumnPropNameInRow="AltSifra" msprop:Generator_UserColumnName="AltSifra" msprop:Generator_ColumnVarNameInTable="columnAltSifra" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipNadokument" msprop:Generator_ColumnPropNameInTable="TipNadokumentColumn" msprop:Generator_ColumnPropNameInRow="TipNadokument" msprop:Generator_UserColumnName="TipNadokument" msprop:Generator_ColumnVarNameInTable="columnTipNadokument" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ArikalNaziv" msprop:Generator_ColumnPropNameInTable="ArikalNazivColumn" msprop:Generator_ColumnPropNameInRow="ArikalNaziv" msprop:Generator_UserColumnName="ArikalNaziv" msprop:Generator_ColumnVarNameInTable="columnArikalNaziv" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProsecnCenaSoRabatIddv" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="ProsecnCenaSoRabatIddvColumn" msprop:Generator_ColumnPropNameInRow="ProsecnCenaSoRabatIddv" msprop:Generator_UserColumnName="ProsecnCenaSoRabatIddv" msprop:Generator_ColumnVarNameInTable="columnProsecnCenaSoRabatIddv" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Kolicina" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="KolicinaColumn" msprop:Generator_ColumnPropNameInRow="Kolicina" msprop:Generator_UserColumnName="Kolicina" msprop:Generator_ColumnVarNameInTable="columnKolicina" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Iznos" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="IznosColumn" msprop:Generator_ColumnPropNameInRow="Iznos" msprop:Generator_UserColumnName="Iznos" msprop:Generator_ColumnVarNameInTable="columnIznos" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IznosBezDDV" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="IznosBezDDVColumn" msprop:Generator_ColumnPropNameInRow="IznosBezDDV" msprop:Generator_UserColumnName="IznosBezDDV" msprop:Generator_ColumnVarNameInTable="columnIznosBezDDV" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DbVersion" msprop:Generator_RowEvHandlerName="DbVersionRowChangeEventHandler" msprop:Generator_RowDeletedName="DbVersionRowDeleted" msprop:Generator_RowDeletingName="DbVersionRowDeleting" msprop:Generator_RowEvArgName="DbVersionRowChangeEvent" msprop:Generator_TablePropName="DbVersion" msprop:Generator_RowChangedName="DbVersionRowChanged" msprop:Generator_UserTableName="DbVersion" msprop:Generator_RowChangingName="DbVersionRowChanging" msprop:Generator_RowClassName="DbVersionRow" msprop:Generator_TableClassName="DbVersionDataTable" msprop:Generator_TableVarName="tableDbVersion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="DbVersion" msprop:Generator_ColumnPropNameInTable="DbVersionColumn" msprop:Generator_ColumnPropNameInRow="DbVersion" msprop:Generator_UserColumnName="DbVersion" msprop:Generator_ColumnVarNameInTable="columnDbVersion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LastAlterScriptName" msprop:Generator_ColumnPropNameInTable="LastAlterScriptNameColumn" msprop:Generator_ColumnPropNameInRow="LastAlterScriptName" msprop:Generator_UserColumnName="LastAlterScriptName" msprop:Generator_ColumnVarNameInTable="columnLastAlterScriptName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblPartneri" msprop:Generator_RowEvHandlerName="tblPartneriRowChangeEventHandler" msprop:Generator_RowDeletedName="tblPartneriRowDeleted" msprop:Generator_RowDeletingName="tblPartneriRowDeleting" msprop:Generator_RowEvArgName="tblPartneriRowChangeEvent" msprop:Generator_TablePropName="tblPartneri" msprop:Generator_RowChangedName="tblPartneriRowChanged" msprop:Generator_UserTableName="tblPartneri" msprop:Generator_RowChangingName="tblPartneriRowChanging" msprop:Generator_RowClassName="tblPartneriRow" msprop:Generator_TableClassName="tblPartneriDataTable" msprop:Generator_TableVarName="tabletblPartneri">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="Sifra" msprop:Generator_ColumnPropNameInTable="SifraColumn" msprop:Generator_ColumnPropNameInRow="Sifra" msprop:Generator_UserColumnName="Sifra" msprop:Generator_ColumnVarNameInTable="columnSifra" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Naziv" msprop:Generator_ColumnPropNameInTable="NazivColumn" msprop:Generator_ColumnPropNameInRow="Naziv" msprop:Generator_UserColumnName="Naziv" msprop:Generator_ColumnVarNameInTable="columnNaziv">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Adresa" msprop:Generator_ColumnPropNameInTable="AdresaColumn" msprop:Generator_ColumnPropNameInRow="Adresa" msprop:Generator_UserColumnName="Adresa" msprop:Generator_ColumnVarNameInTable="columnAdresa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Telefoni" msprop:Generator_ColumnPropNameInTable="TelefoniColumn" msprop:Generator_ColumnPropNameInRow="Telefoni" msprop:Generator_UserColumnName="Telefoni" msprop:Generator_ColumnVarNameInTable="columnTelefoni" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="270" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_UserColumnName="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EDB" msprop:Generator_ColumnPropNameInTable="EDBColumn" msprop:Generator_ColumnPropNameInRow="EDB" msprop:Generator_UserColumnName="EDB" msprop:Generator_ColumnVarNameInTable="columnEDB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mesto" msprop:Generator_ColumnPropNameInTable="MestoColumn" msprop:Generator_ColumnPropNameInRow="Mesto" msprop:Generator_UserColumnName="Mesto" msprop:Generator_ColumnVarNameInTable="columnMesto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tip" msprop:Generator_ColumnPropNameInTable="TipColumn" msprop:Generator_ColumnPropNameInRow="Tip" msprop:Generator_UserColumnName="Tip" msprop:Generator_ColumnVarNameInTable="columnTip" type="xs:int" />
+              <xs:element name="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" type="xs:int" minOccurs="0" />
+              <xs:element name="FirmaID" msprop:Generator_ColumnPropNameInTable="FirmaIDColumn" msprop:Generator_ColumnPropNameInRow="FirmaID" msprop:Generator_UserColumnName="FirmaID" msprop:Generator_ColumnVarNameInTable="columnFirmaID" type="xs:int" />
+              <xs:element name="tblPresmetkovnaEdinicaID" msprop:Generator_ColumnPropNameInTable="tblPresmetkovnaEdinicaIDColumn" msprop:Generator_ColumnPropNameInRow="tblPresmetkovnaEdinicaID" msprop:Generator_UserColumnName="tblPresmetkovnaEdinicaID" msprop:Generator_ColumnVarNameInTable="columntblPresmetkovnaEdinicaID" type="xs:int" minOccurs="0" />
+              <xs:element name="DataVersion" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DataVersionColumn" msprop:Generator_ColumnPropNameInRow="DataVersion" msprop:Generator_UserColumnName="DataVersion" msprop:Generator_ColumnVarNameInTable="columnDataVersion" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DefaultKolicina" msprop:Generator_ColumnPropNameInTable="DefaultKolicinaColumn" msprop:Generator_ColumnPropNameInRow="DefaultKolicina" msprop:Generator_UserColumnName="DefaultKolicina" msprop:Generator_ColumnVarNameInTable="columnDefaultKolicina" type="xs:int" minOccurs="0" />
+              <xs:element name="BrojNaStan" msprop:Generator_ColumnPropNameInTable="BrojNaStanColumn" msprop:Generator_ColumnPropNameInRow="BrojNaStan" msprop:Generator_UserColumnName="BrojNaStan" msprop:Generator_ColumnVarNameInTable="columnBrojNaStan" type="xs:int" minOccurs="0" />
+              <xs:element name="TipNaDostava" msprop:Generator_ColumnPropNameInTable="TipNaDostavaColumn" msprop:Generator_ColumnPropNameInRow="TipNaDostava" msprop:Generator_UserColumnName="TipNaDostava" msprop:Generator_ColumnVarNameInTable="columnTipNaDostava" type="xs:int" minOccurs="0" />
+              <xs:element name="DateModified" msprop:Generator_ColumnPropNameInTable="DateModifiedColumn" msprop:Generator_ColumnPropNameInRow="DateModified" msprop:Generator_UserColumnName="DateModified" msprop:Generator_ColumnVarNameInTable="columnDateModified" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AltSifra" msprop:Generator_ColumnPropNameInTable="AltSifraColumn" msprop:Generator_ColumnPropNameInRow="AltSifra" msprop:Generator_UserColumnName="AltSifra" msprop:Generator_ColumnVarNameInTable="columnAltSifra" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblDogovori" msprop:Generator_RowEvHandlerName="tblDogovoriRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDogovoriRowDeleted" msprop:Generator_RowDeletingName="tblDogovoriRowDeleting" msprop:Generator_RowEvArgName="tblDogovoriRowChangeEvent" msprop:Generator_TablePropName="tblDogovori" msprop:Generator_RowChangedName="tblDogovoriRowChanged" msprop:Generator_UserTableName="tblDogovori" msprop:Generator_RowChangingName="tblDogovoriRowChanging" msprop:Generator_RowClassName="tblDogovoriRow" msprop:Generator_TableClassName="tblDogovoriDataTable" msprop:Generator_TableVarName="tabletblDogovori">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="Naziv" msprop:Generator_ColumnPropNameInTable="NazivColumn" msprop:Generator_ColumnPropNameInRow="Naziv" msprop:Generator_UserColumnName="Naziv" msprop:Generator_ColumnVarNameInTable="columnNaziv">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Zabeleska" msprop:Generator_ColumnPropNameInTable="ZabeleskaColumn" msprop:Generator_ColumnPropNameInRow="Zabeleska" msprop:Generator_UserColumnName="Zabeleska" msprop:Generator_ColumnVarNameInTable="columnZabeleska" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DatumOd" msprop:Generator_ColumnPropNameInTable="DatumOdColumn" msprop:Generator_ColumnPropNameInRow="DatumOd" msprop:Generator_UserColumnName="DatumOd" msprop:Generator_ColumnVarNameInTable="columnDatumOd" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DatumDo" msprop:Generator_ColumnPropNameInTable="DatumDoColumn" msprop:Generator_ColumnPropNameInRow="DatumDo" msprop:Generator_UserColumnName="DatumDo" msprop:Generator_ColumnVarNameInTable="columnDatumDo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tblPartnerId" msprop:Generator_ColumnPropNameInTable="tblPartnerIdColumn" msprop:Generator_ColumnPropNameInRow="tblPartnerId" msprop:Generator_UserColumnName="tblPartnerId" msprop:Generator_ColumnVarNameInTable="columntblPartnerId" type="xs:int" />
+              <xs:element name="BrojNaDogovor" msprop:Generator_ColumnPropNameInTable="BrojNaDogovorColumn" msprop:Generator_ColumnPropNameInRow="BrojNaDogovor" msprop:Generator_UserColumnName="BrojNaDogovor" msprop:Generator_ColumnVarNameInTable="columnBrojNaDogovor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BrojNaTender" msprop:Generator_ColumnPropNameInTable="BrojNaTenderColumn" msprop:Generator_ColumnPropNameInRow="BrojNaTender" msprop:Generator_UserColumnName="BrojNaTender" msprop:Generator_ColumnVarNameInTable="columnBrojNaTender" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tblDokumenti" msprop:Generator_RowEvHandlerName="tblDokumentiRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDokumentiRowDeleted" msprop:Generator_RowDeletingName="tblDokumentiRowDeleting" msprop:Generator_RowEvArgName="tblDokumentiRowChangeEvent" msprop:Generator_TablePropName="tblDokumenti" msprop:Generator_RowChangedName="tblDokumentiRowChanged" msprop:Generator_UserTableName="tblDokumenti" msprop:Generator_RowChangingName="tblDokumentiRowChanging" msprop:Generator_RowClassName="tblDokumentiRow" msprop:Generator_TableClassName="tblDokumentiDataTable" msprop:Generator_TableVarName="tabletblDokumenti" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <msdata:Relationship name="tblDogovori_tblDokumenti" msdata:parent="tblDogovori" msdata:child="tblDokumenti" msdata:parentkey="ID" msdata:childkey="tblDogovoriID" msprop:Generator_UserParentTable="tblDogovori" msprop:Generator_UserChildTable="tblDokumenti" msprop:Generator_RelationVarName="relationtblDogovori_tblDokumenti" msprop:Generator_ChildPropName="GettblDokumentiRows" msprop:Generator_UserRelationName="tblDogovori_tblDokumenti" msprop:Generator_ParentPropName="tblDogovoriRow" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+                    <xs:element name="Broj" msprop:Generator_ColumnPropNameInTable="BrojColumn" msprop:Generator_ColumnPropNameInRow="Broj" msprop:Generator_UserColumnName="Broj" msprop:Generator_ColumnVarNameInTable="columnBroj" type="xs:int" />
+                    <xs:element name="TipNaDokument" msprop:Generator_ColumnPropNameInTable="TipNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="TipNaDokument" msprop:Generator_UserColumnName="TipNaDokument" msprop:Generator_ColumnVarNameInTable="columnTipNaDokument" type="xs:int" />
+                    <xs:element name="Datum" msprop:Generator_ColumnPropNameInTable="DatumColumn" msprop:Generator_ColumnPropNameInRow="Datum" msprop:Generator_UserColumnName="Datum" msprop:Generator_ColumnVarNameInTable="columnDatum" type="xs:dateTime" />
+                    <xs:element name="OdObjektID" msprop:Generator_ColumnPropNameInTable="OdObjektIDColumn" msprop:Generator_ColumnPropNameInRow="OdObjektID" msprop:Generator_UserColumnName="OdObjektID" msprop:Generator_ColumnVarNameInTable="columnOdObjektID" type="xs:int" />
+                    <xs:element name="DoObjektID" msprop:Generator_ColumnPropNameInTable="DoObjektIDColumn" msprop:Generator_ColumnPropNameInRow="DoObjektID" msprop:Generator_UserColumnName="DoObjektID" msprop:Generator_ColumnVarNameInTable="columnDoObjektID" type="xs:int" minOccurs="0" />
+                    <xs:element name="tblUserID" msprop:Generator_ColumnPropNameInTable="tblUserIDColumn" msprop:Generator_ColumnPropNameInRow="tblUserID" msprop:Generator_UserColumnName="tblUserID" msprop:Generator_ColumnVarNameInTable="columntblUserID" type="xs:int" />
+                    <xs:element name="Zabeleska" msprop:Generator_ColumnPropNameInTable="ZabeleskaColumn" msprop:Generator_ColumnPropNameInRow="Zabeleska" msprop:Generator_UserColumnName="Zabeleska" msprop:Generator_ColumnVarNameInTable="columnZabeleska" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:maxLength value="2147483647" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="tblPartnerID" msprop:Generator_ColumnPropNameInTable="tblPartnerIDColumn" msprop:Generator_ColumnPropNameInRow="tblPartnerID" msprop:Generator_UserColumnName="tblPartnerID" msprop:Generator_ColumnVarNameInTable="columntblPartnerID" type="xs:int" minOccurs="0" />
+                    <xs:element name="FirmaID" msprop:Generator_ColumnPropNameInTable="FirmaIDColumn" msprop:Generator_ColumnPropNameInRow="FirmaID" msprop:Generator_UserColumnName="FirmaID" msprop:Generator_ColumnVarNameInTable="columnFirmaID" type="xs:int" />
+                    <xs:element name="KodNaDokument" msprop:Generator_ColumnPropNameInTable="KodNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="KodNaDokument" msprop:Generator_UserColumnName="KodNaDokument" msprop:Generator_ColumnVarNameInTable="columnKodNaDokument" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:maxLength value="70" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="BrojNaDokument" msprop:Generator_ColumnPropNameInTable="BrojNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="BrojNaDokument" msprop:Generator_UserColumnName="BrojNaDokument" msprop:Generator_ColumnVarNameInTable="columnBrojNaDokument" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:maxLength value="50" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="DataVersion" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DataVersionColumn" msprop:Generator_ColumnPropNameInRow="DataVersion" msprop:Generator_UserColumnName="DataVersion" msprop:Generator_ColumnVarNameInTable="columnDataVersion" type="xs:base64Binary" minOccurs="0" />
+                    <xs:element name="DateModified" msprop:Generator_ColumnPropNameInTable="DateModifiedColumn" msprop:Generator_ColumnPropNameInRow="DateModified" msprop:Generator_UserColumnName="DateModified" msprop:Generator_ColumnVarNameInTable="columnDateModified" type="xs:dateTime" minOccurs="0" />
+                    <xs:element name="UniqueIdPlacanje" msprop:Generator_ColumnPropNameInTable="UniqueIdPlacanjeColumn" msprop:Generator_ColumnPropNameInRow="UniqueIdPlacanje" msprop:Generator_UserColumnName="UniqueIdPlacanje" msprop:Generator_ColumnVarNameInTable="columnUniqueIdPlacanje" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:maxLength value="20" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="DatumNaValuta" msprop:Generator_ColumnPropNameInTable="DatumNaValutaColumn" msprop:Generator_ColumnPropNameInRow="DatumNaValuta" msprop:Generator_UserColumnName="DatumNaValuta" msprop:Generator_ColumnVarNameInTable="columnDatumNaValuta" type="xs:dateTime" minOccurs="0" />
+                    <xs:element name="DatumPeriod" msprop:Generator_ColumnPropNameInTable="DatumPeriodColumn" msprop:Generator_ColumnPropNameInRow="DatumPeriod" msprop:Generator_UserColumnName="DatumPeriod" msprop:Generator_ColumnVarNameInTable="columnDatumPeriod" type="xs:dateTime" minOccurs="0" />
+                    <xs:element name="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:maxLength value="400" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="tblDogovoriID" msprop:Generator_ColumnPropNameInTable="tblDogovoriIDColumn" msprop:Generator_ColumnPropNameInRow="tblDogovoriID" msprop:Generator_UserColumnName="tblDogovoriID" msprop:Generator_ColumnVarNameInTable="columntblDogovoriID" type="xs:int" minOccurs="0" />
+                    <xs:element name="viewDokumentiStavki1" msprop:Generator_RowEvHandlerName="viewDokumentiStavki1RowChangeEventHandler" msprop:Generator_RowDeletedName="viewDokumentiStavki1RowDeleted" msprop:Generator_RowDeletingName="viewDokumentiStavki1RowDeleting" msprop:Generator_RowEvArgName="viewDokumentiStavki1RowChangeEvent" msprop:Generator_TablePropName="viewDokumentiStavki1" msprop:Generator_RowChangedName="viewDokumentiStavki1RowChanged" msprop:Generator_UserTableName="viewDokumentiStavki1" msprop:Generator_RowChangingName="viewDokumentiStavki1RowChanging" msprop:Generator_RowClassName="viewDokumentiStavki1Row" msprop:Generator_TableClassName="viewDokumentiStavki1DataTable" msprop:Generator_TableVarName="tableviewDokumentiStavki1" minOccurs="0" maxOccurs="unbounded">
+                      <xs:annotation>
+                        <xs:appinfo>
+                          <msdata:Relationship name="tblDokumenti_viewDokumentiStavki1" msdata:parent="tblDokumenti" msdata:child="viewDokumentiStavki1" msdata:parentkey="ID" msdata:childkey="tblDokumentID" msprop:Generator_UserParentTable="tblDokumenti" msprop:Generator_UserChildTable="viewDokumentiStavki1" msprop:Generator_RelationVarName="relationtblDokumenti_viewDokumentiStavki1" msprop:Generator_ChildPropName="GetviewDokumentiStavki1Rows" msprop:Generator_UserRelationName="tblDokumenti_viewDokumentiStavki1" msprop:Generator_ParentPropName="tblDokumentiRow" />
+                        </xs:appinfo>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+                          <xs:element name="tblDokumentID" msprop:Generator_ColumnPropNameInTable="tblDokumentIDColumn" msprop:Generator_ColumnPropNameInRow="tblDokumentID" msprop:Generator_UserColumnName="tblDokumentID" msprop:Generator_ColumnVarNameInTable="columntblDokumentID" type="xs:int" />
+                          <xs:element name="AltSifra" msprop:Generator_ColumnPropNameInTable="AltSifraColumn" msprop:Generator_ColumnPropNameInRow="AltSifra" msprop:Generator_UserColumnName="AltSifra" msprop:Generator_ColumnVarNameInTable="columnAltSifra" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="50" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="NormativSifra" msprop:Generator_ColumnPropNameInTable="NormativSifraColumn" msprop:Generator_ColumnPropNameInRow="NormativSifra" msprop:Generator_UserColumnName="NormativSifra" msprop:Generator_ColumnVarNameInTable="columnNormativSifra" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="20" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="BrojNaDokument" msprop:Generator_ColumnPropNameInTable="BrojNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="BrojNaDokument" msprop:Generator_UserColumnName="BrojNaDokument" msprop:Generator_ColumnVarNameInTable="columnBrojNaDokument" type="xs:int" minOccurs="0" />
+                          <xs:element name="TipNadokument" msprop:Generator_ColumnPropNameInTable="TipNadokumentColumn" msprop:Generator_ColumnPropNameInRow="TipNadokument" msprop:Generator_UserColumnName="TipNadokument" msprop:Generator_ColumnVarNameInTable="columnTipNadokument" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="50" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="ArikalNaziv" msprop:Generator_ColumnPropNameInTable="ArikalNazivColumn" msprop:Generator_ColumnPropNameInRow="ArikalNaziv" msprop:Generator_UserColumnName="ArikalNaziv" msprop:Generator_ColumnVarNameInTable="columnArikalNaziv" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="150" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="ArtikalID" msprop:Generator_ColumnPropNameInTable="ArtikalIDColumn" msprop:Generator_ColumnPropNameInRow="ArtikalID" msprop:Generator_UserColumnName="ArtikalID" msprop:Generator_ColumnVarNameInTable="columnArtikalID" type="xs:int" minOccurs="0" />
+                          <xs:element name="NotesText" msprop:Generator_ColumnPropNameInTable="NotesTextColumn" msprop:Generator_ColumnPropNameInRow="NotesText" msprop:Generator_UserColumnName="NotesText" msprop:Generator_ColumnVarNameInTable="columnNotesText" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="350" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="NotesBroj" msprop:Generator_ColumnPropNameInTable="NotesBrojColumn" msprop:Generator_ColumnPropNameInRow="NotesBroj" msprop:Generator_UserColumnName="NotesBroj" msprop:Generator_ColumnVarNameInTable="columnNotesBroj" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="150" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="NotesREF" msprop:Generator_ColumnPropNameInTable="NotesREFColumn" msprop:Generator_ColumnPropNameInRow="NotesREF" msprop:Generator_UserColumnName="NotesREF" msprop:Generator_ColumnVarNameInTable="columnNotesREF" type="xs:int" minOccurs="0" />
+                          <xs:element name="NormativNaziv" msprop:Generator_ColumnPropNameInTable="NormativNazivColumn" msprop:Generator_ColumnPropNameInRow="NormativNaziv" msprop:Generator_UserColumnName="NormativNaziv" msprop:Generator_ColumnVarNameInTable="columnNormativNaziv" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="50" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="NormativID" msprop:Generator_ColumnPropNameInTable="NormativIDColumn" msprop:Generator_ColumnPropNameInRow="NormativID" msprop:Generator_UserColumnName="NormativID" msprop:Generator_ColumnVarNameInTable="columnNormativID" type="xs:int" minOccurs="0" />
+                          <xs:element name="isNormativ" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="isNormativColumn" msprop:Generator_ColumnPropNameInRow="isNormativ" msprop:Generator_UserColumnName="isNormativ" msprop:Generator_ColumnVarNameInTable="columnisNormativ" type="xs:int" minOccurs="0" />
+                          <xs:element name="NazivNaProdukt" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="NazivNaProduktColumn" msprop:Generator_ColumnPropNameInRow="NazivNaProdukt" msprop:Generator_UserColumnName="NazivNaProdukt" msprop:Generator_ColumnVarNameInTable="columnNazivNaProdukt" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="150" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="DDVStapka" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DDVStapkaColumn" msprop:Generator_ColumnPropNameInRow="DDVStapka" msprop:Generator_UserColumnName="DDVStapka" msprop:Generator_ColumnVarNameInTable="columnDDVStapka" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="EdinecnaMerka" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="EdinecnaMerkaColumn" msprop:Generator_ColumnPropNameInRow="EdinecnaMerka" msprop:Generator_UserColumnName="EdinecnaMerka" msprop:Generator_ColumnVarNameInTable="columnEdinecnaMerka" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="3" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="DDVIznos" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="DDVIznosColumn" msprop:Generator_ColumnPropNameInRow="DDVIznos" msprop:Generator_UserColumnName="DDVIznos" msprop:Generator_ColumnVarNameInTable="columnDDVIznos" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="IznosBezDDV" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="IznosBezDDVColumn" msprop:Generator_ColumnPropNameInRow="IznosBezDDV" msprop:Generator_UserColumnName="IznosBezDDV" msprop:Generator_ColumnVarNameInTable="columnIznosBezDDV" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="CenaBezDDV" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="CenaBezDDVColumn" msprop:Generator_ColumnPropNameInRow="CenaBezDDV" msprop:Generator_UserColumnName="CenaBezDDV" msprop:Generator_ColumnVarNameInTable="columnCenaBezDDV" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="CenaSoRabatIddv" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="CenaSoRabatIddvColumn" msprop:Generator_ColumnPropNameInRow="CenaSoRabatIddv" msprop:Generator_UserColumnName="CenaSoRabatIddv" msprop:Generator_ColumnVarNameInTable="columnCenaSoRabatIddv" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="Kolicina" msprop:Generator_ColumnPropNameInTable="KolicinaColumn" msprop:Generator_ColumnPropNameInRow="Kolicina" msprop:Generator_UserColumnName="Kolicina" msprop:Generator_ColumnVarNameInTable="columnKolicina" type="xs:decimal" />
+                          <xs:element name="Cena" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="CenaColumn" msprop:Generator_ColumnPropNameInRow="Cena" msprop:Generator_UserColumnName="Cena" msprop:Generator_ColumnVarNameInTable="columnCena" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="Rabat1" msprop:Generator_ColumnPropNameInTable="Rabat1Column" msprop:Generator_ColumnPropNameInRow="Rabat1" msprop:Generator_UserColumnName="Rabat1" msprop:Generator_ColumnVarNameInTable="columnRabat1" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="Iznos" msprop:Generator_ColumnPropNameInTable="IznosColumn" msprop:Generator_ColumnPropNameInRow="Iznos" msprop:Generator_UserColumnName="Iznos" msprop:Generator_ColumnVarNameInTable="columnIznos" type="xs:decimal" />
+                          <xs:element name="TipNaDokumentID" msprop:Generator_ColumnPropNameInTable="TipNaDokumentIDColumn" msprop:Generator_ColumnPropNameInRow="TipNaDokumentID" msprop:Generator_UserColumnName="TipNaDokumentID" msprop:Generator_ColumnVarNameInTable="columnTipNaDokumentID" type="xs:int" minOccurs="0" />
+                          <xs:element name="DatumNaDokument" msprop:Generator_ColumnPropNameInTable="DatumNaDokumentColumn" msprop:Generator_ColumnPropNameInRow="DatumNaDokument" msprop:Generator_UserColumnName="DatumNaDokument" msprop:Generator_ColumnVarNameInTable="columnDatumNaDokument" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="ProsecnaNabavnaCena" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="ProsecnaNabavnaCenaColumn" msprop:Generator_ColumnPropNameInRow="ProsecnaNabavnaCena" msprop:Generator_UserColumnName="ProsecnaNabavnaCena" msprop:Generator_ColumnVarNameInTable="columnProsecnaNabavnaCena" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="ProsecnaNabavnaCenaBezDDV" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="ProsecnaNabavnaCenaBezDDVColumn" msprop:Generator_ColumnPropNameInRow="ProsecnaNabavnaCenaBezDDV" msprop:Generator_UserColumnName="ProsecnaNabavnaCenaBezDDV" msprop:Generator_ColumnVarNameInTable="columnProsecnaNabavnaCenaBezDDV" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="NabavnaVrednostBezDDVIznos" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="NabavnaVrednostBezDDVIznosColumn" msprop:Generator_ColumnPropNameInRow="NabavnaVrednostBezDDVIznos" msprop:Generator_UserColumnName="NabavnaVrednostBezDDVIznos" msprop:Generator_ColumnVarNameInTable="columnNabavnaVrednostBezDDVIznos" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="PlanskaCena" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="PlanskaCenaColumn" msprop:Generator_ColumnPropNameInRow="PlanskaCena" msprop:Generator_UserColumnName="PlanskaCena" msprop:Generator_ColumnVarNameInTable="columnPlanskaCena" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="PlanskaVrednost" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="PlanskaVrednostColumn" msprop:Generator_ColumnPropNameInRow="PlanskaVrednost" msprop:Generator_UserColumnName="PlanskaVrednost" msprop:Generator_ColumnVarNameInTable="columnPlanskaVrednost" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="ProdaznaCena" msprop:Generator_ColumnPropNameInTable="ProdaznaCenaColumn" msprop:Generator_ColumnPropNameInRow="ProdaznaCena" msprop:Generator_UserColumnName="ProdaznaCena" msprop:Generator_ColumnVarNameInTable="columnProdaznaCena" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="ProdaznaVrednostSoDDV" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="ProdaznaVrednostSoDDVColumn" msprop:Generator_ColumnPropNameInRow="ProdaznaVrednostSoDDV" msprop:Generator_UserColumnName="ProdaznaVrednostSoDDV" msprop:Generator_ColumnVarNameInTable="columnProdaznaVrednostSoDDV" type="xs:decimal" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewDokumenti" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="viewDospeaniFakturi_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewDospeaniFakturi" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="KoliciniNaArtikli_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:KoliciniNaArtikli" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="DbVersion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DbVersion" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="tblPartneri_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblPartneri" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="tblDokumenti_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDokumenti" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="tblDogovori_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDogovori" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

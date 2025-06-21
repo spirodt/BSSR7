@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="bindingNavigatorAddNewItem.Text" xml:space="preserve">
+		<value>Add new</value>
+	</data>
+	<data name="bindingNavigatorCountItem.Text" xml:space="preserve">
+		<value>од {0}</value>
+	</data>
+	<data name="bindingNavigatorCountItem.ToolTipText" xml:space="preserve">
+		<value>Вкупен број на записи</value>
+	</data>
+	<data name="bindingNavigatorDeleteItem.Text" xml:space="preserve">
+		<value>Delete</value>
+	</data>
+	<data name="bindingNavigatorMoveFirstItem.Text" xml:space="preserve">
+		<value>Почеток</value>
+	</data>
+	<data name="bindingNavigatorMovePreviousItem.Text" xml:space="preserve">
+		<value>Претходен запис</value>
+	</data>
+	<data name="bindingNavigatorPositionItem.AccessibleName" xml:space="preserve">
+		<value>Position</value>
+	</data>
+	<data name="bindingNavigatorPositionItem.Text" xml:space="preserve">
+		<value>0</value>
+	</data>
+	<data name="bindingNavigatorPositionItem.ToolTipText" xml:space="preserve">
+		<value>Моментална позиција</value>
+	</data>
+	<data name="bindingNavigatorMoveNextItem.Text" xml:space="preserve">
+		<value>Следен запис</value>
+	</data>
+	<data name="bindingNavigatorMoveLastItem.Text" xml:space="preserve">
+		<value>Крај</value>
+	</data>
+	<data name="tblConfigBindingNavigatorSaveItem.Text" xml:space="preserve">
+		<value>Save Data</value>
+	</data>
+	<data name="tblConfigBindingNavigator.Text" xml:space="preserve">
+		<value>bindingNavigator1</value>
+	</data>
+	<data name="ID.HeaderText" xml:space="preserve">
+		<value>Број</value>
+	</data>
+	<data name="Opis.HeaderText" xml:space="preserve">
+		<value>Опис </value>
+	</data>
+	<data name="Ime.HeaderText" xml:space="preserve">
+		<value>Име</value>
+	</data>
+	<data name="Vrednost.HeaderText" xml:space="preserve">
+		<value>Вредност</value>
+	</data>
+	<data name="NivoNaAdministracija.HeaderText" xml:space="preserve">
+		<value>Ниво</value>
+	</data>
+	<data name="Range.HeaderText" xml:space="preserve">
+		<value>Дозволени вредности</value>
+	</data>
+	<data name="btnPotvrdi1.Text" xml:space="preserve">
+		<value>&amp;Потврди</value>
+	</data>
+	<data name="btnZatvori1.Text" xml:space="preserve">
+		<value>&amp;Затвори</value>
+	</data>
+	<data name="$this.Text" xml:space="preserve">
+		<value>Прикачување на слика</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+		<value>Име на фирма</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+		<value>Жиро сметка</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+		<value>Шифра на дејност</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+		<value>Даночен број</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+		<value>Банка депонент</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+		<value>Регистарски М4</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+		<value>Град</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+		<value>Населено место</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+		<value>Адреса</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+		<value>Општина</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+		<value>Поштенски број</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn13.HeaderText" xml:space="preserve">
+		<value>Повикувачки број</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn14.HeaderText" xml:space="preserve">
+		<value>Телефон</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn15.HeaderText" xml:space="preserve">
+		<value>Факс</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn16.HeaderText" xml:space="preserve">
+		<value>Контакт лице</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn17.HeaderText" xml:space="preserve">
+		<value>Контакт телефон</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn18.HeaderText" xml:space="preserve">
+		<value>е-маил</value>
+	</data>
+	<data name="dataGridViewTextBoxColumn19.HeaderText" xml:space="preserve">
+		<value>Матичен број</value>
+	</data>
+	<data name="btnOk.Text" xml:space="preserve">
+		<value>&amp;Потврди</value>
+	</data>
+	<data name="btnZatvori.Text" xml:space="preserve">
+		<value>&amp;Затвори</value>
+	</data>
+	<data name="tblFirmaBindingNavigatorSaveItem.Text" xml:space="preserve">
+		<value>Save Data</value>
+	</data>
+	<data name="opstinaLabel.Text" xml:space="preserve">
+		<value>Општина:</value>
+	</data>
+	<data name="povikuvackiBrojLabel.Text" xml:space="preserve">
+		<value>Повикувачки број:</value>
+	</data>
+	<data name="eMailLabel.Text" xml:space="preserve">
+		<value>Е-Маил:</value>
+	</data>
+	<data name="btnPrikaci.Text" xml:space="preserve">
+		<value>Importo foto</value>
+	</data>
+	<data name="tblFirmaBindingNavigator.Text" xml:space="preserve">
+		<value>bindingNavigator1</value>
+	</data>
+	<data name="gradLabel.Text" xml:space="preserve">
+		<value>Град:</value>
+	</data>
+	<data name="telefonLabel.Text" xml:space="preserve">
+		<value>Телефон:</value>
+	</data>
+	<data name="postenskiBrojLabel.Text" xml:space="preserve">
+		<value>Поштенски број:</value>
+	</data>
+	<data name="kontaktTelefonLabel.Text" xml:space="preserve">
+		<value>Контакт телефон:</value>
+	</data>
+	<data name="bankaDeponentLabel.Text" xml:space="preserve">
+		<value>Банка депонент:</value>
+	</data>
+	<data name="naselenoMestoLabel.Text" xml:space="preserve">
+		<value>Населено место:</value>
+	</data>
+	<data name="adresaLabel.Text" xml:space="preserve">
+		<value>Адреса:</value>
+	</data>
+	<data name="registarskiM4Label.Text" xml:space="preserve">
+		<value>Регистарски М4</value>
+	</data>
+	<data name="faksLabel.Text" xml:space="preserve">
+		<value>Факс:</value>
+	</data>
+	<data name="ziroSmetkaLabel.Text" xml:space="preserve">
+		<value>Жиро сметка:</value>
+	</data>
+	<data name="maticenBrojLabel.Text" xml:space="preserve">
+		<value>Матичен број:</value>
+	</data>
+	<data name="imeNaFirmaLabel.Text" xml:space="preserve">
+		<value>Име на фирма:</value>
+	</data>
+	<data name="sifraNaDejnostLabel.Text" xml:space="preserve">
+		<value>Шифра на дејност:</value>
+	</data>
+	<data name="danocenBrojLabel.Text" xml:space="preserve">
+		<value>Даночен број:</value>
+	</data>
+	<data name="kontaktLiceLabel.Text" xml:space="preserve">
+		<value>Контакт лице:</value>
+	</data>
+	<data name="btnNovaStavka.Text" xml:space="preserve">
+		<value>Новa ставка (F1)</value>
+	</data>
+	<data name="btnNovaStavka.ToolTipText" xml:space="preserve">
+		<value>Додавање на нов запис</value>
+	</data>
+	<data name="btnIzmeniStavka.Text" xml:space="preserve">
+		<value>Едитирај ставка (F2)</value>
+	</data>
+	<data name="btnIzmeniStavka.ToolTipText" xml:space="preserve">
+		<value>Едитирање на тековниот запис</value>
+	</data>
+	<data name="btnIzbrisiStavka.Text" xml:space="preserve">
+		<value>Избриши ставка (F3)</value>
+	</data>
+	<data name="btnIzbrisiStavka.ToolTipText" xml:space="preserve">
+		<value>Блокирање/Одблокирање на тековниот запис</value>
+	</data>
+	<data name="btnSocuvajStavka.Text" xml:space="preserve">
+		<value>Сочувај ставка (F5)</value>
+	</data>
+	<data name="btnReload.ShortcutKeyDisplayString" xml:space="preserve">
+		<value>ALT + R</value>
+	</data>
+	<data name="btnReload.Text" xml:space="preserve">
+		<value>Освежи ( Alt + R )</value>
+	</data>
+	<data name="groupStavki.Text" xml:space="preserve">
+		<value>Ставки</value>
+	</data>
+	<data name="btnVnesi.Text" xml:space="preserve">
+		<value>&amp;Сочувај и внеси наредна</value>
+	</data>
+	<data name="groupVnes.Text" xml:space="preserve">
+		<value>Внес</value>
+	</data>
+	<data name="btnPecati.Text" xml:space="preserve">
+		<value>&amp;Печати</value>
+	</data>
+	<data name="btnNovoZaglavje.Text" xml:space="preserve">
+		<value>Нов внес (F11)</value>
+	</data>
+	<data name="btnNovoZaglavje.ToolTipText" xml:space="preserve">
+		<value>Додавање на нов запис</value>
+	</data>
+	<data name="btnEditirajZaglavje.Text" xml:space="preserve">
+		<value>Едитирај заглавје  (F10)</value>
+	</data>
+	<data name="btnEditirajZaglavje.ToolTipText" xml:space="preserve">
+		<value>Едитирање на тековниот запис</value>
+	</data>
+	<data name="btnSocuvajZaglavje.Text" xml:space="preserve">
+		<value>Сочувај заглавје  (F12) </value>
+	</data>
+	<data name="btnМZatvori.Text" xml:space="preserve">
+		<value>Затвори (F4)</value>
+	</data>
+	<data name="btnМZatvori.ToolTipText" xml:space="preserve">
+		<value>Затворање на формата</value>
+	</data>
+	<data name="groupZaglavje.Text" xml:space="preserve">
+		<value>Заглавје</value>
+	</data>
+	<data name="btnIzbrisi.ToolTipText" xml:space="preserve">
+		<value>Бришење на записот</value>
+	</data>
+	<data name="toolStripMenuItem2.Text" xml:space="preserve">
+		<value>Затвори (F4)</value>
+	</data>
+	<data name="btnBlokiraj.Text" xml:space="preserve">
+		<value>Блокирај/Одблокирај (F3)</value>
+	</data>
+	<data name="btnFilter.ToolTipText" xml:space="preserve">
+		<value>Филтрирање на податоците од табелата</value>
+	</data>
+	<data name="btnNovZapis.ToolTipText" xml:space="preserve">
+		<value>Додавање на нов запис</value>
+	</data>
+	<data name="btnEditirajZapis.Text" xml:space="preserve">
+		<value>Едитирај запис (F2)</value>
+	</data>
+	<data name="btnBlokiraj.ToolTipText" xml:space="preserve">
+		<value>Блокирање/Одблокирање на тековниот запис</value>
+	</data>
+	<data name="btnEditirajZapis.ToolTipText" xml:space="preserve">
+		<value>Едитирање на тековниот запис</value>
+	</data>
+	<data name="btnNovZapis.Text" xml:space="preserve">
+		<value>Нов запис (F1)</value>
+	</data>
+	<data name="btnIzbrisi.Text" xml:space="preserve">
+		<value>Избриши запис</value>
+	</data>
+	<data name="btnFilter.Text" xml:space="preserve">
+		<value>Филтер (F5)</value>
+	</data>
+	<data name="toolStripMenuItem2.ToolTipText" xml:space="preserve">
+		<value>Затворање на формата</value>
+	</data>
+	<data name="tabVnes.Text" xml:space="preserve">
+		<value>Општи податоци</value>
+	</data>
+	<data name="BsslabelSaldo.Text" xml:space="preserve">
+		<value>Салдо:</value>
+	</data>
+	<data name="labelVkupnoDolguva.Text" xml:space="preserve">
+		<value>Вкупно должи:</value>
+	</data>
+	<data name="labelVkupnoPobaruva.Text" xml:space="preserve">
+		<value>Вкупно побарува:</value>
+	</data>
+	<data name="labelVkupnoStavki.Text" xml:space="preserve">
+		<value> Вкупно ставки:</value>
+	</data>
+	<data name="label4.Text" xml:space="preserve">
+		<value> Вкупно ставки:</value>
+	</data>
+	<data name="btnOpen.Text" xml:space="preserve">
+		<value>&amp;Прикачи</value>
+	</data>
+	<data name="btnExi.Text" xml:space="preserve">
+		<value>button1</value>
+	</data>
+	<data name="Poleslika.Items" xml:space="preserve">
+		<value>Image1</value>
+	</data>
+	<data name="Poleslika.Items1" xml:space="preserve">
+		<value>Image2</value>
+	</data>
+	<data name="Poleslika.Items2" xml:space="preserve">
+		<value>Image3</value>
+	</data>
+	<data name="GVnes.Text" xml:space="preserve">
+		<value>Внес</value>
+	</data>
+</root>

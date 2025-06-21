@@ -1,0 +1,17 @@
+﻿CREATE TABLE [dbo].[tblNalogIzmeneta] (
+    [ID]            INT            IDENTITY (1, 1) NOT NULL,
+    [Broj]          INT            NOT NULL,
+    [Zabeleska]     NVARCHAR (350) NULL,
+    [DatumPocetok]  DATETIME       NOT NULL,
+    [DatumKraj]     DATETIME       NULL,
+    [FirmaID]       INT            NOT NULL,
+    [Smena_ID]      INT            NOT NULL,
+    [Zavrsen]       BIT            NULL,
+    [TipNaNalog]    INT            NOT NULL,
+    [SmetkaID]      INT            NOT NULL,
+    [DatumNaIzmena] DATETIME       NULL,
+    [DataVersion]   ROWVERSION     NOT NULL
+);
+
+
+

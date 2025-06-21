@@ -1,0 +1,2 @@
+"C:\Program Files (x86)\Caphyon\Advanced Installer 18.7\bin\x86\AdvancedInstaller.com" /execute "C:\inetpub\wwwroot\bssr.mk\BSS\Installer\BSS.aip" "C:\inetpub\wwwroot\bssr.mk\BSS\Installer\config.txt" 
+"C:\Program Files (x86)\Caphyon\Advanced Installer 18.7\bin\x86\AdvancedInstaller.com" /execute "C:\inetpub\wwwroot\bssr.mk\BSS\Installer\BSU.aip" "C:\inetpub\wwwroot\bssr.mk\BSS\Installer\config.txt" 

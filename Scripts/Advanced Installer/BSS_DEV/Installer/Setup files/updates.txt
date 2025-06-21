@@ -1,0 +1,13 @@
+;aiu;
+
+[Update]
+Name = BSS
+ProductVersion = 5.0.1.30254
+URL = http://bssr.mk/BSS_DEV/Installer/Setup%20Files/BSS.exe
+Size = 45470485
+ServerFileName = BSS.exe
+Flags = NoRedetect
+FilePath = [APPDIR]Bssr.exe
+Version = 5.0.1.30254
+Description = Update to the latest version
+AutoCloseApplication = [APPDIR]bssr.exe|;;AlwaysRestart

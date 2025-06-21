@@ -1,0 +1,1045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="+CFG" xml:space="preserve">
+    <value>Конфигурација</value>
+  </data>
+  <data name="+CFM" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="+DKI" xml:space="preserve">
+    <value>Документи и изводи</value>
+  </data>
+  <data name="+FIN" xml:space="preserve">
+    <value>Финансии</value>
+  </data>
+  <data name="+GKG" xml:space="preserve">
+    <value>Главна Книга</value>
+  </data>
+  <data name="+GKK" xml:space="preserve">
+    <value>Книжење</value>
+  </data>
+  <data name="+KPR" xml:space="preserve">
+    <value>Прегледи</value>
+  </data>
+  <data name="+MAT" xml:space="preserve">
+    <value>Управување со материјали</value>
+  </data>
+  <data name="+NAS" xml:space="preserve">
+    <value>ELKOMP ERP</value>
+  </data>
+  <data name="+OBD" xml:space="preserve">
+    <value>Обработка на документи</value>
+  </data>
+  <data name="+OPF" xml:space="preserve">
+    <value>Општи податоци</value>
+  </data>
+  <data name="+OSK" xml:space="preserve">
+    <value>Книжење на операции</value>
+  </data>
+  <data name="+OSP" xml:space="preserve">
+    <value>Прегледи</value>
+  </data>
+  <data name="+OSS" xml:space="preserve">
+    <value>Сторнирање на операции</value>
+  </data>
+  <data name="+OSМ" xml:space="preserve">
+    <value>Матични податоци</value>
+  </data>
+  <data name="+SEC" xml:space="preserve">
+    <value>Безбедност</value>
+  </data>
+  <data name="+SK" xml:space="preserve">
+    <value>Салда-Конти</value>
+  </data>
+  <data name="+SKDB" xml:space="preserve">
+    <value>Салда-Конта добавувачи</value>
+  </data>
+  <data name="+SKK" xml:space="preserve">
+    <value>Книжење</value>
+  </data>
+  <data name="+SKKU" xml:space="preserve">
+    <value>Салда-Конта купувачи</value>
+  </data>
+  <data name="+SKOS" xml:space="preserve">
+    <value>Основни средства</value>
+  </data>
+  <data name="+SNF" xml:space="preserve">
+    <value>Структура на фирмата</value>
+  </data>
+  <data name="+ZSF" xml:space="preserve">
+    <value>Завршна сметка</value>
+  </data>
+  <data name="2627" xml:space="preserve">
+    <value>Шифрата или записот веќе постои!</value>
+  </data>
+  <data name="547" xml:space="preserve">
+    <value>Записот не може да се избрише затоа што веќе се користи.</value>
+  </data>
+  <data name="Amortizacija" xml:space="preserve">
+    <value>Амортизација</value>
+  </data>
+  <data name="AOPB" xml:space="preserve">
+    <value>Ознаки за АОП</value>
+  </data>
+  <data name="AOPE" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="ASDB" xml:space="preserve">
+    <value>Видови на завршни документи</value>
+  </data>
+  <data name="ASDE" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="ASDR" xml:space="preserve">
+    <value>Преглед на завршните документи </value>
+  </data>
+  <data name="ASDT" xml:space="preserve">
+    <value>Креирање на завршните документи</value>
+  </data>
+  <data name="BANB" xml:space="preserve">
+    <value>Банки</value>
+  </data>
+  <data name="BrisenjePoslednaStavka" xml:space="preserve">
+    <value>Заглавјето е избришано, бидејќи нема повеќе ставки.</value>
+  </data>
+  <data name="BrojNaStavki" xml:space="preserve">
+    <value>Број на ставки: </value>
+  </data>
+  <data name="BSTI" xml:space="preserve">
+    <value>Изводи</value>
+  </data>
+  <data name="BSTP" xml:space="preserve">
+    <value>Книжење на изводи</value>
+  </data>
+  <data name="BSTR" xml:space="preserve">
+    <value>Сторнирање на изводи</value>
+  </data>
+  <data name="CFIC" xml:space="preserve">
+    <value>Конфигурација на Финансии модул</value>
+  </data>
+  <data name="CNFC" xml:space="preserve">
+    <value>Конфигурација на апликацијата</value>
+  </data>
+  <data name="COAB" xml:space="preserve">
+    <value>Контен план</value>
+  </data>
+  <data name="COAE" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="CSCB" xml:space="preserve">
+    <value>Трошковни центри</value>
+  </data>
+  <data name="CSCE" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="DaliSakateSredstvotoVednasDaGoPustiteVoUptreba" xml:space="preserve">
+    <value>Дали сакате ова основно средство да го пуштите во употреба ? </value>
+  </data>
+  <data name="DaliSteSigurni" xml:space="preserve">
+    <value>Дали сте сигурни ?</value>
+  </data>
+  <data name="DaliSteSigurniBrisenje" xml:space="preserve">
+    <value>Дали сте сигурни дека сакате да избришете?</value>
+  </data>
+  <data name="DaliSteSigurniDekaSakateDaGiProkniziteOtvoreniteStavki" xml:space="preserve">
+    <value>Дали сте сигурни дека сакате да ги затворите одбраните отворени ставки?</value>
+  </data>
+  <data name="DaliSteSigurniDekaSakateDaGiStornirateZatvoreniteStavki" xml:space="preserve">
+    <value>Дали сте сигурни дека сакате да ги сторнирате ставките за затворање?</value>
+  </data>
+  <data name="DaliSteSigurniDekaSakateDaGoKniziteDokumentot" xml:space="preserve">
+    <value>Дали сте сигурни дека сакате да го прокнижите овој документ?</value>
+  </data>
+  <data name="DaliSteSigurniDekaSakateDaGoKniziteIzvodot" xml:space="preserve">
+    <value>Дали сте сигурни дека сакате да го книжите изоводот?</value>
+  </data>
+  <data name="DaliSteSigurniDekaSakateDaGoStrornirateDokumentot" xml:space="preserve">
+    <value>Дали сте сигурни дека сакате да го сторнирате ова книжење?</value>
+  </data>
+  <data name="DaliSteSigurniDekaSakateDaGoStrornirateIzvodot" xml:space="preserve">
+    <value>Дали сте сигурни дека сакате да го прокнижите изводот ? </value>
+  </data>
+  <data name="DaliSteSigurniImaIzmeni" xml:space="preserve">
+    <value>Измените  ќе бидат поништени! Сигурни сте?</value>
+  </data>
+  <data name="DaliSteSigurnoDekaSakateDaProkniziteVoKnigaNaOsnovniSredstva" xml:space="preserve">
+    <value>Дали сте сигурни дека сакате да прокнижите во книгата за основни средства ?</value>
+  </data>
+  <data name="DaliSteSigurnoDekaSakateDaStornirateOsnovniSredstva" xml:space="preserve">
+    <value>Дали сте сигурни дека сакате да ги сторнирате основните средства?</value>
+  </data>
+  <data name="deleteReference" xml:space="preserve">
+    <value>Ставката веќе се користи. Не е дозволено бришење!</value>
+  </data>
+  <data name="DelovniotPartnerEPromenetKniznjataKjeBidatIzbrisani" xml:space="preserve">
+    <value>Деловниот партнер е променет книжењата ќе бидат избришани, дали сакате да продолжите ? </value>
+  </data>
+  <data name="Do:" xml:space="preserve">
+    <value>До:</value>
+  </data>
+  <data name="DOCB" xml:space="preserve">
+    <value>Документи</value>
+  </data>
+  <data name="DOCK" xml:space="preserve">
+    <value>Книжење на документи</value>
+  </data>
+  <data name="DOCS" xml:space="preserve">
+    <value>Сторнирање на документи</value>
+  </data>
+  <data name="DodadiVoOmileni" xml:space="preserve">
+    <value>Дали сакате оваа ставка на менито да се додаде во Омилени?</value>
+  </data>
+  <data name="DodadiVoOmileniMeni" xml:space="preserve">
+    <value>Додади го менито во омилени</value>
+  </data>
+  <data name="DokumentiteSeUspesnoKnizeni" xml:space="preserve">
+    <value>Документите се успешно прокнижени.</value>
+  </data>
+  <data name="DokumentiteSeUspesnoStorinirani" xml:space="preserve">
+    <value>Документите се успешно сторнирани.</value>
+  </data>
+  <data name="Dolzi" xml:space="preserve">
+    <value>Должи</value>
+  </data>
+  <data name="DRZB" xml:space="preserve">
+    <value>Држави</value>
+  </data>
+  <data name="duplicate key" xml:space="preserve">
+    <value>Запис со оваа шифра веќе постои.</value>
+  </data>
+  <data name="Dа" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="EditForma" xml:space="preserve">
+    <value>Промена</value>
+  </data>
+  <data name="EkselGasenje" xml:space="preserve">
+    <value>Сите отворени ексел документи ќе бидат затворени , дали сакате да продолжите ?</value>
+  </data>
+  <data name="ExcelOdGrid" xml:space="preserve">
+    <value>Префрли го моменталниот изглед во Excell</value>
+  </data>
+  <data name="FajlotNePostoi" xml:space="preserve">
+    <value>Фајлот не постои!</value>
+  </data>
+  <data name="FBCB" xml:space="preserve">
+    <value>Конта за завршните книжења</value>
+  </data>
+  <data name="FBCE" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="FBKR" xml:space="preserve">
+    <value>Завршни книжења</value>
+  </data>
+  <data name="FIRB" xml:space="preserve">
+    <value>Податоци за фирма</value>
+  </data>
+  <data name="FK_EXCEPTION" xml:space="preserve">
+    <value>Операцијата не може да се изврши, постои релација со друга табела.</value>
+  </data>
+  <data name="GLRR" xml:space="preserve">
+    <value>Конто картичка</value>
+  </data>
+  <data name="Greska!!" xml:space="preserve">
+    <value>Грешка</value>
+  </data>
+  <data name="Greska!!!" xml:space="preserve">
+    <value>Грешка !!!</value>
+  </data>
+  <data name="GreskaSharedImages" xml:space="preserve">
+    <value>Фолдерот со слики не е пронајден во мрежната патека </value>
+  </data>
+  <data name="GreskaSharedPath" xml:space="preserve">
+    <value>Мрежната патека не е пронајдена \n компјутерот не е приклучен на мрежа</value>
+  </data>
+  <data name="ImaStavkiVoHeader" xml:space="preserve">
+    <value>Заглавјето е сочувано без ниедна ставка, доколу напуштите сега заглавјето ќе биде избришано!</value>
+  </data>
+  <data name="IstorijaIzbrisana" xml:space="preserve">
+    <value>Трансакциите избришани од историјата.</value>
+  </data>
+  <data name="IzbrisiKodoviNaTranskacija" xml:space="preserve">
+    <value>Избриши кодови на трансакција</value>
+  </data>
+  <data name="IzbrisiOmileni" xml:space="preserve">
+    <value>Избриши Омилени</value>
+  </data>
+  <data name="IzbrisiStavka" xml:space="preserve">
+    <value>Избриши ставка</value>
+  </data>
+  <data name="IznosPrimaSamoBrojki" xml:space="preserve">
+    <value>Полето износ мора да биде бројка, не смее да содржи карактери.</value>
+  </data>
+  <data name="IzvodBrojKnizenje" xml:space="preserve">
+    <value>Извод број: </value>
+  </data>
+  <data name="IzvoditeeSeUspesnoStorinirani" xml:space="preserve">
+    <value>Изводите се успешно сторнирани.</value>
+  </data>
+  <data name="IzvoditeSeUspesnoKnizeni" xml:space="preserve">
+    <value>Изводите се успешно прокнижени.</value>
+  </data>
+  <data name="JVOA" xml:space="preserve">
+    <value>Нов налог</value>
+  </data>
+  <data name="JVOE" xml:space="preserve">
+    <value>Едитирање на налог</value>
+  </data>
+  <data name="JVOR" xml:space="preserve">
+    <value>Преглед на налози</value>
+  </data>
+  <data name="K#0AmortizacijataVekjeKnizenaK#0" xml:space="preserve">
+    <value>Амортизацијата е веќе книжена за овој период.</value>
+  </data>
+  <data name="K#0AmortizaciskataGrupaEBlokiranaK#0" xml:space="preserve">
+    <value>Амортизациската група е блокирана.</value>
+  </data>
+  <data name="K#0CK_tblIzvodiStavkiDolziPobaruvaK#0" xml:space="preserve">
+    <value>Една од колоните за должи или побарува мора да биде различна од 0.</value>
+  </data>
+  <data name="K#0CK_tblIzvodiStavkiKurs0K#0" xml:space="preserve">
+    <value>Курсот мора да биде различен од 0.</value>
+  </data>
+  <data name="K#0CK_tblIzvodiStavkiTipNaKnizenjeKontoK#0" xml:space="preserve">
+    <value>Не соодветствува типот на книжење со конто или деловен партнер.</value>
+  </data>
+  <data name="K#0CK_tblOSPeriodiMeseciFormatK#0" xml:space="preserve">
+    <value>Форматот за некој од месеците не е добар.</value>
+  </data>
+  <data name="K#0CK_tblOSPeriodiMeseciOdPomalDoK#0" xml:space="preserve">
+    <value>Почетниот месец мора да биде помал или еднаков од крајниот</value>
+  </data>
+  <data name="K#0CK_tblOSPeriodiRedosledK#0" xml:space="preserve">
+    <value>Невозможен редослед на операции.</value>
+  </data>
+  <data name="K#0DatumotNePripadjaNaOvojPeriodK#0" xml:space="preserve">
+    <value>Датумот не припаѓа на отворениот период.</value>
+  </data>
+  <data name="K#0FK_tblOSAmortizaciskiGrupi_tblFirmaK#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели</value>
+  </data>
+  <data name="K#0FK_tblOSGrupiOS_tblFirmaK#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели</value>
+  </data>
+  <data name="K#0FK_tblOSOsnovniSredstvaNabavna_tblKontenPlanK#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели</value>
+  </data>
+  <data name="K#0FK_tblOSOsnovniSredstvaOtpisana_tblKontenPlan1K#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели</value>
+  </data>
+  <data name="K#0FK_tblOSOsnovniSredstva_tblFirmaK#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели</value>
+  </data>
+  <data name="K#0FK_tblOSOsnovniSredstva_tblOSGrupiOSK#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели</value>
+  </data>
+  <data name="K#0FK_tblOSOsnovniSredstva_tblPartneriK#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели</value>
+  </data>
+  <data name="K#0FK_tblOSStatusOS_tblOSAmortizaciskiGrupiK#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели.</value>
+  </data>
+  <data name="K#0FK_tblOSStatusOS_tblOSOsnovniSredstvaK#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели</value>
+  </data>
+  <data name="K#0FK_tblOSStatusOS_tblOSPeriodiK#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели.</value>
+  </data>
+  <data name="K#0FK_tblOSStatusOS_tblTrosokCentriK#0" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели.</value>
+  </data>
+  <data name="K#0IX_tblDokumentiVidDokumentIDPartnerIDDokumentBrojK#0" xml:space="preserve">
+    <value>Овој број на документ е веќе внесен за овој деловен партнер.</value>
+  </data>
+  <data name="K#0IX_tblIzvodiFirmaIDSopstveniSmetkiIDIzvodBrojK#0" xml:space="preserve">
+    <value>Овој број на извод веќе постои за оваа сметка.</value>
+  </data>
+  <data name="K#0IX_tblPlacanjaDokumentiIzvodiDokumentIDKnigaSKIDK#0" xml:space="preserve">
+    <value>Овој ред е веќе распределен.</value>
+  </data>
+  <data name="K#0KontotoEBlokiranoK#0" xml:space="preserve">
+    <value>Внесеното конто е блокирано!</value>
+  </data>
+  <data name="K#0Ne smee da se editiraat starite periodiK#0" xml:space="preserve">
+    <value>Не може да се едитираат старите периоди.</value>
+  </data>
+  <data name="K#0NeispravenPocetenMesecK#0" xml:space="preserve">
+    <value>Почетниот месец на периодот не е веднаш по крајниот месец од претходниот период.</value>
+  </data>
+  <data name="K#0NepostoeckaAGK#0" xml:space="preserve">
+    <value>Амортизациската група не постои.</value>
+  </data>
+  <data name="K#0NepostoeckoTMK#0" xml:space="preserve">
+    <value>Трошковното место не постои.</value>
+  </data>
+  <data name="K#0NesoodvetenPartnerK#0" xml:space="preserve">
+    <value>Деловниот партнер не е соодветен со типот на книжење во контната шема.</value>
+  </data>
+  <data name="K#0NevozmozenStatusK#0" xml:space="preserve">
+    <value>Овој статус е невозможен.</value>
+  </data>
+  <data name="K#0NezatvorenPeriodOSK#0" xml:space="preserve">
+    <value>Не е затворен претходниот период.</value>
+  </data>
+  <data name="K#0NovonabaveniteVekjeKnizeniK#0" xml:space="preserve">
+    <value>Новонабавените основни средства се веќе книжени за овој период.</value>
+  </data>
+  <data name="K#0OperaciiteSeVekjeZapocnatiK#0" xml:space="preserve">
+    <value>Операциите се веќе започнати.</value>
+  </data>
+  <data name="K#0OperacijataOtpisEVekjeSprovedenaK#0" xml:space="preserve">
+    <value>Операцијата отпис е веќе спроведена.</value>
+  </data>
+  <data name="K#0OtpisotVekjeKnizenK#0" xml:space="preserve">
+    <value>Отписот е веќе книжен за овој период.</value>
+  </data>
+  <data name="K#0PartnerotEBlokiranK#0" xml:space="preserve">
+    <value>Овој партнер е блокиран.</value>
+  </data>
+  <data name="K#0PartnerotEVnesenKontnaSemaK#0" xml:space="preserve">
+    <value>Деловниот партнер не треба да биде внесен, бидејќи не е потребен за овој вид на документ.</value>
+  </data>
+  <data name="K#0PartnerotNeEVnesenKontnaSemaK#0" xml:space="preserve">
+    <value>Деловниот партнер мора да биде внесен, бидејќи е потребен за овој вид на документ.</value>
+  </data>
+  <data name="K#0PeriodotEVekjeZatvorenK#0" xml:space="preserve">
+    <value>Периодот е веќе затворен.</value>
+  </data>
+  <data name="K#0ProfitCentarBlokiranK#0" xml:space="preserve">
+    <value>Профит центарот е блокиран</value>
+  </data>
+  <data name="K#0RelacijataMegutblPlacanjaDokumentiIzvodiItblKnigaSKeNarusenaK#0" xml:space="preserve">
+    <value>Релацијата помеѓу табелите е нарушена</value>
+  </data>
+  <data name="K#0RevalorizacijataVekjeKnizenaK#0" xml:space="preserve">
+    <value>Ревалоризацијата е веќе книжена за овој период.</value>
+  </data>
+  <data name="K#0SaldoDokument&lt;0K#0" xml:space="preserve">
+    <value>Постои документ со салдо &lt; 0.</value>
+  </data>
+  <data name="K#0SaldoIzvod&lt;0K#0" xml:space="preserve">
+    <value>Постои ставка од извод со салдо &lt; 0.</value>
+  </data>
+  <data name="K#0SifraAGEdinstvenaK#0" xml:space="preserve">
+    <value>Шифрата на амортизациските групи мора да биде единствена!</value>
+  </data>
+  <data name="K#0SifraGrupiOSEdinstvenaK#0" xml:space="preserve">
+    <value>Шифрата на групата на основни средства мора да биде единствена!</value>
+  </data>
+  <data name="K#0SifraOSEdinstvenaK#0" xml:space="preserve">
+    <value>Шифрата на основното средство мора да биде единствена!</value>
+  </data>
+  <data name="K#0TrosokCentarBlokiranK#0" xml:space="preserve">
+    <value>Трошок центарот е блокиран.</value>
+  </data>
+  <data name="K#0VeceKnizenDokumentK#0" xml:space="preserve">
+    <value>Документот е веќе книжен.</value>
+  </data>
+  <data name="K#0VeceKnizenIzvodK#0" xml:space="preserve">
+    <value>Изводот е веќе книжен.</value>
+  </data>
+  <data name="K#0ZaOvojDokumentImaPlakjnjaKoiTrebaDaBidatOtstranetiK#0" xml:space="preserve">
+    <value>Постојат внесени плќања за овој документ доколку сакате да го сторнирате потребано е да ги одстраните</value>
+  </data>
+  <data name="K#OsnovnotoSredstvoEVekjeOtpisanoK#0" xml:space="preserve">
+    <value>Основното средство е веќе отпишано.</value>
+  </data>
+  <data name="K#PrethodniotStatusNeEDobarK#0" xml:space="preserve">
+    <value>Претходниот статус на основното средство не одговара на новиот.</value>
+  </data>
+  <data name="K0#FK_tblOSKnigaOS_tblFirmaK0#" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели.</value>
+  </data>
+  <data name="K0#FK_tblOSKnigaOS_tblOSAmortizaciskiGrupiK0#" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели.</value>
+  </data>
+  <data name="K0#FK_tblOSKnigaOS_tblOSOsnovniSredstvaK0#" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели.</value>
+  </data>
+  <data name="K0#FK_tblOSKnigaOS_tblTrosokCentriK0#" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели.</value>
+  </data>
+  <data name="K0#FK_tblOSKnigaOS_tblUsersK0#" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели.</value>
+  </data>
+  <data name="K0#FK_tblOSKoeficientiRevalorizacija_tblOSPeriodiK0#" xml:space="preserve">
+    <value>Операцијата не може да се изврши, записот се користи во други табели.</value>
+  </data>
+  <data name="KADD" xml:space="preserve">
+    <value>Доспеани документи добавувач</value>
+  </data>
+  <data name="KADK" xml:space="preserve">
+    <value>Доспеани документи купувач</value>
+  </data>
+  <data name="KARD" xml:space="preserve">
+    <value>Картичка на добавувач</value>
+  </data>
+  <data name="KARK" xml:space="preserve">
+    <value>Картичка на купувач</value>
+  </data>
+  <data name="KnizenjeVoNalog" xml:space="preserve">
+    <value>Книжењето ќе биде сочувано во наведениот налог.</value>
+  </data>
+  <data name="KodNaTransakcija" xml:space="preserve">
+    <value>Трансакциски код</value>
+  </data>
+  <data name="Koeficientite se uspesno vneseni" xml:space="preserve">
+    <value>Кумулативните коефициенти се успешно внесени.</value>
+  </data>
+  <data name="Konfiguracija" xml:space="preserve">
+    <value>Кофигурација на одредена колона</value>
+  </data>
+  <data name="konfiguracijaNaKoloni" xml:space="preserve">
+    <value>Кофигурација на приказ на колони</value>
+  </data>
+  <data name="KontoNePostoi" xml:space="preserve">
+    <value>Внесеното конто не постои!</value>
+  </data>
+  <data name="KULB" xml:space="preserve">
+    <value>Курсна листа</value>
+  </data>
+  <data name="labelBaseSaldoOS" xml:space="preserve">
+    <value>Сегашна вредност:</value>
+  </data>
+  <data name="labelVkupnoDolguvaOS" xml:space="preserve">
+    <value>Набавна вредност:</value>
+  </data>
+  <data name="labelVkupnoPobaruvaOS" xml:space="preserve">
+    <value>Отпишана вредност:</value>
+  </data>
+  <data name="LogoviteSessiteIkonfiguraciiteNaformiteKjeBidatIzbrisani" xml:space="preserve">
+    <value>Сесиите, логовите и конфигурациите за секоја форма ќе бидат избришани , апликацијата ќе се исклучи</value>
+  </data>
+  <data name="meniKonzervacija" xml:space="preserve">
+    <value>Конзервација</value>
+  </data>
+  <data name="meniOtpis" xml:space="preserve">
+    <value>Отпис</value>
+  </data>
+  <data name="meniPustanjeVoUpotreba" xml:space="preserve">
+    <value>Пуштање во употреба</value>
+  </data>
+  <data name="Minus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MMAB" xml:space="preserve">
+    <value>Артикли</value>
+  </data>
+  <data name="MMBB" xml:space="preserve">
+    <value>Брендови</value>
+  </data>
+  <data name="MMCN" xml:space="preserve">
+    <value>Ценовник</value>
+  </data>
+  <data name="MMCT" xml:space="preserve">
+    <value>Царински тарифи</value>
+  </data>
+  <data name="MMEM" xml:space="preserve">
+    <value>Единечни мерки</value>
+  </data>
+  <data name="MMGB" xml:space="preserve">
+    <value>Групи на артикли</value>
+  </data>
+  <data name="MMKG" xml:space="preserve">
+    <value>Каталошки групи</value>
+  </data>
+  <data name="MMOB" xml:space="preserve">
+    <value>Објекти</value>
+  </data>
+  <data name="MMPA" xml:space="preserve">
+    <value>Подгрупи на артикли</value>
+  </data>
+  <data name="MMSA" xml:space="preserve">
+    <value>Статуси на артикли</value>
+  </data>
+  <data name="MMTA" xml:space="preserve">
+    <value>Типови на артикли</value>
+  </data>
+  <data name="MMTO" xml:space="preserve">
+    <value>Типови на објекти</value>
+  </data>
+  <data name="MoraDaGiZatvoriteSiteFormi" xml:space="preserve">
+    <value>Мора да ги затворите сите форми пред ја напуштите апликацијата.</value>
+  </data>
+  <data name="MoraPrvoDaSeSocuvaPopolnetegiSitePolinja" xml:space="preserve">
+    <value>Мора да се пополнат сите полиња пред да го напуштите овој таб.</value>
+  </data>
+  <data name="NalogotNeEPronajden" xml:space="preserve">
+    <value>Налогот не е пронајден!</value>
+  </data>
+  <data name="NapustanjeTabKojNeDozvolen" xml:space="preserve">
+    <value>Овој таб не е активиран.</value>
+  </data>
+  <data name="NastanaGreskaPriKnzenjetoOdbravtePogresenPartner" xml:space="preserve">
+    <value>Партнерот не е правилно внесен или контото е избришано.</value>
+  </data>
+  <data name="NastanaGreskaPriStorniranjeNaDokumentot:" xml:space="preserve">
+    <value>Настана грешка при сторнирање на документот : </value>
+  </data>
+  <data name="NastanaGreskaPriStorniranjeNaIzvodot:" xml:space="preserve">
+    <value>Настана грешка при сторнирање на изводот : </value>
+  </data>
+  <data name="Ne" xml:space="preserve">
+    <value>Не</value>
+  </data>
+  <data name="NeDozvolenoDaSeKniziInaKupuvacInaDobavuvac" xml:space="preserve">
+    <value>Не е дозволено истовремено книжење во книга на купувачи и книга на добавувачи.</value>
+  </data>
+  <data name="NeEZadovolenUslovotZaTipNaPartner" xml:space="preserve">
+    <value>Условот за тип на партнер не е задоволен.</value>
+  </data>
+  <data name="NemaDefiniranoKonstruktorNaEditForma" xml:space="preserve">
+    <value>Формата за едит не правилно конструирана.</value>
+  </data>
+  <data name="NemaEditForma" xml:space="preserve">
+    <value>Формата за едитирање не е пронајдена.</value>
+  </data>
+  <data name="NemaOdbrano" xml:space="preserve">
+    <value>Нема одбрано (Сите)</value>
+  </data>
+  <data name="NemaPodatociZaDadeniteFiltri" xml:space="preserve">
+    <value>Нема податоци за дадените филтри.</value>
+  </data>
+  <data name="NemaPodatociZaKnizenje" xml:space="preserve">
+    <value>Нема ниту едно основно средство кое може да се прокнижи!</value>
+  </data>
+  <data name="NematePrivilegii" xml:space="preserve">
+    <value>Немате доволно привилегии за пристап на оваа форма!</value>
+  </data>
+  <data name="NemateSelektiranoNituEdenDokument" xml:space="preserve">
+    <value>Не потврдивте ниту еден документ.</value>
+  </data>
+  <data name="NemateSelektiranoNituEdenIzvod" xml:space="preserve">
+    <value>Немате селектирано ниту еден документ.</value>
+  </data>
+  <data name="NemozeteDaVneseteKoeficientZaPeriodKojNeEotvoren" xml:space="preserve">
+    <value>Не можете да внесете коефициенти за период кој не е отворен.</value>
+  </data>
+  <data name="NePostoiOtvorenPeriodZaOS" xml:space="preserve">
+    <value>Не постои отворен период за основните средства, ве молиме отворете нов период</value>
+  </data>
+  <data name="NepravilenFilter" xml:space="preserve">
+    <value>Внесовте неправилен филтер!</value>
+  </data>
+  <data name="NevalidenKodNaForma" xml:space="preserve">
+    <value>Кодот што го внесовте не е валиден.</value>
+  </data>
+  <data name="Novonabaveni" xml:space="preserve">
+    <value>Новонабавени</value>
+  </data>
+  <data name="ObrabotiSelektirani" xml:space="preserve">
+    <value>Обработете ги потврдените ставки</value>
+  </data>
+  <data name="Od:" xml:space="preserve">
+    <value>Од:</value>
+  </data>
+  <data name="OdbranataValutataEistaSoVasataValuta" xml:space="preserve">
+    <value>Одбраната валута е иста со вашата валута.</value>
+  </data>
+  <data name="OKAR" xml:space="preserve">
+    <value>Книга на основни средства</value>
+  </data>
+  <data name="OKKR" xml:space="preserve">
+    <value>Коефициенти за ревалоризација</value>
+  </data>
+  <data name="Omileni" xml:space="preserve">
+    <value>Омилени</value>
+  </data>
+  <data name="OperacijataEVekjeIzvrsena" xml:space="preserve">
+    <value>Книжењето е веќе извршено.</value>
+  </data>
+  <data name="OPKK" xml:space="preserve">
+    <value>Преглед на книжења по конта за основни средства</value>
+  </data>
+  <data name="OPKА" xml:space="preserve">
+    <value>Преглед на книжења по амортизациона група</value>
+  </data>
+  <data name="OPKТ" xml:space="preserve">
+    <value>Преглед на книжења по трошковен центар</value>
+  </data>
+  <data name="OSAG" xml:space="preserve">
+    <value>Амортизациски групи</value>
+  </data>
+  <data name="OSKA" xml:space="preserve">
+    <value>Книжење на амортизација</value>
+  </data>
+  <data name="OSKN" xml:space="preserve">
+    <value>Книжење на новонабавени</value>
+  </data>
+  <data name="OSKO" xml:space="preserve">
+    <value>Книжење на отпис</value>
+  </data>
+  <data name="OSKR" xml:space="preserve">
+    <value>Книжење на ревалоризација</value>
+  </data>
+  <data name="OsnovniteSredstva se uspesno proknizeni" xml:space="preserve">
+    <value>Основните средства се успешно прокнижени.</value>
+  </data>
+  <data name="OsnovniteSredstva se uspesno stornirani" xml:space="preserve">
+    <value>Основните средства се успешно сторнирани.</value>
+  </data>
+  <data name="OsnovnotoSredstvoNePostoi" xml:space="preserve">
+    <value>Шифрата на основното средство не постои.</value>
+  </data>
+  <data name="OSOG" xml:space="preserve">
+    <value>Групи на основни средства</value>
+  </data>
+  <data name="OSOS" xml:space="preserve">
+    <value>Шифрарник на основни средства</value>
+  </data>
+  <data name="OSPE" xml:space="preserve">
+    <value>Период за основни средства</value>
+  </data>
+  <data name="OSPU" xml:space="preserve">
+    <value>Статус на основно средство</value>
+  </data>
+  <data name="OSSA" xml:space="preserve">
+    <value>Сторнирање на амортизација</value>
+  </data>
+  <data name="OSSN" xml:space="preserve">
+    <value>Сторнирање на новонабавени</value>
+  </data>
+  <data name="OSSO" xml:space="preserve">
+    <value>Сторнирање на отпис</value>
+  </data>
+  <data name="OSSR" xml:space="preserve">
+    <value>Сторнирање на ревалоризација</value>
+  </data>
+  <data name="Otpis" xml:space="preserve">
+    <value>Отпис</value>
+  </data>
+  <data name="OtvoreniStavkiZaPlakjanje" xml:space="preserve">
+    <value>Отворени ставки</value>
+  </data>
+  <data name="OtvoreniteStavkiSeUpsesnoProknizeni" xml:space="preserve">
+    <value>Отворените ставки се успешно затворени.</value>
+  </data>
+  <data name="OvojParametarNePostoiZaOvojIzvestaj" xml:space="preserve">
+    <value>Овој параметар не постои за овој извештај:  </value>
+  </data>
+  <data name="OvojRedEVekjeRaspredelen" xml:space="preserve">
+    <value>Овој ред е веќе распределен</value>
+  </data>
+  <data name="OvojRedNeEZaRaspredelba" xml:space="preserve">
+    <value>Овој ред не е за распределба.</value>
+  </data>
+  <data name="OznacigiSelektiranite" xml:space="preserve">
+    <value>Потврдете ги одбраните ставки</value>
+  </data>
+  <data name="PARB" xml:space="preserve">
+    <value>Деловни партнери</value>
+  </data>
+  <data name="PartnerotNEPostoi" xml:space="preserve">
+    <value>Партнерот не постои.</value>
+  </data>
+  <data name="Plus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="Pobaruva" xml:space="preserve">
+    <value>Побарува</value>
+  </data>
+  <data name="PoletoTIpNaObjektEzadolzitelno" xml:space="preserve">
+    <value>Типот на објект е задолжителен.</value>
+  </data>
+  <data name="PopolnetegiSitePolinja" xml:space="preserve">
+    <value>Пополнете ги сите полиња.</value>
+  </data>
+  <data name="PostoiDaliSakateProkniziteDokumentiteVoOvojNalog" xml:space="preserve">
+    <value>Овој налог веќе постои, дали сте сигурни дека сакате да ги прокнижите сите документи во него?</value>
+  </data>
+  <data name="PostoiDaliSakateProkniziteIzvoditeVoOvojNalog" xml:space="preserve">
+    <value>Внесениот налог постои , дали сакате да ги додате изводите во овој налог ? </value>
+  </data>
+  <data name="PRCB" xml:space="preserve">
+    <value>Профитни центри</value>
+  </data>
+  <data name="PRCE" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="Prebaruvaj" xml:space="preserve">
+    <value>Пребарувај</value>
+  </data>
+  <data name="Prebaruvanje" xml:space="preserve">
+    <value>Пребарување</value>
+  </data>
+  <data name="PrintGridText" xml:space="preserve">
+    <value>Печати ја оваа табела</value>
+  </data>
+  <data name="ProfitNePostoi" xml:space="preserve">
+    <value>Шифрата на профитниот центар не постои!</value>
+  </data>
+  <data name="ProknizVoOsnovniSredstva" xml:space="preserve">
+    <value>Прокнижи во книга на основни средства</value>
+  </data>
+  <data name="ReportOdGridName" xml:space="preserve">
+    <value>Преглед од моменталната табела</value>
+  </data>
+  <data name="ResetirajPrebaruvanje" xml:space="preserve">
+    <value>Ресетирај пребарување</value>
+  </data>
+  <data name="Revalorizacija" xml:space="preserve">
+    <value>Ревалоризација</value>
+  </data>
+  <data name="ROLB" xml:space="preserve">
+    <value>Ролји</value>
+  </data>
+  <data name="ROLE" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="SaldotoNaSeletiraniteStavkiGoNadminuvaSaldotoNaIzvodot" xml:space="preserve">
+    <value>Салдото на селектираните ставки го надминува салдото на изводот.</value>
+  </data>
+  <data name="SC_EXCEPTION" xml:space="preserve">
+    <value>Шифрата не е исправна.</value>
+  </data>
+  <data name="SelektirajGiSite" xml:space="preserve">
+    <value>Потврдете ги сите ставки</value>
+  </data>
+  <data name="SESB" xml:space="preserve">
+    <value>Преглед на сесии</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Сите</value>
+  </data>
+  <data name="SOOC" xml:space="preserve">
+    <value>Состав на ознаките за АОП</value>
+  </data>
+  <data name="SQLE" xml:space="preserve">
+    <value>Изврши директен Sql во база</value>
+  </data>
+  <data name="SrediDolzinaPodrediKoloni" xml:space="preserve">
+    <value>Подреди ги колоните</value>
+  </data>
+  <data name="stornirajOperacija1" xml:space="preserve">
+    <value>Сторнирај ги новонабавените</value>
+  </data>
+  <data name="stornirajOperacija2" xml:space="preserve">
+    <value>Сторнирај ја амортизацијата</value>
+  </data>
+  <data name="stornirajOperacija3" xml:space="preserve">
+    <value>Сторнирај ја ревалоризацијата</value>
+  </data>
+  <data name="stornirajOperacija4" xml:space="preserve">
+    <value>Сторнирај го отписот</value>
+  </data>
+  <data name="StorniranjetoNaDokumentiteNeZavrsiUspesno" xml:space="preserve">
+    <value>Сторнирањето на документите не заврши успешно</value>
+  </data>
+  <data name="StorniranjetoNaIzvoditeNeZavrsiUspesno" xml:space="preserve">
+    <value>Сторнирањето на изводите не заврши успешно</value>
+  </data>
+  <data name="TDDV" xml:space="preserve">
+    <value>Тарифи за ДДВ</value>
+  </data>
+  <data name="TIPD" xml:space="preserve">
+    <value>Видови на документи</value>
+  </data>
+  <data name="TipNaKnizenje0" xml:space="preserve">
+    <value>Директно</value>
+  </data>
+  <data name="TipNaKnizenje1" xml:space="preserve">
+    <value>Купувач</value>
+  </data>
+  <data name="TipNaKnizenje2" xml:space="preserve">
+    <value>Добавувач</value>
+  </data>
+  <data name="TipNaKnizenje3" xml:space="preserve">
+    <value>Вработен</value>
+  </data>
+  <data name="TipNaKnizenje4" xml:space="preserve">
+    <value>Интерен</value>
+  </data>
+  <data name="TRBR" xml:space="preserve">
+    <value>Заклучен лист</value>
+  </data>
+  <data name="TRNB" xml:space="preserve">
+    <value>Трансакции во главен модул</value>
+  </data>
+  <data name="TRNE" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="TrosokNePostoi" xml:space="preserve">
+    <value>Шифрата на трошковниот центар не постои!</value>
+  </data>
+  <data name="UspesnoIzbrisano" xml:space="preserve">
+    <value>Успешно избришано.</value>
+  </data>
+  <data name="UspesnoZapisnoExcel" xml:space="preserve">
+    <value>Запишувањето во ексел фајлот заврши успешно.</value>
+  </data>
+  <data name="UspesnoZavrseno" xml:space="preserve">
+    <value>Операцијата заврши успешно.</value>
+  </data>
+  <data name="UspesnoZavrsnaSmetka" xml:space="preserve">
+    <value>Подготовката на завршна сметка заврши успешно.</value>
+  </data>
+  <data name="USRB" xml:space="preserve">
+    <value>Корисници</value>
+  </data>
+  <data name="USRE" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="USRI" xml:space="preserve">
+    <value>Превземање на податоци</value>
+  </data>
+  <data name="US_EXCEPTION" xml:space="preserve">
+    <value>Оваа шифра веќе постои.</value>
+  </data>
+  <data name="ValidacijaKontoPrazno" xml:space="preserve">
+    <value>Полето со конто е задолжително!</value>
+  </data>
+  <data name="ValidacijaOpisPrazno" xml:space="preserve">
+    <value>Полето со опис е задолжително!</value>
+  </data>
+  <data name="ValidacijaPobaruvaDolguva" xml:space="preserve">
+    <value>Вредностите и за долгува и за побарвуа не може да бидат 0.</value>
+  </data>
+  <data name="ValidacijaRazlicenProfitenCentar" xml:space="preserve">
+    <value>Трошковниот центар не припаѓа во наведениот профитен центар.</value>
+  </data>
+  <data name="VALP" xml:space="preserve">
+    <value>Валути</value>
+  </data>
+  <data name="VekjeImaKNizenoZaOvojDokumentDaliSakateDaProdolzite" xml:space="preserve">
+    <value>Постојат ставки за овој документ, дали сте сигурни дека сакате да го промените типот? </value>
+  </data>
+  <data name="VkupenIznos" xml:space="preserve">
+    <value>Вкупен износ</value>
+  </data>
+  <data name="VnesForma" xml:space="preserve">
+    <value>Внес</value>
+  </data>
+  <data name="VrednostNedozvolena" xml:space="preserve">
+    <value>Внесената вредност не е дозволена!</value>
+  </data>
+  <data name="ZapisotPostoi" xml:space="preserve">
+    <value>Записот веќе постои, не е дозволен внес на на ист запис.</value>
+  </data>
+  <data name="ZatvoreniStavkiZaPlakjanje" xml:space="preserve">
+    <value>Ставки за затворање</value>
+  </data>
+  <data name="ZatvoreniteStavkiSeUspesnoStornirani" xml:space="preserve">
+    <value>Ставките за затворање се успешно сторнирани.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bssIcon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bssIcon1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

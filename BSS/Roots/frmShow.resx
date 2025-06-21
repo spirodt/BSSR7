@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnIzbrisi.ToolTipText" xml:space="preserve">
+    <value>Бришење на записот</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 25</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIcistiBaraj.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnZatvori.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnEditirajZapis.Name" xml:space="preserve">
+    <value>btnEditirajZapis</value>
+  </data>
+  <data name="txtBaraj.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnEditirajZapis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 25</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Navigator.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bindingNavigatorMoveNextItem.Text" xml:space="preserve">
+    <value>Следен запис</value>
+  </data>
+  <data name="DisplayError.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 30</value>
+  </data>
+  <data name="btnEditirajZapis.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F2</value>
+  </data>
+  <data name="DisplayError.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bindingNavigatorSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="btnOk.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>132, 38</value>
+  </data>
+  <data name="btnIzbrisi.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F6</value>
+  </data>
+  <data name="ImageSearch.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;DisplayError.Parent" xml:space="preserve">
+    <value>PanelFooter</value>
+  </data>
+  <data name="Navigator.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Navigator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingNavigator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 4</value>
+  </data>
+  <data name="bindingNavigatorMovePreviousItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="bindingNavigatorSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="bindingNavigatorSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="PanelFooter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btnIcistiBaraj.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="txtBaraj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 65</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorMovePreviousItem.Name" xml:space="preserve">
+    <value>bindingNavigatorMovePreviousItem</value>
+  </data>
+  <data name="btnZatvori.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnFilter.Text" xml:space="preserve">
+    <value>Филтер (F5)</value>
+  </data>
+  <data name="bindingNavigatorPositionItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DisplayError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 35</value>
+  </data>
+  <data name="btnZatvori.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="toolStripMenuItem2.ToolTipText" xml:space="preserve">
+    <value>Затворање на формата</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNovZapis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorPositionItem.Name" xml:space="preserve">
+    <value>bindingNavigatorPositionItem</value>
+  </data>
+  <data name="&gt;&gt;ImageSearch.Name" xml:space="preserve">
+    <value>ImageSearch</value>
+  </data>
+  <data name="PanelFooter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>819, 48</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorSeparator2.Name" xml:space="preserve">
+    <value>bindingNavigatorSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnBlokiraj.ToolTipText" xml:space="preserve">
+    <value>Блокирање/Одблокирање на тековниот запис</value>
+  </data>
+  <data name="btnPrebaraj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 28</value>
+  </data>
+  <data name="MainPanel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnZatvori.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="PanelFooter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 502</value>
+  </data>
+  <data name="btnFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;errorProviderDole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnPrebaraj.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnIzbrisi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 25</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="PanelFooter.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="ImageSearch.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Navigator.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtBaraj.Type" xml:space="preserve">
+    <value>BssBase.txtBase, BSS, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Meni.Name" xml:space="preserve">
+    <value>Meni</value>
+  </data>
+  <data name="MainPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="bindingNavigatorPositionItem.ToolTipText" xml:space="preserve">
+    <value>Моментална позиција</value>
+  </data>
+  <data name="&gt;&gt;btnIcistiBaraj.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnEditirajZapis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MainPanel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>&amp;Потврди</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorSeparator.Name" xml:space="preserve">
+    <value>bindingNavigatorSeparator</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorCountItem.Name" xml:space="preserve">
+    <value>bindingNavigatorCountItem</value>
+  </data>
+  <data name="bindingNavigatorPositionItem.AccessibleName" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="&gt;&gt;btnBlokiraj.Name" xml:space="preserve">
+    <value>btnBlokiraj</value>
+  </data>
+  <data name="Meni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>817, 29</value>
+  </data>
+  <data name="&gt;&gt;Bsource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorMoveNextItem.Name" xml:space="preserve">
+    <value>bindingNavigatorMoveNextItem</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>PanelFooter</value>
+  </data>
+  <data name="&gt;&gt;PanelHeader.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="MainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="DisplayError.Text" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;DisplayError.Name" xml:space="preserve">
+    <value>DisplayError</value>
+  </data>
+  <data name="btnZatvori.Text" xml:space="preserve">
+    <value>&amp;Затвори</value>
+  </data>
+  <data name="btnIcistiBaraj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 28</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>BssBase.Elements.btnPotvrdi, BSS, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtBaraj.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnIzbrisi.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorMoveLastItem.Name" xml:space="preserve">
+    <value>bindingNavigatorMoveLastItem</value>
+  </data>
+  <data name="&gt;&gt;btnZatvori.Name" xml:space="preserve">
+    <value>btnZatvori</value>
+  </data>
+  <data name="txtBaraj.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bindingNavigatorPositionItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="btnOk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnNovZapis.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmShow</value>
+  </data>
+  <data name="PanelHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnOk.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnPrebaraj.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.Name" xml:space="preserve">
+    <value>btnFilter</value>
+  </data>
+  <data name="&gt;&gt;PanelFooter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtBaraj.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;errorProviderDole.Name" xml:space="preserve">
+    <value>errorProviderDole</value>
+  </data>
+  <data name="bindingNavigatorMoveLastItem.Text" xml:space="preserve">
+    <value>Крај</value>
+  </data>
+  <data name="btnFilter.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F5</value>
+  </data>
+  <data name="&gt;&gt;btnBlokiraj.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>837, 590</value>
+  </data>
+  <data name="btnIzbrisi.Text" xml:space="preserve">
+    <value>Избриши запис (F6)</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Затвори (F4)</value>
+  </data>
+  <data name="&gt;&gt;Meni.Parent" xml:space="preserve">
+    <value>PanelHeader</value>
+  </data>
+  <data name="Meni.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="bindingNavigatorCountItem.ToolTipText" xml:space="preserve">
+    <value>Вкупен број на записи</value>
+  </data>
+  <data name="&gt;&gt;btnPrebaraj.Parent" xml:space="preserve">
+    <value>PanelHeader</value>
+  </data>
+  <data name="btnPrebaraj.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PanelFooter.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PanelHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>819, 95</value>
+  </data>
+  <data name="&gt;&gt;btnIzbrisi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIzbrisi.Name" xml:space="preserve">
+    <value>btnIzbrisi</value>
+  </data>
+  <data name="PanelHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Navigator.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bindingNavigatorPositionItem.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Navigator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>817, 25</value>
+  </data>
+  <data name="bindingNavigatorCountItem.Text" xml:space="preserve">
+    <value>of {0}</value>
+  </data>
+  <data name="btnBlokiraj.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F3</value>
+  </data>
+  <data name="&gt;&gt;ImageSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Navigator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="btnIcistiBaraj.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOk.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;DisplayError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PanelHeader.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnIcistiBaraj.Name" xml:space="preserve">
+    <value>btnIcistiBaraj</value>
+  </data>
+  <data name="DisplayError.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PanelHeader.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bindingNavigatorMovePreviousItem.Text" xml:space="preserve">
+    <value>Претходен запис</value>
+  </data>
+  <data name="PanelHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnIcistiBaraj.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;PanelHeader.Name" xml:space="preserve">
+    <value>PanelHeader</value>
+  </data>
+  <data name="&gt;&gt;txtBaraj.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnPrebaraj.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PanelFooter.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ImageSearch.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnOk.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnZatvori.Parent" xml:space="preserve">
+    <value>PanelFooter</value>
+  </data>
+  <data name="MainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>821, 552</value>
+  </data>
+  <data name="btnIcistiBaraj.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;bindingNavigatorMoveFirstItem.Name" xml:space="preserve">
+    <value>bindingNavigatorMoveFirstItem</value>
+  </data>
+  <data name="btnZatvori.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 38</value>
+  </data>
+  <data name="&gt;&gt;btnPrebaraj.Name" xml:space="preserve">
+    <value>btnPrebaraj</value>
+  </data>
+  <data name="DisplayError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 38</value>
+  </data>
+  <data name="btnPrebaraj.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PanelFooter.Name" xml:space="preserve">
+    <value>PanelFooter</value>
+  </data>
+  <data name="btnZatvori.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;PanelHeader.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PanelFooter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnPrebaraj.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;Bsource.Name" xml:space="preserve">
+    <value>Bsource</value>
+  </data>
+  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="ImageSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 55</value>
+  </data>
+  <data name="Navigator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnZatvori.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Navigator.Parent" xml:space="preserve">
+    <value>PanelHeader</value>
+  </data>
+  <data name="Meni.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BssBase.frmShowTop, BSS, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Navigator.Name" xml:space="preserve">
+    <value>Navigator</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNovZapis.ToolTipText" xml:space="preserve">
+    <value>Додавање на нов запис</value>
+  </data>
+  <data name="btnIcistiBaraj.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnPrebaraj.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;txtBaraj.Parent" xml:space="preserve">
+    <value>PanelHeader</value>
+  </data>
+  <data name="bindingNavigatorMoveFirstItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="btnFilter.ToolTipText" xml:space="preserve">
+    <value>Филтрирање на податоците од табелата</value>
+  </data>
+  <data name="btnOk.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorMoveNextItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnZatvori.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnZatvori.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnZatvori.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnZatvori.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnNovZapis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 25</value>
+  </data>
+  <data name="&gt;&gt;btnIcistiBaraj.Parent" xml:space="preserve">
+    <value>PanelHeader</value>
+  </data>
+  <data name="btnEditirajZapis.Text" xml:space="preserve">
+    <value>Едитирај запис (F2)</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnZatvori.Type" xml:space="preserve">
+    <value>BssBase.Elements.btnZatvori, BSS, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnOk.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAARzSURBVEhLtZVbTBR3GMWH/8zsDihSNht3ZndnF4vG
+        VSEBg1guxVIrmEC2UCMWpFxEobRFHvpu0qRJkybVvjW9GN/apO0DFkRgAVEIReW23K8rpWrbpCQ+kCa2
+        TU6//8yCqIC89CS/zMz3P985M9mHFQAIm+nsHLOcm2fHiGric+LL8L3/7CyzVU0zoXKSCTWLTKhbYsL7
+        f7DwpmBmb1RQMc1iKmfYp3R9VDHFUD7BUDkloWrWivJJBj6j88fEFbr3lI0x4cwcE2r/3EJB6YR4vHRc
+        XDo9KuKDxZ04/6uGul9U1C0Q/Lqo4vx9DfUPVZSOSyD/Y/LXl4yIQnlIDKdsUPD2iFh/Kij+WzaxHbX3
+        VLw7p6JmRkX19BP4c82sitqQiveosPqeDbTD+aZoaJOCEwOi/0S/SJ9vwzkKqJokJhyoGnfgzBr4swGd
+        neWl/CUWNNA+aP9COO7pAv8d0eXvE5eLhqOpQEX5uIqyUYfJyAbQWfmYAxUTKiqpqGzKDv9tEZST+VxB
+        7k3xSm6PiNP01iVjKoopoDi4BchXQkUl9EKltOu/G4mcm+LQUwW5A5LtaJf0d9GoiqIRDSeHVZwc2hor
+        KgrS7qiGU+Majt6U8MbPUhqNzYKsTumdV9slFA5rKKSlgkFi4MU8q7eopDCoIatDRkazdJFGZsGhJuly
+        ersVebSU10/cfTHrqWDWaWRkd+9AaqN0m0ZmQVKDHEgLbEdOn4ac2wS/EivKvxO3Ols7X6uChzryp13G
+        eXa3HUlX5Qc0NgsSr8q3Ulqjkd1Lh2Ge1UZzrvzfdOTOuFY9GTfsSGyUf6cjs8DXIDclNEYho1tDZo+G
+        I0NOY3Eryrmv4/VJl7GXwbmlISVgw74meZ6OzYJd38qfxTfISO3SkEqGzDEXjsy7jYDN9NqijsxxFw7T
+        DsfYJ3yN2xD/kxwgi1ng+ER+M45+5OROp0mXE69M6EgPeYyg9ZS+4MHhUR0HyctJvhHeJbwtFrguWz4i
+        m1lAinG2WkO7WmKQ0O40SCTjwTEdKXPPl6SF4pEc1A0PJ6HD3OH4Ajvh7rL+ta1ATCDraoEQc0H+0NFl
+        xb5OF3xtZOQEKGBER9KC1wjmSgntRsKQDh+F+ozAsJdDz44OK2xfyJcpUib7kwKSPfYHa6+tXcGeG27s
+        bnGZtFLhsAf7p73YP+mFr9+D3QFzvuoh9rS7Ye+Igu2asiAfYgd44LMFgriXpUc3KaEdHQrie3XE0WLc
+        9RdAnpdv6XipMwo72pRHlgKxiEfxvOcKSCJLYrnKj9ZgZECB844Gb68HeocbbgpzXwvT7IJOb+zp0eEd
+        9IB7IxuVB1KeWEIZUWbU+gVccoQ9Ik2+aPnKcl1ZtrQpiOmJhTpAoSNeA+egG7G9dvAzS6vyj/y1tSFi
+        L8ul3SiamSmkjQq4+B9rnHCA+SM+tlxi31n72DVlibUqMGhWltn31iC7ZLkSkSUWk9dHSHQmcFa0WcGK
+        ZMJNJBNHiGNhsokUYhehCC0UyuHh633B/weE/wDI/nang097yAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorMoveFirstItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DisplayError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnIcistiBaraj.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="bindingNavigatorMoveNextItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Meni.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnIcistiBaraj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>761, 57</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorSeparator1.Name" xml:space="preserve">
+    <value>bindingNavigatorSeparator1</value>
+  </data>
+  <data name="&gt;&gt;PanelFooter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnPrebaraj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 57</value>
+  </data>
+  <data name="&gt;&gt;ImageSearch.Parent" xml:space="preserve">
+    <value>PanelHeader</value>
+  </data>
+  <data name="Meni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Name" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>821, 552</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorMovePreviousItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Meni.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnEditirajZapis.ToolTipText" xml:space="preserve">
+    <value>Едитирање на тековниот запис</value>
+  </data>
+  <data name="&gt;&gt;PanelFooter.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="btnPrebaraj.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBaraj.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnZatvori.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>132, 38</value>
+  </data>
+  <data name="btnBlokiraj.Text" xml:space="preserve">
+    <value>Блокирај/Одблокирај (F3)</value>
+  </data>
+  <data name="txtBaraj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorCountItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNovZapis.Name" xml:space="preserve">
+    <value>btnNovZapis</value>
+  </data>
+  <data name="btnIcistiBaraj.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtBaraj.Name" xml:space="preserve">
+    <value>txtBaraj</value>
+  </data>
+  <data name="btnNovZapis.Text" xml:space="preserve">
+    <value>Додади (F1)</value>
+  </data>
+  <data name="&gt;&gt;Meni.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bindingNavigatorMoveLastItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="bindingNavigatorCountItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 22</value>
+  </data>
+  <data name="DisplayError.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MainPanel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBlokiraj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 25</value>
+  </data>
+  <data name="bindingNavigatorMoveFirstItem.Text" xml:space="preserve">
+    <value>Почеток</value>
+  </data>
+  <data name="&gt;&gt;btnPrebaraj.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorMoveLastItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PanelHeader.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Meni.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="Navigator.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ImageSearch.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOk.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorPositionItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ImageSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="DisplayError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 6</value>
+  </data>
+  <data name="&gt;&gt;Meni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="Meni.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>122, 17</value>
+  </metadata>
+  <metadata name="Navigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>40</value>
+  </metadata>
+  <metadata name="Bsource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>201, 17</value>
+  </metadata>
+  <metadata name="errorProviderDole.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>296, 17</value>
+  </metadata>
+</root>

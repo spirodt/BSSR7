@@ -1,0 +1,725 @@
+﻿namespace MMaterijalno.Reporti
+{
+    partial class frmPltObrazec
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            DevExpress.XtraGrid.StyleFormatCondition styleFormatCondition1 = new DevExpress.XtraGrid.StyleFormatCondition();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPltObrazec));
+            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridControl1 = new BssBase.DevGrid();
+            this.pLTobrazecBindingSource = new System.Windows.Forms.BindingSource();
+            this.materijalnoDataSet = new MMaterijalno.MaterijalnoDataSet();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colRbr = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNazivnastokata = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colEdM = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colKolicina = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCena = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colIznos = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colDDVprinabavka = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colStapkanaDDVpropis = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCenaProdazba = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colIznosProdazba = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colVkupnoDDVprodaznavrednost = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colDatumNaPriem = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colBrojNaPriem = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
+            this.btnPotvrdi2 = new BssBase.Elements.btnPotvrdi();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.DatumDo = new DevExpress.XtraScheduler.DateNavigator();
+            this.datumOd = new DevExpress.XtraScheduler.DateNavigator();
+            this.btnPotvrdi1 = new BssBase.Elements.btnPotvrdi();
+            this.btnPecati1 = new BssBase.Elements.btnPecati();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.bsslabel2 = new BssBase.Elements.Bsslabel();
+            this.bsslabel1 = new BssBase.Elements.Bsslabel();
+            this.PriemDO = new BssBase.txtBase();
+            this.PriemOD = new BssBase.txtBase();
+            this.pLTobrazecTableAdapter = new MMaterijalno.MaterijalnoDataSetTableAdapters.PLTobrazecTableAdapter();
+            this.groupBoxBase1 = new BssBase.groupBoxBase();
+            this.rbtnKraj = new System.Windows.Forms.RadioButton();
+            this.rbtnPocetok = new System.Windows.Forms.RadioButton();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pLTobrazecBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.materijalnoDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DatumDo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datumOd)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBoxBase1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // gridColumn4
+            // 
+            this.gridColumn4.Caption = "Цена";
+            this.gridColumn4.FieldName = "Cena";
+            this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum)});
+            this.gridColumn4.Visible = true;
+            this.gridColumn4.VisibleIndex = 1;
+            // 
+            // gridView2
+            // 
+            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn3,
+            this.gridColumn4});
+            this.gridView2.GridControl = this.gridControl1;
+            this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsBehavior.Editable = false;
+            this.gridView2.OptionsPrint.PrintGroupFooter = false;
+            this.gridView2.OptionsPrint.PrintHorzLines = false;
+            this.gridView2.OptionsPrint.PrintVertLines = false;
+            this.gridView2.OptionsPrint.UsePrintStyles = false;
+            this.gridView2.OptionsView.RowAutoHeight = true;
+            this.gridView2.OptionsView.ShowFooter = true;
+            this.gridView2.OptionsView.ShowGroupPanel = false;
+            // 
+            // gridColumn3
+            // 
+            this.gridColumn3.Caption = "Количина";
+            this.gridColumn3.FieldName = "Kolicina";
+            this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum)});
+            this.gridColumn3.Visible = true;
+            this.gridColumn3.VisibleIndex = 0;
+            // 
+            // gridControl1
+            // 
+            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl1.AssemblyToLoad = null;
+            this.gridControl1.DataSource = this.pLTobrazecBindingSource;
+            this.gridControl1.EditForm = null;
+            this.gridControl1.FilterForm = null;
+            this.gridControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.gridControl1.Location = new System.Drawing.Point(0, 252);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.PrimaryKey = null;
+            this.gridControl1.reportCenter = false;
+            this.gridControl1.ReportName = null;
+            this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemLookUpEdit1});
+            this.gridControl1.Size = new System.Drawing.Size(875, 309);
+            this.gridControl1.TabIndex = 8;
+            this.gridControl1.UpdateTable = null;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1,
+            this.gridView2});
+            // 
+            // pLTobrazecBindingSource
+            // 
+            this.pLTobrazecBindingSource.DataMember = "PLTobrazec";
+            this.pLTobrazecBindingSource.DataSource = this.materijalnoDataSet;
+            // 
+            // materijalnoDataSet
+            // 
+            this.materijalnoDataSet.DataSetName = "MaterijalnoDataSet";
+            this.materijalnoDataSet.EnforceConstraints = false;
+            this.materijalnoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // gridView1
+            // 
+            this.gridView1.Appearance.ColumnFilterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.gridView1.Appearance.ColumnFilterButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.gridView1.Appearance.ColumnFilterButton.ForeColor = System.Drawing.Color.White;
+            this.gridView1.Appearance.ColumnFilterButton.Options.UseBackColor = true;
+            this.gridView1.Appearance.ColumnFilterButton.Options.UseBorderColor = true;
+            this.gridView1.Appearance.ColumnFilterButton.Options.UseForeColor = true;
+            this.gridView1.Appearance.ColumnFilterButtonActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.gridView1.Appearance.ColumnFilterButtonActive.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.gridView1.Appearance.ColumnFilterButtonActive.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.ColumnFilterButtonActive.Options.UseBackColor = true;
+            this.gridView1.Appearance.ColumnFilterButtonActive.Options.UseBorderColor = true;
+            this.gridView1.Appearance.ColumnFilterButtonActive.Options.UseForeColor = true;
+            this.gridView1.Appearance.Empty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.gridView1.Appearance.Empty.BackColor2 = System.Drawing.Color.White;
+            this.gridView1.Appearance.Empty.Options.UseBackColor = true;
+            this.gridView1.Appearance.EvenRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.gridView1.Appearance.EvenRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.gridView1.Appearance.EvenRow.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.EvenRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.EvenRow.Options.UseBorderColor = true;
+            this.gridView1.Appearance.EvenRow.Options.UseForeColor = true;
+            this.gridView1.Appearance.FilterCloseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.gridView1.Appearance.FilterCloseButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.gridView1.Appearance.FilterCloseButton.ForeColor = System.Drawing.Color.White;
+            this.gridView1.Appearance.FilterCloseButton.Options.UseBackColor = true;
+            this.gridView1.Appearance.FilterCloseButton.Options.UseBorderColor = true;
+            this.gridView1.Appearance.FilterCloseButton.Options.UseForeColor = true;
+            this.gridView1.Appearance.FilterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.gridView1.Appearance.FilterPanel.BackColor2 = System.Drawing.Color.White;
+            this.gridView1.Appearance.FilterPanel.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.FilterPanel.Options.UseBackColor = true;
+            this.gridView1.Appearance.FilterPanel.Options.UseForeColor = true;
+            this.gridView1.Appearance.FixedLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(133)))), ((int)(((byte)(195)))));
+            this.gridView1.Appearance.FixedLine.Options.UseBackColor = true;
+            this.gridView1.Appearance.FocusedCell.BackColor = System.Drawing.Color.White;
+            this.gridView1.Appearance.FocusedCell.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.FocusedCell.Options.UseBackColor = true;
+            this.gridView1.Appearance.FocusedCell.Options.UseForeColor = true;
+            this.gridView1.Appearance.FocusedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(109)))), ((int)(((byte)(189)))));
+            this.gridView1.Appearance.FocusedRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(139)))), ((int)(((byte)(206)))));
+            this.gridView1.Appearance.FocusedRow.ForeColor = System.Drawing.Color.White;
+            this.gridView1.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.FocusedRow.Options.UseBorderColor = true;
+            this.gridView1.Appearance.FocusedRow.Options.UseForeColor = true;
+            this.gridView1.Appearance.FooterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.gridView1.Appearance.FooterPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.gridView1.Appearance.FooterPanel.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.FooterPanel.Options.UseBackColor = true;
+            this.gridView1.Appearance.FooterPanel.Options.UseBorderColor = true;
+            this.gridView1.Appearance.FooterPanel.Options.UseForeColor = true;
+            this.gridView1.Appearance.GroupButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.gridView1.Appearance.GroupButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.gridView1.Appearance.GroupButton.Options.UseBackColor = true;
+            this.gridView1.Appearance.GroupButton.Options.UseBorderColor = true;
+            this.gridView1.Appearance.GroupFooter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.gridView1.Appearance.GroupFooter.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.gridView1.Appearance.GroupFooter.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.GroupFooter.Options.UseBackColor = true;
+            this.gridView1.Appearance.GroupFooter.Options.UseBorderColor = true;
+            this.gridView1.Appearance.GroupFooter.Options.UseForeColor = true;
+            this.gridView1.Appearance.GroupPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.gridView1.Appearance.GroupPanel.BackColor2 = System.Drawing.Color.White;
+            this.gridView1.Appearance.GroupPanel.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.GroupPanel.Options.UseBackColor = true;
+            this.gridView1.Appearance.GroupPanel.Options.UseForeColor = true;
+            this.gridView1.Appearance.GroupRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.gridView1.Appearance.GroupRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(216)))), ((int)(((byte)(254)))));
+            this.gridView1.Appearance.GroupRow.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.GroupRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.GroupRow.Options.UseBorderColor = true;
+            this.gridView1.Appearance.GroupRow.Options.UseForeColor = true;
+            this.gridView1.Appearance.HeaderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
+            this.gridView1.Appearance.HeaderPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
+            this.gridView1.Appearance.HeaderPanel.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.HeaderPanel.Options.UseBackColor = true;
+            this.gridView1.Appearance.HeaderPanel.Options.UseBorderColor = true;
+            this.gridView1.Appearance.HeaderPanel.Options.UseForeColor = true;
+            this.gridView1.Appearance.HideSelectionRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(170)))), ((int)(((byte)(225)))));
+            this.gridView1.Appearance.HideSelectionRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.gridView1.Appearance.HideSelectionRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.gridView1.Appearance.HideSelectionRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.HideSelectionRow.Options.UseBorderColor = true;
+            this.gridView1.Appearance.HideSelectionRow.Options.UseForeColor = true;
+            this.gridView1.Appearance.HorzLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.gridView1.Appearance.HorzLine.Options.UseBackColor = true;
+            this.gridView1.Appearance.OddRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.gridView1.Appearance.OddRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.gridView1.Appearance.OddRow.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.OddRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.OddRow.Options.UseBorderColor = true;
+            this.gridView1.Appearance.OddRow.Options.UseForeColor = true;
+            this.gridView1.Appearance.Preview.Font = new System.Drawing.Font("Verdana", 7.5F);
+            this.gridView1.Appearance.Preview.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.gridView1.Appearance.Preview.Options.UseFont = true;
+            this.gridView1.Appearance.Preview.Options.UseForeColor = true;
+            this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.gridView1.Appearance.Row.ForeColor = System.Drawing.Color.Black;
+            this.gridView1.Appearance.Row.Options.UseBackColor = true;
+            this.gridView1.Appearance.Row.Options.UseForeColor = true;
+            this.gridView1.Appearance.RowSeparator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.gridView1.Appearance.RowSeparator.BackColor2 = System.Drawing.Color.White;
+            this.gridView1.Appearance.RowSeparator.Options.UseBackColor = true;
+            this.gridView1.Appearance.SelectedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(155)))), ((int)(((byte)(215)))));
+            this.gridView1.Appearance.SelectedRow.ForeColor = System.Drawing.Color.White;
+            this.gridView1.Appearance.SelectedRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.SelectedRow.Options.UseForeColor = true;
+            this.gridView1.Appearance.TopNewRow.BackColor = System.Drawing.Color.White;
+            this.gridView1.Appearance.TopNewRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.VertLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(184)))), ((int)(((byte)(251)))));
+            this.gridView1.Appearance.VertLine.Options.UseBackColor = true;
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colRbr,
+            this.colNazivnastokata,
+            this.colEdM,
+            this.colKolicina,
+            this.colCena,
+            this.colIznos,
+            this.colDDVprinabavka,
+            this.colStapkanaDDVpropis,
+            this.colCenaProdazba,
+            this.colIznosProdazba,
+            this.colVkupnoDDVprodaznavrednost,
+            this.colDatumNaPriem,
+            this.colBrojNaPriem});
+            this.gridView1.DetailTabHeaderLocation = DevExpress.XtraTab.TabHeaderLocation.Bottom;
+            styleFormatCondition1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            styleFormatCondition1.Appearance.Options.UseBackColor = true;
+            this.gridView1.FormatConditions.AddRange(new DevExpress.XtraGrid.StyleFormatCondition[] {
+            styleFormatCondition1});
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GroupPanelText = "Повлечи колона тука за да групираш по неа";
+            this.gridView1.GroupSummary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "DDVIznos5", null, " ДДВ 5%={0:0.##} ден."),
+            new DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "DDVIznos18", null, " ДДВ 5%={0:0.##} ден."),
+            new DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "DDVIznos", null, "Вкупно ДДВ ={0:0.##} ден."),
+            new DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "IznosBezDDV", null, "Износ без ддв={0:0.##} ден."),
+            new DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "IznosSoDDV", null, "Износ со ддв={0:0.##} ден.")});
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.AutoExpandAllGroups = true;
+            this.gridView1.OptionsBehavior.Editable = false;
+            this.gridView1.OptionsDetail.AllowZoomDetail = false;
+            this.gridView1.OptionsDetail.AutoZoomDetail = true;
+            this.gridView1.OptionsDetail.EnableDetailToolTip = true;
+            this.gridView1.OptionsDetail.ShowDetailTabs = false;
+            this.gridView1.OptionsPrint.ExpandAllDetails = true;
+            this.gridView1.OptionsPrint.PrintDetails = true;
+            this.gridView1.OptionsPrint.PrintFilterInfo = true;
+            this.gridView1.OptionsPrint.PrintGroupFooter = false;
+            this.gridView1.OptionsPrint.UsePrintStyles = false;
+            this.gridView1.OptionsView.EnableAppearanceEvenRow = true;
+            this.gridView1.OptionsView.EnableAppearanceOddRow = true;
+            this.gridView1.OptionsView.RowAutoHeight = true;
+            this.gridView1.OptionsView.ShowAutoFilterRow = true;
+            this.gridView1.OptionsView.ShowFooter = true;
+            this.gridView1.PaintStyleName = "Office2003";
+            // 
+            // colRbr
+            // 
+            this.colRbr.Caption = "Реден број ";
+            this.colRbr.FieldName = "Rbr";
+            this.colRbr.Name = "colRbr";
+            this.colRbr.Visible = true;
+            this.colRbr.VisibleIndex = 0;
+            // 
+            // colNazivnastokata
+            // 
+            this.colNazivnastokata.Caption = "Назив на стоката";
+            this.colNazivnastokata.FieldName = "Naziv na stokata";
+            this.colNazivnastokata.Name = "colNazivnastokata";
+            this.colNazivnastokata.Visible = true;
+            this.colNazivnastokata.VisibleIndex = 1;
+            // 
+            // colEdM
+            // 
+            this.colEdM.Caption = "ЕдМ";
+            this.colEdM.FieldName = "EdM";
+            this.colEdM.Name = "colEdM";
+            this.colEdM.Visible = true;
+            this.colEdM.VisibleIndex = 2;
+            // 
+            // colKolicina
+            // 
+            this.colKolicina.Caption = "Количина";
+            this.colKolicina.FieldName = "Kolicina";
+            this.colKolicina.Name = "colKolicina";
+            this.colKolicina.Visible = true;
+            this.colKolicina.VisibleIndex = 3;
+            // 
+            // colCena
+            // 
+            this.colCena.Caption = "Набавна Вредност( Цена ) ";
+            this.colCena.FieldName = "Cena";
+            this.colCena.Name = "colCena";
+            this.colCena.Visible = true;
+            this.colCena.VisibleIndex = 4;
+            // 
+            // colIznos
+            // 
+            this.colIznos.Caption = "Набавна Вредност ( Износ )";
+            this.colIznos.FieldName = "Iznos";
+            this.colIznos.Name = "colIznos";
+            this.colIznos.Visible = true;
+            this.colIznos.VisibleIndex = 5;
+            // 
+            // colDDVprinabavka
+            // 
+            this.colDDVprinabavka.Caption = "ДДВ при набавка";
+            this.colDDVprinabavka.FieldName = "DDV pri nabavka";
+            this.colDDVprinabavka.Name = "colDDVprinabavka";
+            this.colDDVprinabavka.Visible = true;
+            this.colDDVprinabavka.VisibleIndex = 6;
+            // 
+            // colStapkanaDDVpropis
+            // 
+            this.colStapkanaDDVpropis.Caption = "Стапка на ДДВ пропис";
+            this.colStapkanaDDVpropis.FieldName = "Stapka na DDV propis";
+            this.colStapkanaDDVpropis.Name = "colStapkanaDDVpropis";
+            this.colStapkanaDDVpropis.Visible = true;
+            this.colStapkanaDDVpropis.VisibleIndex = 7;
+            // 
+            // colCenaProdazba
+            // 
+            this.colCenaProdazba.Caption = "Продажна вредност ( Цена )";
+            this.colCenaProdazba.FieldName = "Cena Prodazba";
+            this.colCenaProdazba.Name = "colCenaProdazba";
+            this.colCenaProdazba.Visible = true;
+            this.colCenaProdazba.VisibleIndex = 8;
+            // 
+            // colIznosProdazba
+            // 
+            this.colIznosProdazba.Caption = "Продажна вредност ( Износ )";
+            this.colIznosProdazba.FieldName = "Iznos Prodazba";
+            this.colIznosProdazba.Name = "colIznosProdazba";
+            this.colIznosProdazba.OptionsColumn.ReadOnly = true;
+            this.colIznosProdazba.Visible = true;
+            this.colIznosProdazba.VisibleIndex = 9;
+            // 
+            // colVkupnoDDVprodaznavrednost
+            // 
+            this.colVkupnoDDVprodaznavrednost.Caption = "Продажна вредност ( Вкупно ДДВ )";
+            this.colVkupnoDDVprodaznavrednost.FieldName = "VkupnoDDV prodazna vrednost";
+            this.colVkupnoDDVprodaznavrednost.Name = "colVkupnoDDVprodaznavrednost";
+            this.colVkupnoDDVprodaznavrednost.OptionsColumn.ReadOnly = true;
+            this.colVkupnoDDVprodaznavrednost.Visible = true;
+            this.colVkupnoDDVprodaznavrednost.VisibleIndex = 10;
+            // 
+            // colDatumNaPriem
+            // 
+            this.colDatumNaPriem.Caption = "Датум на прием";
+            this.colDatumNaPriem.FieldName = "DatumNaPriem";
+            this.colDatumNaPriem.Name = "colDatumNaPriem";
+            // 
+            // colBrojNaPriem
+            // 
+            this.colBrojNaPriem.Caption = "Број на прием";
+            this.colBrojNaPriem.FieldName = "BrojNaPriem";
+            this.colBrojNaPriem.Name = "colBrojNaPriem";
+            // 
+            // repositoryItemLookUpEdit1
+            // 
+            this.repositoryItemLookUpEdit1.AutoHeight = false;
+            this.repositoryItemLookUpEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemLookUpEdit1.DisplayMember = "Broj";
+            this.repositoryItemLookUpEdit1.Name = "repositoryItemLookUpEdit1";
+            this.repositoryItemLookUpEdit1.ValueMember = "ID";
+            // 
+            // btnPotvrdi2
+            // 
+            this.btnPotvrdi2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPotvrdi2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnPotvrdi2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnPotvrdi2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
+            this.btnPotvrdi2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnPotvrdi2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPotvrdi2.Image = ((System.Drawing.Image)(resources.GetObject("btnPotvrdi2.Image")));
+            this.btnPotvrdi2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPotvrdi2.Location = new System.Drawing.Point(195, 131);
+            this.btnPotvrdi2.MinimumSize = new System.Drawing.Size(132, 38);
+            this.btnPotvrdi2.Name = "btnPotvrdi2";
+            this.btnPotvrdi2.Size = new System.Drawing.Size(246, 38);
+            this.btnPotvrdi2.TabIndex = 6;
+            this.btnPotvrdi2.Text = "Прикажи според број на прием";
+            this.btnPotvrdi2.UseVisualStyleBackColor = false;
+            this.btnPotvrdi2.Click += new System.EventHandler(this.btnPotvrdi2_Click);
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(658, 20);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(119, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Датум на почеток до :";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(444, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Датум на почеток од :";
+            // 
+            // DatumDo
+            // 
+            this.DatumDo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DatumDo.DateTime = new System.DateTime(2013, 12, 11, 0, 0, 0, 0);
+            this.DatumDo.HotDate = null;
+            this.DatumDo.Location = new System.Drawing.Point(661, 38);
+            this.DatumDo.Name = "DatumDo";
+            this.DatumDo.CellPadding = new System.Windows.Forms.Padding(2);
+            this.DatumDo.Size = new System.Drawing.Size(208, 175);
+            this.DatumDo.TabIndex = 3;
+            // 
+            // datumOd
+            // 
+            this.datumOd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.datumOd.DateTime = new System.DateTime(2013, 12, 11, 0, 0, 0, 0);
+            this.datumOd.HotDate = null;
+            this.datumOd.Location = new System.Drawing.Point(447, 38);
+            this.datumOd.Name = "datumOd";
+            this.datumOd.CellPadding = new System.Windows.Forms.Padding(2);
+            this.datumOd.Size = new System.Drawing.Size(208, 175);
+            this.datumOd.TabIndex = 2;
+            // 
+            // btnPotvrdi1
+            // 
+            this.btnPotvrdi1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPotvrdi1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnPotvrdi1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnPotvrdi1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
+            this.btnPotvrdi1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnPotvrdi1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPotvrdi1.Image = ((System.Drawing.Image)(resources.GetObject("btnPotvrdi1.Image")));
+            this.btnPotvrdi1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPotvrdi1.Location = new System.Drawing.Point(195, 175);
+            this.btnPotvrdi1.MinimumSize = new System.Drawing.Size(132, 38);
+            this.btnPotvrdi1.Name = "btnPotvrdi1";
+            this.btnPotvrdi1.Size = new System.Drawing.Size(246, 38);
+            this.btnPotvrdi1.TabIndex = 1;
+            this.btnPotvrdi1.Text = "Прикажи по според датум на прием";
+            this.btnPotvrdi1.UseVisualStyleBackColor = false;
+            this.btnPotvrdi1.Click += new System.EventHandler(this.btnPotvrdi1_Click);
+            // 
+            // btnPecati1
+            // 
+            this.btnPecati1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnPecati1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnPecati1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
+            this.btnPecati1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnPecati1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPecati1.Image = ((System.Drawing.Image)(resources.GetObject("btnPecati1.Image")));
+            this.btnPecati1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPecati1.Location = new System.Drawing.Point(6, 175);
+            this.btnPecati1.MaximumSize = new System.Drawing.Size(132, 38);
+            this.btnPecati1.MinimumSize = new System.Drawing.Size(132, 38);
+            this.btnPecati1.Name = "btnPecati1";
+            this.btnPecati1.Size = new System.Drawing.Size(132, 38);
+            this.btnPecati1.TabIndex = 0;
+            this.btnPecati1.Text = "Печати";
+            this.btnPecati1.UseVisualStyleBackColor = false;
+            this.btnPecati1.Click += new System.EventHandler(this.btnPecati1_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.groupBoxBase1);
+            this.groupBox1.Controls.Add(this.bsslabel2);
+            this.groupBox1.Controls.Add(this.bsslabel1);
+            this.groupBox1.Controls.Add(this.PriemDO);
+            this.groupBox1.Controls.Add(this.PriemOD);
+            this.groupBox1.Controls.Add(this.btnPotvrdi2);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.DatumDo);
+            this.groupBox1.Controls.Add(this.datumOd);
+            this.groupBox1.Controls.Add(this.btnPotvrdi1);
+            this.groupBox1.Controls.Add(this.btnPecati1);
+            this.groupBox1.Location = new System.Drawing.Point(0, 19);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(875, 227);
+            this.groupBox1.TabIndex = 7;
+            this.groupBox1.TabStop = false;
+            // 
+            // bsslabel2
+            // 
+            this.bsslabel2.AutoSize = true;
+            this.bsslabel2.Location = new System.Drawing.Point(164, 73);
+            this.bsslabel2.Name = "bsslabel2";
+            this.bsslabel2.Size = new System.Drawing.Size(25, 13);
+            this.bsslabel2.TabIndex = 10;
+            this.bsslabel2.Text = "До:";
+            // 
+            // bsslabel1
+            // 
+            this.bsslabel1.AutoSize = true;
+            this.bsslabel1.Location = new System.Drawing.Point(28, 73);
+            this.bsslabel1.Name = "bsslabel1";
+            this.bsslabel1.Size = new System.Drawing.Size(24, 13);
+            this.bsslabel1.TabIndex = 9;
+            this.bsslabel1.Text = "Од:";
+            // 
+            // PriemDO
+            // 
+            this.PriemDO.AssemblyStr = null;
+            this.PriemDO.C_FillWithZeros = false;
+            this.PriemDO.C_OnlyNumbers = true;
+            this.PriemDO.C_RegEx = false;
+            this.PriemDO.C_ShowRedOnLeaveIfEmpty = false;
+            this.PriemDO.ColumnName1 = null;
+            this.PriemDO.ColumnName2 = null;
+            this.PriemDO.ColumnName3 = null;
+            this.PriemDO.ColumnName4 = null;
+            this.PriemDO.ColumnName5 = null;
+            this.PriemDO.ColumnName6 = null;
+            this.PriemDO.ColumnName7 = null;
+            this.PriemDO.daliCetiri = false;
+            this.PriemDO.Format = null;
+            this.PriemDO.formToOpen = null;
+            this.PriemDO.iscistiGreenNaLeave = false;
+            this.PriemDO.KoristiFilterNaDatasource = false;
+            this.PriemDO.Location = new System.Drawing.Point(195, 70);
+            this.PriemDO.MakedonskiJazik = false;
+            this.PriemDO.MinLength = 0;
+            this.PriemDO.Name = "PriemDO";
+            this.PriemDO.PopulateOtherFields = false;
+            this.PriemDO.regularExpression = null;
+            this.PriemDO.SelektrijaNaFokus = false;
+            this.PriemDO.Size = new System.Drawing.Size(100, 20);
+            this.PriemDO.TabIndex = 8;
+            // 
+            // PriemOD
+            // 
+            this.PriemOD.AssemblyStr = null;
+            this.PriemOD.C_FillWithZeros = false;
+            this.PriemOD.C_OnlyNumbers = true;
+            this.PriemOD.C_RegEx = false;
+            this.PriemOD.C_ShowRedOnLeaveIfEmpty = false;
+            this.PriemOD.ColumnName1 = null;
+            this.PriemOD.ColumnName2 = null;
+            this.PriemOD.ColumnName3 = null;
+            this.PriemOD.ColumnName4 = null;
+            this.PriemOD.ColumnName5 = null;
+            this.PriemOD.ColumnName6 = null;
+            this.PriemOD.ColumnName7 = null;
+            this.PriemOD.daliCetiri = false;
+            this.PriemOD.Format = null;
+            this.PriemOD.formToOpen = null;
+            this.PriemOD.iscistiGreenNaLeave = false;
+            this.PriemOD.KoristiFilterNaDatasource = false;
+            this.PriemOD.Location = new System.Drawing.Point(58, 70);
+            this.PriemOD.MakedonskiJazik = false;
+            this.PriemOD.MinLength = 0;
+            this.PriemOD.Name = "PriemOD";
+            this.PriemOD.PopulateOtherFields = false;
+            this.PriemOD.regularExpression = null;
+            this.PriemOD.SelektrijaNaFokus = false;
+            this.PriemOD.Size = new System.Drawing.Size(100, 20);
+            this.PriemOD.TabIndex = 7;
+            // 
+            // pLTobrazecTableAdapter
+            // 
+            this.pLTobrazecTableAdapter.ClearBeforeFill = true;
+            // 
+            // groupBoxBase1
+            // 
+            this.groupBoxBase1.Controls.Add(this.rbtnKraj);
+            this.groupBoxBase1.Controls.Add(this.rbtnPocetok);
+            this.groupBoxBase1.Location = new System.Drawing.Point(6, 8);
+            this.groupBoxBase1.Name = "groupBoxBase1";
+            this.groupBoxBase1.Size = new System.Drawing.Size(331, 56);
+            this.groupBoxBase1.TabIndex = 19;
+            this.groupBoxBase1.TabStop = false;
+            this.groupBoxBase1.Text = "Приеми од";
+            // 
+            // rbtnKraj
+            // 
+            this.rbtnKraj.AutoSize = true;
+            this.rbtnKraj.Location = new System.Drawing.Point(168, 19);
+            this.rbtnKraj.Name = "rbtnKraj";
+            this.rbtnKraj.Size = new System.Drawing.Size(134, 17);
+            this.rbtnKraj.TabIndex = 1;
+            this.rbtnKraj.Text = "Типови на документи";
+            this.rbtnKraj.UseVisualStyleBackColor = true;
+            // 
+            // rbtnPocetok
+            // 
+            this.rbtnPocetok.AutoSize = true;
+            this.rbtnPocetok.Checked = true;
+            this.rbtnPocetok.Location = new System.Drawing.Point(25, 19);
+            this.rbtnPocetok.Name = "rbtnPocetok";
+            this.rbtnPocetok.Size = new System.Drawing.Size(137, 17);
+            this.rbtnPocetok.TabIndex = 0;
+            this.rbtnPocetok.TabStop = true;
+            this.rbtnPocetok.Text = "Прием  на материјали";
+            this.rbtnPocetok.UseVisualStyleBackColor = true;
+            // 
+            // frmPltObrazec
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(875, 573);
+            this.Controls.Add(this.gridControl1);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "frmPltObrazec";
+            this.Text = "ПЛТ Образец";
+            this.Controls.SetChildIndex(this.groupBox1, 0);
+            this.Controls.SetChildIndex(this.gridControl1, 0);
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pLTobrazecBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.materijalnoDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DatumDo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datumOd)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBoxBase1.ResumeLayout(false);
+            this.groupBoxBase1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
+        private BssBase.DevGrid gridControl1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit repositoryItemLookUpEdit1;
+        private BssBase.Elements.btnPotvrdi btnPotvrdi2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private DevExpress.XtraScheduler.DateNavigator DatumDo;
+        private DevExpress.XtraScheduler.DateNavigator datumOd;
+        private BssBase.Elements.btnPotvrdi btnPotvrdi1;
+        private BssBase.Elements.btnPecati btnPecati1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.BindingSource pLTobrazecBindingSource;
+        private MaterijalnoDataSet materijalnoDataSet;
+        private DevExpress.XtraGrid.Columns.GridColumn colRbr;
+        private DevExpress.XtraGrid.Columns.GridColumn colNazivnastokata;
+        private DevExpress.XtraGrid.Columns.GridColumn colEdM;
+        private DevExpress.XtraGrid.Columns.GridColumn colKolicina;
+        private DevExpress.XtraGrid.Columns.GridColumn colCena;
+        private DevExpress.XtraGrid.Columns.GridColumn colIznos;
+        private DevExpress.XtraGrid.Columns.GridColumn colDDVprinabavka;
+        private DevExpress.XtraGrid.Columns.GridColumn colStapkanaDDVpropis;
+        private DevExpress.XtraGrid.Columns.GridColumn colCenaProdazba;
+        private DevExpress.XtraGrid.Columns.GridColumn colIznosProdazba;
+        private DevExpress.XtraGrid.Columns.GridColumn colVkupnoDDVprodaznavrednost;
+        private DevExpress.XtraGrid.Columns.GridColumn colDatumNaPriem;
+        private DevExpress.XtraGrid.Columns.GridColumn colBrojNaPriem;
+        private MaterijalnoDataSetTableAdapters.PLTobrazecTableAdapter pLTobrazecTableAdapter;
+        private BssBase.Elements.Bsslabel bsslabel2;
+        private BssBase.Elements.Bsslabel bsslabel1;
+        private BssBase.txtBase PriemDO;
+        private BssBase.txtBase PriemOD;
+        private BssBase.groupBoxBase groupBoxBase1;
+        private System.Windows.Forms.RadioButton rbtnKraj;
+        private System.Windows.Forms.RadioButton rbtnPocetok;
+    }
+}

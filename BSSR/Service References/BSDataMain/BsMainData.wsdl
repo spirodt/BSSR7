@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UspesnaKonekcija">
+        <s:complexType />
+      </s:element>
+      <s:element name="UspesnaKonekcijaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UspesnaKonekcijaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZapisiPriem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="KodNaPC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZapisiPriemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ZapisiPriemResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZapisiNaracki">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="KodNaPC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZapisiNarackiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ZapisiNarackiResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZapisiFakturi">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="KodNaPC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZapisiFakturiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ZapisiFakturiResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZapisiDokumenti">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="KodNaPC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZapisiDokumentiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ZapisiDokumentiResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZapisiSmetki">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="KodNaPC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZapisiSmetkiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ZapisiSmetkiResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZapisaniPriemi">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KodNaPC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZapisaniPriemiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetZapisaniPriemiResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaliImaKnizenoDokument">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DokumentID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaliImaKnizenoDokumentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DaliImaKnizenoDokumentResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaliImaKnizenoPriem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="tblPriemID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaliImaKnizenoPriemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DaliImaKnizenoPriemResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaliImaKnizenoFaktura">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="tblFakturaID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaliImaKnizenoFakturaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DaliImaKnizenoFakturaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaliImaKnizenoSmetka">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="tblSmetkaID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaliImaKnizenoSmetkaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DaliImaKnizenoSmetkaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZapisaniDokumenti">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KodNaPC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZapisaniDokumentiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetZapisaniDokumentiResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZapisaniFakturi">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KodNaPC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZapisaniFakturiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetZapisaniFakturiResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZapisaniSmetki">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KodNaPC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZapisaniSmetkiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetZapisaniSmetkiResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UspesnaKonekcijaSoapIn">
+    <wsdl:part name="parameters" element="tns:UspesnaKonekcija" />
+  </wsdl:message>
+  <wsdl:message name="UspesnaKonekcijaSoapOut">
+    <wsdl:part name="parameters" element="tns:UspesnaKonekcijaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZapisiPriemSoapIn">
+    <wsdl:part name="parameters" element="tns:ZapisiPriem" />
+  </wsdl:message>
+  <wsdl:message name="ZapisiPriemSoapOut">
+    <wsdl:part name="parameters" element="tns:ZapisiPriemResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZapisiNarackiSoapIn">
+    <wsdl:part name="parameters" element="tns:ZapisiNaracki" />
+  </wsdl:message>
+  <wsdl:message name="ZapisiNarackiSoapOut">
+    <wsdl:part name="parameters" element="tns:ZapisiNarackiResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZapisiFakturiSoapIn">
+    <wsdl:part name="parameters" element="tns:ZapisiFakturi" />
+  </wsdl:message>
+  <wsdl:message name="ZapisiFakturiSoapOut">
+    <wsdl:part name="parameters" element="tns:ZapisiFakturiResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZapisiDokumentiSoapIn">
+    <wsdl:part name="parameters" element="tns:ZapisiDokumenti" />
+  </wsdl:message>
+  <wsdl:message name="ZapisiDokumentiSoapOut">
+    <wsdl:part name="parameters" element="tns:ZapisiDokumentiResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZapisiSmetkiSoapIn">
+    <wsdl:part name="parameters" element="tns:ZapisiSmetki" />
+  </wsdl:message>
+  <wsdl:message name="ZapisiSmetkiSoapOut">
+    <wsdl:part name="parameters" element="tns:ZapisiSmetkiResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetZapisaniPriemiSoapIn">
+    <wsdl:part name="parameters" element="tns:GetZapisaniPriemi" />
+  </wsdl:message>
+  <wsdl:message name="GetZapisaniPriemiSoapOut">
+    <wsdl:part name="parameters" element="tns:GetZapisaniPriemiResponse" />
+  </wsdl:message>
+  <wsdl:message name="DaliImaKnizenoDokumentSoapIn">
+    <wsdl:part name="parameters" element="tns:DaliImaKnizenoDokument" />
+  </wsdl:message>
+  <wsdl:message name="DaliImaKnizenoDokumentSoapOut">
+    <wsdl:part name="parameters" element="tns:DaliImaKnizenoDokumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="DaliImaKnizenoPriemSoapIn">
+    <wsdl:part name="parameters" element="tns:DaliImaKnizenoPriem" />
+  </wsdl:message>
+  <wsdl:message name="DaliImaKnizenoPriemSoapOut">
+    <wsdl:part name="parameters" element="tns:DaliImaKnizenoPriemResponse" />
+  </wsdl:message>
+  <wsdl:message name="DaliImaKnizenoFakturaSoapIn">
+    <wsdl:part name="parameters" element="tns:DaliImaKnizenoFaktura" />
+  </wsdl:message>
+  <wsdl:message name="DaliImaKnizenoFakturaSoapOut">
+    <wsdl:part name="parameters" element="tns:DaliImaKnizenoFakturaResponse" />
+  </wsdl:message>
+  <wsdl:message name="DaliImaKnizenoSmetkaSoapIn">
+    <wsdl:part name="parameters" element="tns:DaliImaKnizenoSmetka" />
+  </wsdl:message>
+  <wsdl:message name="DaliImaKnizenoSmetkaSoapOut">
+    <wsdl:part name="parameters" element="tns:DaliImaKnizenoSmetkaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetZapisaniDokumentiSoapIn">
+    <wsdl:part name="parameters" element="tns:GetZapisaniDokumenti" />
+  </wsdl:message>
+  <wsdl:message name="GetZapisaniDokumentiSoapOut">
+    <wsdl:part name="parameters" element="tns:GetZapisaniDokumentiResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetZapisaniFakturiSoapIn">
+    <wsdl:part name="parameters" element="tns:GetZapisaniFakturi" />
+  </wsdl:message>
+  <wsdl:message name="GetZapisaniFakturiSoapOut">
+    <wsdl:part name="parameters" element="tns:GetZapisaniFakturiResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetZapisaniSmetkiSoapIn">
+    <wsdl:part name="parameters" element="tns:GetZapisaniSmetki" />
+  </wsdl:message>
+  <wsdl:message name="GetZapisaniSmetkiSoapOut">
+    <wsdl:part name="parameters" element="tns:GetZapisaniSmetkiResponse" />
+  </wsdl:message>
+  <wsdl:portType name="BsMainDataSoap">
+    <wsdl:operation name="UspesnaKonekcija">
+      <wsdl:input message="tns:UspesnaKonekcijaSoapIn" />
+      <wsdl:output message="tns:UspesnaKonekcijaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiPriem">
+      <wsdl:input message="tns:ZapisiPriemSoapIn" />
+      <wsdl:output message="tns:ZapisiPriemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiNaracki">
+      <wsdl:input message="tns:ZapisiNarackiSoapIn" />
+      <wsdl:output message="tns:ZapisiNarackiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiFakturi">
+      <wsdl:input message="tns:ZapisiFakturiSoapIn" />
+      <wsdl:output message="tns:ZapisiFakturiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiDokumenti">
+      <wsdl:input message="tns:ZapisiDokumentiSoapIn" />
+      <wsdl:output message="tns:ZapisiDokumentiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiSmetki">
+      <wsdl:input message="tns:ZapisiSmetkiSoapIn" />
+      <wsdl:output message="tns:ZapisiSmetkiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniPriemi">
+      <wsdl:input message="tns:GetZapisaniPriemiSoapIn" />
+      <wsdl:output message="tns:GetZapisaniPriemiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoDokument">
+      <wsdl:input message="tns:DaliImaKnizenoDokumentSoapIn" />
+      <wsdl:output message="tns:DaliImaKnizenoDokumentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoPriem">
+      <wsdl:input message="tns:DaliImaKnizenoPriemSoapIn" />
+      <wsdl:output message="tns:DaliImaKnizenoPriemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoFaktura">
+      <wsdl:input message="tns:DaliImaKnizenoFakturaSoapIn" />
+      <wsdl:output message="tns:DaliImaKnizenoFakturaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoSmetka">
+      <wsdl:input message="tns:DaliImaKnizenoSmetkaSoapIn" />
+      <wsdl:output message="tns:DaliImaKnizenoSmetkaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniDokumenti">
+      <wsdl:input message="tns:GetZapisaniDokumentiSoapIn" />
+      <wsdl:output message="tns:GetZapisaniDokumentiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniFakturi">
+      <wsdl:input message="tns:GetZapisaniFakturiSoapIn" />
+      <wsdl:output message="tns:GetZapisaniFakturiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniSmetki">
+      <wsdl:input message="tns:GetZapisaniSmetkiSoapIn" />
+      <wsdl:output message="tns:GetZapisaniSmetkiSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BsMainDataSoap" type="tns:BsMainDataSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UspesnaKonekcija">
+      <soap:operation soapAction="http://tempuri.org/UspesnaKonekcija" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiPriem">
+      <soap:operation soapAction="http://tempuri.org/ZapisiPriem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiNaracki">
+      <soap:operation soapAction="http://tempuri.org/ZapisiNaracki" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiFakturi">
+      <soap:operation soapAction="http://tempuri.org/ZapisiFakturi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiDokumenti">
+      <soap:operation soapAction="http://tempuri.org/ZapisiDokumenti" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiSmetki">
+      <soap:operation soapAction="http://tempuri.org/ZapisiSmetki" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniPriemi">
+      <soap:operation soapAction="http://tempuri.org/GetZapisaniPriemi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoDokument">
+      <soap:operation soapAction="http://tempuri.org/DaliImaKnizenoDokument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoPriem">
+      <soap:operation soapAction="http://tempuri.org/DaliImaKnizenoPriem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoFaktura">
+      <soap:operation soapAction="http://tempuri.org/DaliImaKnizenoFaktura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoSmetka">
+      <soap:operation soapAction="http://tempuri.org/DaliImaKnizenoSmetka" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniDokumenti">
+      <soap:operation soapAction="http://tempuri.org/GetZapisaniDokumenti" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniFakturi">
+      <soap:operation soapAction="http://tempuri.org/GetZapisaniFakturi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniSmetki">
+      <soap:operation soapAction="http://tempuri.org/GetZapisaniSmetki" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BsMainDataSoap12" type="tns:BsMainDataSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UspesnaKonekcija">
+      <soap12:operation soapAction="http://tempuri.org/UspesnaKonekcija" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiPriem">
+      <soap12:operation soapAction="http://tempuri.org/ZapisiPriem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiNaracki">
+      <soap12:operation soapAction="http://tempuri.org/ZapisiNaracki" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiFakturi">
+      <soap12:operation soapAction="http://tempuri.org/ZapisiFakturi" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiDokumenti">
+      <soap12:operation soapAction="http://tempuri.org/ZapisiDokumenti" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZapisiSmetki">
+      <soap12:operation soapAction="http://tempuri.org/ZapisiSmetki" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniPriemi">
+      <soap12:operation soapAction="http://tempuri.org/GetZapisaniPriemi" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoDokument">
+      <soap12:operation soapAction="http://tempuri.org/DaliImaKnizenoDokument" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoPriem">
+      <soap12:operation soapAction="http://tempuri.org/DaliImaKnizenoPriem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoFaktura">
+      <soap12:operation soapAction="http://tempuri.org/DaliImaKnizenoFaktura" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaliImaKnizenoSmetka">
+      <soap12:operation soapAction="http://tempuri.org/DaliImaKnizenoSmetka" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniDokumenti">
+      <soap12:operation soapAction="http://tempuri.org/GetZapisaniDokumenti" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniFakturi">
+      <soap12:operation soapAction="http://tempuri.org/GetZapisaniFakturi" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZapisaniSmetki">
+      <soap12:operation soapAction="http://tempuri.org/GetZapisaniSmetki" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BsMainData">
+    <wsdl:port name="BsMainDataSoap" binding="tns:BsMainDataSoap">
+      <soap:address location="http://localhost:57480/BsMainData.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BsMainDataSoap12" binding="tns:BsMainDataSoap12">
+      <soap12:address location="http://localhost:57480/BsMainData.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

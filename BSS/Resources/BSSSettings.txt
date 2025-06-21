@@ -1,0 +1,662 @@
+[
+	{
+		"Setting": "AdminPc",
+		"Value": "3",
+		"Info": "AdminPc"
+	},
+	{
+		"Setting": "AKTIVENOBJEKTDONASTARTZADOKUMENTI",
+		"Value": "0",
+		"Info": "AKTIVENOBJEKTDONASTARTZADOKUMENTI"
+	},
+	{
+		"Setting": "AKTIVENOBJEKTODNASTARTZADOKUMENTI",
+		"Value": "3",
+		"Info": "AKTIVENOBJEKTODNASTARTZADOKUMENTI"
+	},
+	{
+		"Setting": "AKTIVENTABNALOGIN",
+		"Value": "1",
+		"Info": "AKTIVENTABNALOGIN"
+	},
+	{
+		"Setting": "ArtikalTextColor",
+		"Value": "Black",
+		"Info": "ArtikalTextColor"
+	},
+	{
+		"Setting": "BACKUPNASTARTUP",
+		"Value": "true",
+		"Info": "BACKUPNASTARTUP"
+	},
+	{
+		"Setting": "brojNaArtikliDisplay",
+		"Value": "25",
+		"Info": "brojNaArtikliDisplay"
+	},
+	{
+		"Setting": "brojNaArtikliDisplayMalku",
+		"Value": "20",
+		"Info": "brojNaArtikliDisplayMalku"
+	},
+	{
+		"Setting": "BROJNADENOVIZAVALUTA",
+		"Value": "7",
+		"Info": "BROJNADENOVIZAVALUTA"
+	},
+	{
+		"Setting": "BROJNADUGMINJANAARTIKAL",
+		"Value": "4",
+		"Info": "BROJNADUGMINJANAARTIKAL"
+	},
+	{
+		"Setting": "BrojNaKopcinjaSmetka",
+		"Value": "4",
+		"Info": "BrojNaKopcinjaSmetka"
+	},
+	{
+		"Setting": "BrojNaKopiiZaKujna",
+		"Value": "1",
+		"Info": "BrojNaKopiiZaKujna"
+	},
+	{
+		"Setting": "BrojNaKopiiZaSank",
+		"Value": "1",
+		"Info": "BrojNaKopiiZaSank"
+	},
+	{
+		"Setting": "BrojNaKopiiZaSmetka",
+		"Value": "1",
+		"Info": "BrojNaKopiiZaSmetka"
+	},
+	{
+		"Setting": "BSMAINSERVICEENDPOINT",
+		"Value": "eni-pc3:3217",
+		"Info": "BSMAINSERVICEENDPOINT"
+	},
+	{
+		"Setting": "COMPORTZAFISKALNA",
+		"Value": "3",
+		"Info": "COMPORTZAFISKALNA"
+	},
+	{
+		"Setting": "CONNECTIONTIMEOUT",
+		"Value": "60000",
+		"Info": "CONNECTIONTIMEOUT"
+	},
+	{
+		"Setting": "CURRENTVERSION",
+		"Value": "5.2021.2310.503",
+		"Info": "CURRENTVERSION"
+	},
+	{
+		"Setting": "Database",
+		"Value": "BL_2021",
+		"Info": "Database"
+	},
+	{
+		"Setting": "DATABASENAMETOSYNC_API",
+		"Value": "Cementara2019",
+		"Info": "DATABASENAMETOSYNC_API"
+	},
+	{
+		"Setting": "DatabasePassword",
+		"Value": "bmlydmFuYQ==",
+		"Info": "DatabasePassword"
+	},
+	{
+		"Setting": "DatabaseUserName",
+		"Value": "c3Bpcm8=",
+		"Info": "DatabaseUserName"
+	},
+	{
+		"Setting": "DAYSTODISPLAYDATA",
+		"Value": "5",
+		"Info": "DAYSTODISPLAYDATA"
+	},
+	{
+		"Setting": "DEFAULTJAZIK",
+		"Value": "0",
+		"Info": "DEFAULTJAZIK"
+	},
+	{
+		"Setting": "DefaultPrinter",
+		"Value": "Microsoft XPS Document Writer",
+		"Info": "DefaultPrinter"
+	},
+	{
+		"Setting": "DISABLEDUSR",
+		"Value": "User",
+		"Info": "DISABLEDUSR"
+	},
+	{
+		"Setting": "EnableMail",
+		"Value": "1",
+		"Info": "EnableMail"
+	},
+	{
+		"Setting": "ENABLEMAILNASMETKA",
+		"Value": "1",
+		"Info": "ENABLEMAILNASMETKA"
+	},
+	{
+		"Setting": "ENABLESERVERAPI_SINHRONIZACIJA",
+		"Value": "false",
+		"Info": "ENABLESERVERAPI_SINHRONIZACIJA"
+	},
+	{
+		"Setting": "ENABLEWCFSENDOFDOCUMENTS",
+		"Value": "false",
+		"Info": "ENABLEWCFSENDOFDOCUMENTS"
+	},
+	{
+		"Setting": "EXCEPTIONTOMAIL",
+		"Value": "TRUE",
+		"Info": "EXCEPTIONTOMAIL"
+	},
+	{
+		"Setting": "ExprotPath",
+		"Value": "C:\\BSS_DEV\\Prenos\\",
+		"Info": "ExprotPath"
+	},
+	{
+		"Setting": "FIrmaID",
+		"Value": "1",
+		"Info": "FIrmaID"
+	},
+	{
+		"Setting": "FONTSIZEARTIKAL",
+		"Value": "13",
+		"Info": "FONTSIZEARTIKAL"
+	},
+	{
+		"Setting": "FONTSIZEDUGMINJAGORE",
+		"Value": "13",
+		"Info": "FONTSIZEDUGMINJAGORE"
+	},
+	{
+		"Setting": "fontZaVnesKasa",
+		"Value": "18",
+		"Info": "fontZaVnesKasa"
+	},
+	{
+		"Setting": "GMailFrom",
+		"Value": "spirote.dt@gmail.com",
+		"Info": "GMailFrom"
+	},
+	{
+		"Setting": "GMailPass",
+		"Value": "d2N6dW96bHJicm13ZG1ydA==",
+		"Info": "GMailPass"
+	},
+	{
+		"Setting": "GMailPrikaziPoraka",
+		"Value": "true",
+		"Info": "GMailPrikaziPoraka"
+	},
+	{
+		"Setting": "GMailTo",
+		"Value": "spirodt@bssr.mk",
+		"Info": "GMailTo"
+	},
+	{
+		"Setting": "GMailToZaSmetki",
+		"Value": "spirodt@bssr.mk",
+		"Info": "GMailToZaSmetki"
+	},
+	{
+		"Setting": "GMailUserName",
+		"Value": "c3Bpcm90ZS5kdEBnbWFpbC5jb20=",
+		"Info": "GMailUserName"
+	},
+	{
+		"Setting": "IMAGEALIGMENTARTIKAL",
+		"Value": "4",
+		"Info": "IMAGEALIGMENTARTIKAL"
+	},
+	{
+		"Setting": "IMAGEALIGMENTDUGMINJAGORE",
+		"Value": "3",
+		"Info": "IMAGEALIGMENTDUGMINJAGORE"
+	},
+	{
+		"Setting": "IMAGESPATH",
+		"Value": "C:\\BSS_DEV\\Images\\Images\\zoki",
+		"Info": "IMAGESPATH"
+	},
+	{
+		"Setting": "ImeNaFirma",
+		"Value": "BSSR DEV VERZIJA",
+		"Info": "ImeNaFirma"
+	},
+	{
+		"Setting": "IMENAMOJSERVER",
+		"Value": "ENI3pc",
+		"Info": "IMENAMOJSERVER"
+	},
+	{
+		"Setting": "ISKLUCIPOVEKJEFORMI",
+		"Value": "true",
+		"Info": "ISKLUCIPOVEKJEFORMI"
+	},
+	{
+		"Setting": "KODNAPC",
+		"Value": "ENI3pc",
+		"Info": "KODNAPC"
+	},
+	{
+		"Setting": "KopiiZaSmetkaZaFaktura",
+		"Value": "2",
+		"Info": "KopiiZaSmetkaZaFaktura"
+	},
+	{
+		"Setting": "Kujna",
+		"Value": "0",
+		"Info": "Kujna"
+	},
+	{
+		"Setting": "LASTCHECKFORUPDATEFROM_API",
+		"Value": "2020-06-02 17:22:27",
+		"Info": "LASTCHECKFORUPDATEFROM_API"
+	},
+	{
+		"Setting": "LASTINSERTTOSERVERFROM_API",
+		"Value": "2020-06-02 17:22:27",
+		"Info": "LASTINSERTTOSERVERFROM_API"
+	},
+	{
+		"Setting": "LastUser",
+		"Value": "spiro",
+		"Info": "LastUser"
+	},
+	{
+		"Setting": "LOGIRANJENASESSII",
+		"Value": "false",
+		"Info": "LOGIRANJENASESSII"
+	},
+	{
+		"Setting": "M_HOSTNAME",
+		"Value": "SPIROPC",
+		"Info": "M_HOSTNAME"
+	},
+	{
+		"Setting": "M_ID",
+		"Value": "5",
+		"Info": "M_ID"
+	},
+	{
+		"Setting": "M_IPADDRES",
+		"Value": "192.168.100.2",
+		"Info": "M_IPADDRES"
+	},
+	{
+		"Setting": "M_NUMBER",
+		"Value": "5",
+		"Info": "M_NUMBER"
+	},
+	{
+		"Setting": "M_PCNAME",
+		"Value": "SPIRO",
+		"Info": "M_PCNAME"
+	},
+	{
+		"Setting": "MailNaZatvoranjeNaDen",
+		"Value": "1",
+		"Info": "MailNaZatvoranjeNaDen"
+	},
+	{
+		"Setting": "NELOADIRAJPODATOCINASTARTNAFORMA",
+		"Value": "true",
+		"Info": "NELOADIRAJPODATOCINASTARTNAFORMA"
+	},
+	{
+		"Setting": "NIVELACIJANAKRAJNADEN",
+		"Value": "false",
+		"Info": "NIVELACIJANAKRAJNADEN"
+	},
+	{
+		"Setting": "NOVASMETKANASTARTNAKELNER",
+		"Value": "false",
+		"Info": "NOVASMETKANASTARTNAKELNER"
+	},
+	{
+		"Setting": "OBJEKTID",
+		"Value": "3",
+		"Info": "OBJEKTID"
+	},
+	{
+		"Setting": "PATEKADOLOGO",
+		"Value": "C:\\BSS_DEV\\bssIcon.ico",
+		"Info": "PATEKADOLOGO"
+	},
+	{
+		"Setting": "PecatenjeSoPopust",
+		"Value": "true",
+		"Info": "PecatenjeSoPopust"
+	},
+	{
+		"Setting": "PECATFISKALNABRZOPECATENJE",
+		"Value": "true",
+		"Info": "PECATFISKALNABRZOPECATENJE"
+	},
+	{
+		"Setting": "PECATIA4",
+		"Value": "false",
+		"Info": "PECATIA4"
+	},
+	{
+		"Setting": "PecatiFiskalna",
+		"Value": "true",
+		"Info": "PecatiFiskalna"
+	},
+	{
+		"Setting": "PecatiKasaDirektnoFiskalnaISmetka",
+		"Value": "true",
+		"Info": "PecatiKasaDirektnoFiskalnaISmetka"
+	},
+	{
+		"Setting": "POLEZABARKOD",
+		"Value": "Sifra",
+		"Info": "POLEZABARKOD"
+	},
+	{
+		"Setting": "POLEZASIFRA",
+		"Value": "Sifra",
+		"Info": "POLEZASIFRA"
+	},
+	{
+		"Setting": "PrasajZaFiskalna",
+		"Value": "true",
+		"Info": "PrasajZaFiskalna"
+	},
+	{
+		"Setting": "PRASAJZAFISKALNABRZOPECATENJE",
+		"Value": "true",
+		"Info": "PRASAJZAFISKALNABRZOPECATENJE"
+	},
+	{
+		"Setting": "PrasajZaZatvoranjeNaSmetka",
+		"Value": "false",
+		"Info": "PrasajZaZatvoranjeNaSmetka"
+	},
+	{
+		"Setting": "PRASAJZAZATVORANJENASMETKAKASABRZOPECATENJE",
+		"Value": "false",
+		"Info": "PRASAJZAZATVORANJENASMETKAKASABRZOPECATENJE"
+	},
+	{
+		"Setting": "PREVEDIPORAKAODRESOURCE",
+		"Value": "true",
+		"Info": "PREVEDIPORAKAODRESOURCE"
+	},
+	{
+		"Setting": "PrikaziBiranjeNaTipNaSmetka",
+		"Value": "false",
+		"Info": "PrikaziBiranjeNaTipNaSmetka"
+	},
+	{
+		"Setting": "PRIKAZIDATABAZAIJAZIK",
+		"Value": "true",
+		"Info": "PRIKAZIDATABAZAIJAZIK"
+	},
+	{
+		"Setting": "PrikaziFormaZaKusur",
+		"Value": "true",
+		"Info": "PrikaziFormaZaKusur"
+	},
+	{
+		"Setting": "PRIKAZIFORMAZAKUSURBRZOPECATENJE",
+		"Value": "true",
+		"Info": "PRIKAZIFORMAZAKUSURBRZOPECATENJE"
+	},
+	{
+		"Setting": "PrikaziModulZaKujna",
+		"Value": "false",
+		"Info": "PrikaziModulZaKujna"
+	},
+	{
+		"Setting": "PrikaziTastatura",
+		"Value": "0",
+		"Info": "PrikaziTastatura"
+	},
+	{
+		"Setting": "PrikaziTastaturaLogin",
+		"Value": "0",
+		"Info": "PrikaziTastaturaLogin"
+	},
+	{
+		"Setting": "PrikaziTastaturaSettings",
+		"Value": "0",
+		"Info": "PrikaziTastaturaSettings"
+	},
+	{
+		"Setting": "PrinterZaKujna",
+		"Value": "Microsoft XPS Document Writer",
+		"Info": "PrinterZaKujna"
+	},
+	{
+		"Setting": "PROGRAMDIR",
+		"Value": "C:\\BSS_DEV\\",
+		"Info": "PROGRAMDIR"
+	},
+	{
+		"Setting": "PROKNIZIDOKUMENTI",
+		"Value": "1",
+		"Info": "PROKNIZIDOKUMENTI"
+	},
+	{
+		"Setting": "PROKNIZISMETKI",
+		"Value": "1",
+		"Info": "PROKNIZISMETKI"
+	},
+	{
+		"Setting": "PROVERKAZAPREMALACENA",
+		"Value": "false",
+		"Info": "PROVERKAZAPREMALACENA"
+	},
+	{
+		"Setting": "RAZLICNIBOINAREDICVOGRID",
+		"Value": "N/A",
+		"Info": "RAZLICNIBOINAREDICVOGRID"
+	},
+	{
+		"Setting": "RedenBrojNaJazik",
+		"Value": "0",
+		"Info": "RedenBrojNaJazik"
+	},
+	{
+		"Setting": "SearchIndex",
+		"Value": "3",
+		"Info": "SearchIndex"
+	},
+	{
+		"Setting": "SEARCHWHEREGROUPINDEX",
+		"Value": "0",
+		"Info": "SEARCHWHEREGROUPINDEX"
+	},
+	{
+		"Setting": "Server",
+		"Value": "(local)",
+		"Info": "Server"
+	},
+	{
+		"Setting": "SERVERENABLEVNES_API",
+		"Value": "true",
+		"Info": "SERVERENABLEVNES_API"
+	},
+	{
+		"Setting": "SERVERNAMETOSYNC_API",
+		"Value": "(local)\\SQL",
+		"Info": "SERVERNAMETOSYNC_API"
+	},
+	{
+		"Setting": "SERVERPATH",
+		"Value": "\\Slatkara",
+		"Info": "SERVERPATH"
+	},
+	{
+		"Setting": "SERVERPATHTOSYNC_API",
+		"Value": "http://api.bssr.mk/api/",
+		"Info": "SERVERPATHTOSYNC_API"
+	},
+	{
+		"Setting": "SERVERVERSION",
+		"Value": "N/A",
+		"Info": "SERVERVERSION"
+	},
+	{
+		"Setting": "SifraKupuvac",
+		"Value": "99999",
+		"Info": "SifraKupuvac"
+	},
+	{
+		"Setting": "SIRINANAARTIKAL",
+		"Value": "200",
+		"Info": "SIRINANAARTIKAL"
+	},
+	{
+		"Setting": "sirinaNaBack",
+		"Value": "150",
+		"Info": "sirinaNaBack"
+	},
+	{
+		"Setting": "sirinaNaDugminjaGore",
+		"Value": "150",
+		"Info": "sirinaNaDugminjaGore"
+	},
+	{
+		"Setting": "SMETKAA4DOKUMENTID",
+		"Value": "N/A",
+		"Info": "SMETKAA4DOKUMENTID"
+	},
+	{
+		"Setting": "SOCKETSERVER",
+		"Value": "false",
+		"Info": "SOCKETSERVER"
+	},
+	{
+		"Setting": "SQLPROGRAMDIR",
+		"Value": "N/A",
+		"Info": "SQLPROGRAMDIR"
+	},
+	{
+		"Setting": "SQLSERVERPATH",
+		"Value": "SQL",
+		"Info": "SQLSERVERPATH"
+	},
+	{
+		"Setting": "SQLUPDATEDIR",
+		"Value": "SQL",
+		"Info": "SQLUPDATEDIR"
+	},
+	{
+		"Setting": "STARTCARDREADERD",
+		"Value": "false",
+		"Info": "STARTCARDREADERD"
+	},
+	{
+		"Setting": "TBLOBJEKTID",
+		"Value": "3",
+		"Info": "TBLOBJEKTID"
+	},
+	{
+		"Setting": "TBLOBJEKTIID",
+		"Value": "3",
+		"Info": "TBLOBJEKTIID"
+	},
+	{
+		"Setting": "TEXTALIGMENTARTIKAL",
+		"Value": "8",
+		"Info": "TEXTALIGMENTARTIKAL"
+	},
+	{
+		"Setting": "TEXTALIGMENTDUGMINJAGORE",
+		"Value": "9",
+		"Info": "TEXTALIGMENTDUGMINJAGORE"
+	},
+	{
+		"Setting": "TIPNADOKUMENTIDPRIEM",
+		"Value": "4",
+		"Info": "TIPNADOKUMENTIDPRIEM"
+	},
+	{
+		"Setting": "TIPNADOKUMENTIDZAGENERIRANJENAISPRATNICENESEKNIZI",
+		"Value": "7",
+		"Info": "TIPNADOKUMENTIDZAGENERIRANJENAISPRATNICENESEKNIZI"
+	},
+	{
+		"Setting": "TIPNADOKUMENTIDZAGENERIRANJENAISPRATNICESEKNIZI",
+		"Value": "2",
+		"Info": "TIPNADOKUMENTIDZAGENERIRANJENAISPRATNICESEKNIZI"
+	},
+	{
+		"Setting": "TipNaFiskalna",
+		"Value": "David",
+		"Info": "TipNaFiskalna"
+	},
+	{
+		"Setting": "TIPNAHARTIJAZAPRINTER",
+		"Value": "",
+		"Info": "TIPNAHARTIJAZAPRINTER"
+	},
+	{
+		"Setting": "TipNaPrograma",
+		"Value": "101",
+		"Info": "TipNaPrograma"
+	},
+	{
+		"Setting": "TOPONARTIKLISEARCH",
+		"Value": "30",
+		"Info": "TOPONARTIKLISEARCH"
+	},
+	{
+		"Setting": "UPDATEDIR",
+		"Value": "C:\\BSS_DEV\\Update",
+		"Info": "UPDATEDIR"
+	},
+	{
+		"Setting": "USERANDOBJECTCHECK",
+		"Value": "true",
+		"Info": "USERANDOBJECTCHECK"
+	},
+	{
+		"Setting": "USERID",
+		"Value": "3",
+		"Info": "USERID"
+	},
+	{
+		"Setting": "VERSION",
+		"Value": "5.2021.2310.503",
+		"Info": "VERSION"
+	},
+	{
+		"Setting": "VERSIONBEFOREUPDATE",
+		"Value": "5.2021.2300.175",
+		"Info": "VERSIONBEFOREUPDATE"
+	},
+	{
+		"Setting": "VISINANAARTIKAL",
+		"Value": "120",
+		"Info": "VISINANAARTIKAL"
+	},
+	{
+		"Setting": "VisinaNaDugminjaGore",
+		"Value": "90",
+		"Info": "VisinaNaDugminjaGore"
+	},
+	{
+		"Setting": "VPNNAMESERVER",
+		"Value": "ENI3",
+		"Info": "VPNNAMESERVER"
+	},
+	{
+		"Setting": "ZADOLZITELNOIZBERIPARTNER",
+		"Value": "false",
+		"Info": "ZADOLZITELNOIZBERIPARTNER"
+	},
+	{
+		"Setting": "ZATVORANJENASMETKAODBUTTON",
+		"Value": "false",
+		"Info": "ZATVORANJENASMETKAODBUTTON"
+	}
+]

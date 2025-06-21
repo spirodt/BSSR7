@@ -1,0 +1,32 @@
+﻿CREATE TABLE [dbo].[tblArtikal_NotUsed] (
+    [ID]                        INT             IDENTITY (1, 1) NOT NULL,
+    [Sifra]                     NVARCHAR (20)   NULL,
+    [Naziv]                     NVARCHAR (150)  NOT NULL,
+    [tblDDVStavkaID]            INT             NOT NULL,
+    [PodgrupaID]                INT             NOT NULL,
+    [tblEdinecniMerkiID]        INT             NOT NULL,
+    [AltNaziv]                  NVARCHAR (150)  NULL,
+    [AltSifra]                  NVARCHAR (50)   NULL,
+    [KlucniZborovi]             NVARCHAR (300)  NULL,
+    [NabavnaCena]               DECIMAL (18, 2) NULL,
+    [ProdaznaCena]              DECIMAL (18, 2) NOT NULL,
+    [FirmaID]                   INT             NOT NULL,
+    [Status]                    INT             NULL,
+    [EDMIzlez]                  INT             NULL,
+    [KolicinaT]                 DECIMAL (12, 4) NULL,
+    [MinimalnaKolicinaNaZaliha] DECIMAL (9, 2)  NULL,
+    [RedenBroj]                 INT             NULL,
+    [Barkod1]                   NVARCHAR (50)   NULL,
+    [Barkod2]                   NVARCHAR (50)   NULL,
+    [AltNaziv2]                 NVARCHAR (150)  NULL,
+    [Image]                     NVARCHAR (250)  NULL,
+    [SePecatiVoKujna]           BIT             NULL,
+    [SePacatiNaSank]            BIT             NULL,
+    [DenoviZaGarancija]         INT             NULL,
+    [DomasenProizvod]           BIT             NULL,
+    [CenaNaGolemo]              DECIMAL (18, 2) NULL,
+    [DataVersion]               ROWVERSION      NOT NULL
+);
+
+
+
