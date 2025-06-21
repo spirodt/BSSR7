@@ -404,3 +404,30 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+#my files
+*.sln
+*.csproj
+*.csproj.user
+*.csproj.user.vscode
+*.csproj.user.vscode.json
+*.csproj.user.vscode.json.vscode
+*.csproj.user.vscode.json.vscode.json
+*.csproj.user.vscode.json.vscode.json.vscode
+#my ignore files
+*.ignore
+*.ignore.vscode
+*.ignore.vscode.json
+*.ignore.vscode.json.vscode
+*.ignore.vscode.json.vscode.json
+*.ignore.vscode.json.vscode.json.vscode
+#my ignore files
+*.ignore
+*.ignore.vscode
+#my backup files
+*.backup
+*.backup.vscode
+*.backup.vscode.json
+*.backup.vscode.json.vscode
+*.backup.vscode.json.vscode.json
+*.backup.vscode.json.vscode.json.vscode
+*.bak 

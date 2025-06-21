@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CEF1E9D4-096A-40F0-B701-4A38A86DADA4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MMaterijalno</RootNamespace>
+    <AssemblyName>MMaterijalno</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\AppOut\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\AppOut\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\MMaterijalno.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\AppOut\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>..\BSSR\App\MMaterijalno.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bssIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bin|x86'">
+    <OutputPath>bin\x86\Bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bin|AnyCPU'">
+    <OutputPath>..\AppOut\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\DLL\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\frmElektronskiPriemNaDokumenti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmElektronskiPriemNaDokumenti.Designer.cs">
+      <DependentUpon>frmElektronskiPriemNaDokumenti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInterniDokumenti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInterniDokumenti.Designer.cs">
+      <DependentUpon>frmInterniDokumenti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmIzvodi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmIzvodi.Designer.cs">
+      <DependentUpon>frmIzvodi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmKnizenje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmKnizenje.Designer.cs">
+      <DependentUpon>frmKnizenje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmObrabotkaNaInterniDokumenti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmObrabotkaNaInterniDokumenti.designer.cs">
+      <DependentUpon>frmObrabotkaNaInterniDokumenti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmObrabotkaNaIzvodi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmObrabotkaNaIzvodi.Designer.cs">
+      <DependentUpon>frmObrabotkaNaIzvodi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmObrabotkaNaPriem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmObrabotkaNaPriem.Designer.cs">
+      <DependentUpon>frmObrabotkaNaPriem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Reporti\frmPreglednaDokumentiOdPartner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmPreglednaDokumentiOdPartner.Designer.cs">
+      <DependentUpon>frmPreglednaDokumentiOdPartner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmPregledNaSiteSmetkiGrupirani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmPregledNaSiteSmetkiGrupirani.Designer.cs">
+      <DependentUpon>frmPregledNaSiteSmetkiGrupirani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmPregledNaSiteSmetki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmPregledNaSiteSmetki.Designer.cs">
+      <DependentUpon>frmPregledNaSiteSmetki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmPregledNaSmetkiPoPresmetkovnaEdinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmPregledNaSmetkiPoPresmetkovnaEdinica.Designer.cs">
+      <DependentUpon>frmPregledNaSmetkiPoPresmetkovnaEdinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmPregledNaSmetkiPoPartner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmPregledNaSmetkiPoPartner.Designer.cs">
+      <DependentUpon>frmPregledNaSmetkiPoPartner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmPregledNaZalihaPoKolicina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmPregledNaZalihaPoKolicina.Designer.cs">
+      <DependentUpon>frmPregledNaZalihaPoKolicina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmPregledPoTipNaDokumentZbiren.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmPregledPoTipNaDokumentZbiren.Designer.cs">
+      <DependentUpon>frmPregledPoTipNaDokumentZbiren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmPregledPoTipNaDokument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmPregledPoTipNaDokument.Designer.cs">
+      <DependentUpon>frmPregledPoTipNaDokument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVnesNaPlacanjaZaPartner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVnesNaPlacanjaZaPartner.designer.cs">
+      <DependentUpon>frmVnesNaPlacanjaZaPartner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPriem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPriem.Designer.cs">
+      <DependentUpon>frmPriem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterijalnoDataSet.cs">
+      <DependentUpon>MaterijalnoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MaterijalnoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaterijalnoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\PLTZaPriem.cs">
+      <DependentUpon>PLTZaPriem.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reporti\Predatnica.cs">
+      <DependentUpon>Predatnica.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reporti\SmetkaFaktura.cs">
+      <DependentUpon>SmetkaFaktura.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reporti\Trebovanje.cs">
+      <DependentUpon>Trebovanje.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reporti\Smetka.cs">
+      <DependentUpon>Smetka.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reporti\Revers.cs">
+      <DependentUpon>Revers.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reporti\frmDadenRabatPoDen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmDadenRabatPoDen.Designer.cs">
+      <DependentUpon>frmDadenRabatPoDen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmDnevenPrometPoDen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmDnevenPrometPoDen.Designer.cs">
+      <DependentUpon>frmDnevenPrometPoDen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmPotrosuvackaPoDen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmPotrosuvackaPoDen.Designer.cs">
+      <DependentUpon>frmPotrosuvackaPoDen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\Povratnica.cs">
+      <DependentUpon>Povratnica.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reporti\Prenosnica.cs">
+      <DependentUpon>Prenosnica.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reporti\Ispratnica.cs">
+      <DependentUpon>Ispratnica.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reporti\DefaultDokument.cs">
+      <DependentUpon>DefaultDokument.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reporti\frmETObrazec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmETObrazec.Designer.cs">
+      <DependentUpon>frmETObrazec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmIzvestajPriemi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmIzvestajPriemi.Designer.cs">
+      <DependentUpon>frmIzvestajPriemi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmKartickaNaArtikal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmKartickaNaArtikal.Designer.cs">
+      <DependentUpon>frmKartickaNaArtikal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmPltObrazec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmPltObrazec.Designer.cs">
+      <DependentUpon>frmPltObrazec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmSostojbaCelosnaNaArtikli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmSostojbaCelosnaNaArtikli.Designer.cs">
+      <DependentUpon>frmSostojbaCelosnaNaArtikli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmSostojbaNaArtikli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmSostojbaNaArtikli.Designer.cs">
+      <DependentUpon>frmSostojbaNaArtikli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\frmZarabotka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporti\frmZarabotka.Designer.cs">
+      <DependentUpon>frmZarabotka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporti\Priem.cs">
+      <DependentUpon>Priem.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="_BSSR_2_0DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_BSSR_2_0DataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\frmElektronskiPriemNaDokumenti.resx">
+      <DependentUpon>frmElektronskiPriemNaDokumenti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInterniDokumenti.en-US.resx">
+      <DependentUpon>frmInterniDokumenti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInterniDokumenti.resx">
+      <DependentUpon>frmInterniDokumenti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmIzvodi.resx">
+      <DependentUpon>frmIzvodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmKnizenje.resx">
+      <DependentUpon>frmKnizenje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmObrabotkaNaInterniDokumenti.resx">
+      <DependentUpon>frmObrabotkaNaInterniDokumenti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmObrabotkaNaIzvodi.resx">
+      <DependentUpon>frmObrabotkaNaIzvodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmObrabotkaNaPriem.resx">
+      <DependentUpon>frmObrabotkaNaPriem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmPreglednaDokumentiOdPartner.resx">
+      <DependentUpon>frmPreglednaDokumentiOdPartner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmPregledNaSiteSmetkiGrupirani.resx">
+      <DependentUpon>frmPregledNaSiteSmetkiGrupirani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmPregledNaSiteSmetki.resx">
+      <DependentUpon>frmPregledNaSiteSmetki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmPregledNaSmetkiPoPresmetkovnaEdinica.resx">
+      <DependentUpon>frmPregledNaSmetkiPoPresmetkovnaEdinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmPregledNaSmetkiPoPartner.resx">
+      <DependentUpon>frmPregledNaSmetkiPoPartner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmPregledNaZalihaPoKolicina.resx">
+      <DependentUpon>frmPregledNaZalihaPoKolicina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmPregledPoTipNaDokumentZbiren.resx">
+      <DependentUpon>frmPregledPoTipNaDokumentZbiren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmPregledPoTipNaDokument.resx">
+      <DependentUpon>frmPregledPoTipNaDokument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVnesNaPlacanjaZaPartner.resx">
+      <DependentUpon>frmVnesNaPlacanjaZaPartner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPriem.en-US.resx">
+      <DependentUpon>frmPriem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPriem.resx">
+      <DependentUpon>frmPriem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reporti\PLTZaPriem.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PLTZaPriem.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\Predatnica.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Predatnica.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\SmetkaFaktura.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SmetkaFaktura.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\Trebovanje.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Trebovanje.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\Smetka.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Smetka.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\Revers.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Revers.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmDadenRabatPoDen.resx">
+      <DependentUpon>frmDadenRabatPoDen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmDnevenPrometPoDen.resx">
+      <DependentUpon>frmDnevenPrometPoDen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmPotrosuvackaPoDen.resx">
+      <DependentUpon>frmPotrosuvackaPoDen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\Povratnica.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Povratnica.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\Prenosnica.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Prenosnica.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\Ispratnica.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Ispratnica.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\DefaultDokument.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DefaultDokument.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmETObrazec.resx">
+      <DependentUpon>frmETObrazec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmIzvestajPriemi.resx">
+      <DependentUpon>frmIzvestajPriemi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmKartickaNaArtikal.resx">
+      <DependentUpon>frmKartickaNaArtikal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmPltObrazec.resx">
+      <DependentUpon>frmPltObrazec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmSostojbaCelosnaNaArtikli.resx">
+      <DependentUpon>frmSostojbaCelosnaNaArtikli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmSostojbaNaArtikli.resx">
+      <DependentUpon>frmSostojbaNaArtikli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\frmZarabotka.resx">
+      <DependentUpon>frmZarabotka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporti\Priem.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Priem.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="MaterijalnoDataSet.xsc">
+      <DependentUpon>MaterijalnoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MaterijalnoDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MaterijalnoDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MaterijalnoDataSet.xss">
+      <DependentUpon>MaterijalnoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="..\BSS\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_BSSR_2_0DataSet.xsc">
+      <DependentUpon>_BSSR_2_0DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_BSSR_2_0DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_BSSR_2_0DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_BSSR_2_0DataSet.xss">
+      <DependentUpon>_BSSR_2_0DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BSS\BSS.csproj">
+      <Project>{05992E0A-3166-489D-9BAC-CE3A71FB5F4C}</Project>
+      <Name>BSS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pecati.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-1-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginScreenMNetCaffe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bssIcon.ico" />
+    <None Include="Resources\001_38.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\bssIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.DotNet.Analyzers.Compatibility.0.2.12-alpha\build\Microsoft.DotNet.Analyzers.Compatibility.targets" Condition="Exists('..\packages\Microsoft.DotNet.Analyzers.Compatibility.0.2.12-alpha\build\Microsoft.DotNet.Analyzers.Compatibility.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.DotNet.Analyzers.Compatibility.0.2.12-alpha\build\Microsoft.DotNet.Analyzers.Compatibility.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.DotNet.Analyzers.Compatibility.0.2.12-alpha\build\Microsoft.DotNet.Analyzers.Compatibility.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

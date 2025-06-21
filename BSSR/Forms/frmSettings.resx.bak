@@ -1,0 +1,2295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="menuStrip1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="објектиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="објектиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="објектиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Објекти</value>
+  </data>
+  <data name="кориснициToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="кориснициToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="кориснициToolStripMenuItem.Text" xml:space="preserve">
+    <value>Корисници</value>
+  </data>
+  <data name="единечниМеркиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="единечниМеркиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="единечниМеркиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Единечни Мерки</value>
+  </data>
+  <data name="дДВСтапкиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="дДВСтапкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="дДВСтапкиToolStripMenuItem.Text" xml:space="preserve">
+    <value>ДДВ Стапки</value>
+  </data>
+  <data name="типовиНаДокументиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="типовиНаДокументиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Типови на документи</value>
+  </data>
+  <data name="presmetkovniEdinici.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="presmetkovniEdinici.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="presmetkovniEdinici.Text" xml:space="preserve">
+    <value>Пресметковни единици</value>
+  </data>
+  <data name="валутиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="валутиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="валутиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Валути</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="валутиToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 6</value>
+  </data>
+  <data name="конфигурацијаToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="конфигурацијаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="конфигурацијаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Податоци за фирма</value>
+  </data>
+  <data name="конфигурацијаToolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="конфигурацијаToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="конфигурацијаToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Конфигурација</value>
+  </data>
+  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 6</value>
+  </data>
+  <data name="бришењеНаКорисничкиПодесувањаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="бришењеНаКорисничкиПодесувањаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Бришење на кориснички подесувања</value>
+  </data>
+  <data name="сетирањеНаПринтерToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 34</value>
+  </data>
+  <data name="сетирањеНаПринтерToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сетирање на принтер</value>
+  </data>
+  <data name="korisniciToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="korisniciToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 34</value>
+  </data>
+  <data name="korisniciToolStripMenuItem.Text" xml:space="preserve">
+    <value>Основни податоци</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 6</value>
+  </data>
+  <data name="партнериToolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="партнериToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 34</value>
+  </data>
+  <data name="партнериToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Партнери</value>
+  </data>
+  <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="банкиToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 34</value>
+  </data>
+  <data name="банкиToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Банки</value>
+  </data>
+  <data name="жироСметкиToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 34</value>
+  </data>
+  <data name="жироСметкиToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Жиро сметки</value>
+  </data>
+  <data name="коминтентиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="коминтентиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 34</value>
+  </data>
+  <data name="коминтентиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Коминтенти</value>
+  </data>
+  <data name="курснаЛистаToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="курснаЛистаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 34</value>
+  </data>
+  <data name="курснаЛистаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Курсна Листа</value>
+  </data>
+  <data name="курснаЛистаToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 6</value>
+  </data>
+  <data name="групаНаАртиклиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="групаНаАртиклиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 34</value>
+  </data>
+  <data name="групаНаАртиклиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Група на Артикли</value>
+  </data>
+  <data name="подгрупиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="подгрупиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 34</value>
+  </data>
+  <data name="подгрупиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Подгрупи</value>
+  </data>
+  <data name="артиклиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="артиклиToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F1</value>
+  </data>
+  <data name="артиклиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 34</value>
+  </data>
+  <data name="артиклиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Артикли</value>
+  </data>
+  <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 6</value>
+  </data>
+  <data name="нормативиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="нормативиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 34</value>
+  </data>
+  <data name="нормативиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Нормативи</value>
+  </data>
+  <data name="забелешкиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="забелешкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 34</value>
+  </data>
+  <data name="забелешкиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Забелешки</value>
+  </data>
+  <data name="забелешкиToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="edinecniMerkiToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="edinecniMerkiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 34</value>
+  </data>
+  <data name="edinecniMerkiToolStripMenuItem.Text" xml:space="preserve">
+    <value>Внес на податоци</value>
+  </data>
+  <data name="касаToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F2</value>
+  </data>
+  <data name="касаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="касаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Продажба каса</value>
+  </data>
+  <data name="модулЗаКелнерToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="модулЗаКелнерToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F5</value>
+  </data>
+  <data name="модулЗаКелнерToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="модулЗаКелнерToolStripMenuItem.Text" xml:space="preserve">
+    <value>Продажба</value>
+  </data>
+  <data name="toolStripMenuItem26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 6</value>
+  </data>
+  <data name="модулЗаМатеријалнаЕвиденцијаToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F6</value>
+  </data>
+  <data name="модулЗаМатеријалнаЕвиденцијаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 34</value>
+  </data>
+  <data name="модулЗаМатеријалнаЕвиденцијаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Прием на материјали</value>
+  </data>
+  <data name="електронскиПриемНаДокументиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 34</value>
+  </data>
+  <data name="електронскиПриемНаДокументиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Електронски прием на документи</value>
+  </data>
+  <data name="toolStripMenuItem25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 34</value>
+  </data>
+  <data name="toolStripMenuItem25.Text" xml:space="preserve">
+    <value>Спецификација на приемници</value>
+  </data>
+  <data name="приемToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F6</value>
+  </data>
+  <data name="приемToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="приемToolStripMenuItem.Text" xml:space="preserve">
+    <value>Прием</value>
+  </data>
+  <data name="интерниДокументиToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F7</value>
+  </data>
+  <data name="интерниДокументиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 34</value>
+  </data>
+  <data name="интерниДокументиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Документи</value>
+  </data>
+  <data name="toolStripMenuItem29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 34</value>
+  </data>
+  <data name="toolStripMenuItem29.Text" xml:space="preserve">
+    <value>Спецификација на документи</value>
+  </data>
+  <data name="прегледПоТипНаДокументToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 34</value>
+  </data>
+  <data name="прегледПоТипНаДокументToolStripMenuItem.Text" xml:space="preserve">
+    <value>Спецификација на документи (Збирна)</value>
+  </data>
+  <data name="документиToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F7</value>
+  </data>
+  <data name="документиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="документиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Документи</value>
+  </data>
+  <data name="модулЗаФактуриToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F8</value>
+  </data>
+  <data name="модулЗаФактуриToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 34</value>
+  </data>
+  <data name="модулЗаФактуриToolStripMenuItem.Text" xml:space="preserve">
+    <value>Фактура</value>
+  </data>
+  <data name="извештајЗаПериодToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 34</value>
+  </data>
+  <data name="извештајЗаПериодToolStripMenuItem.Text" xml:space="preserve">
+    <value>Извештај за период</value>
+  </data>
+  <data name="листаНаДоспеаниФактуриToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 34</value>
+  </data>
+  <data name="листаНаДоспеаниФактуриToolStripMenuItem.Text" xml:space="preserve">
+    <value> Доспеани фактури</value>
+  </data>
+  <data name="фактурирањеToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F8</value>
+  </data>
+  <data name="фактурирањеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="фактурирањеToolStripMenuItem.Text" xml:space="preserve">
+    <value>Фактурирање</value>
+  </data>
+  <data name="наплатаОдПартнерToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F9</value>
+  </data>
+  <data name="наплатаОдПартнерToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="наплатаОдПартнерToolStripMenuItem.Text" xml:space="preserve">
+    <value>Изводи</value>
+  </data>
+  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 6</value>
+  </data>
+  <data name="модулЗаБришењеНаСметкаToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="модулЗаБришењеНаСметкаToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="модулЗаБришењеНаСметкаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="модулЗаБришењеНаСметкаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Измена на сметки</value>
+  </data>
+  <data name="книжењеНаДокументиToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F11</value>
+  </data>
+  <data name="книжењеНаДокументиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>558, 34</value>
+  </data>
+  <data name="книжењеНаДокументиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Книжење на документи</value>
+  </data>
+  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 6</value>
+  </data>
+  <data name="сторнирањеНаСитеКнижењаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>558, 34</value>
+  </data>
+  <data name="сторнирањеНаСитеКнижењаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сторнирање на сите книжења</value>
+  </data>
+  <data name="сторнирањеНаСитеКнижењаToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="сторнирањеНаКнижењаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>558, 34</value>
+  </data>
+  <data name="сторнирањеНаКнижењаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сторнирање на книжења</value>
+  </data>
+  <data name="toolStripMenuItem14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 6</value>
+  </data>
+  <data name="издадениФискалнисметкиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="издадениФискалнисметкиToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+F12</value>
+  </data>
+  <data name="издадениФискалнисметкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>558, 34</value>
+  </data>
+  <data name="издадениФискалнисметкиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сторнирање на фискални сметки</value>
+  </data>
+  <data name="книжењеСторнирањеToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F11</value>
+  </data>
+  <data name="книжењеСторнирањеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="книжењеСторнирањеToolStripMenuItem.Text" xml:space="preserve">
+    <value>Книжење / сторнирање</value>
+  </data>
+  <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 6</value>
+  </data>
+  <data name="нарачкиОдКлиентиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="нарачкиОдКлиентиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Нарачки од клиенти</value>
+  </data>
+  <data name="внесНаПрометToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 22.75pt</value>
+  </data>
+  <data name="внесНаПрометToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+P</value>
+  </data>
+  <data name="внесНаПрометToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>863, 46</value>
+  </data>
+  <data name="внесНаПрометToolStripMenuItem.Text" xml:space="preserve">
+    <value>Внес на промет</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 6</value>
+  </data>
+  <data name="завршиСторниранаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 46</value>
+  </data>
+  <data name="завршиСторниранаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Одблокирај сторнирана</value>
+  </data>
+  <data name="завршиСметкаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 46</value>
+  </data>
+  <data name="завршиСметкаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Одблокира сметка</value>
+  </data>
+  <data name="сетирањеНаДатумНаФискалнаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 46</value>
+  </data>
+  <data name="сетирањеНаДатумНаФискалнаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Датум и време</value>
+  </data>
+  <data name="помошниToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 22.75pt</value>
+  </data>
+  <data name="помошниToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>863, 46</value>
+  </data>
+  <data name="помошниToolStripMenuItem.Text" xml:space="preserve">
+    <value>Помошни</value>
+  </data>
+  <data name="дневенИзвештајЦелосенToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>851, 46</value>
+  </data>
+  <data name="дневенИзвештајЦелосенToolStripMenuItem.Text" xml:space="preserve">
+    <value>Извештај за период (Целосен)</value>
+  </data>
+  <data name="дневенФинансискиИзвештајБезНулирањеToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F12</value>
+  </data>
+  <data name="дневенФинансискиИзвештајБезНулирањеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>851, 46</value>
+  </data>
+  <data name="дневенФинансискиИзвештајБезНулирањеToolStripMenuItem.Text" xml:space="preserve">
+    <value>Дневен финансиски извештај без нулирање</value>
+  </data>
+  <data name="отпечатениФискалниСметкиToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F12</value>
+  </data>
+  <data name="отпечатениФискалниСметкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>851, 46</value>
+  </data>
+  <data name="отпечатениФискалниСметкиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отпечатени фискални сметки</value>
+  </data>
+  <data name="фискалниИзвештаиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 22.75pt</value>
+  </data>
+  <data name="фискалниИзвештаиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>863, 46</value>
+  </data>
+  <data name="фискалниИзвештаиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Фискални извештаи</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 6</value>
+  </data>
+  <data name="toolStripMenuItem23.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItem23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>863, 46</value>
+  </data>
+  <data name="toolStripMenuItem23.Text" xml:space="preserve">
+    <value> *******</value>
+  </data>
+  <data name="toolStripMenuItem15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 6</value>
+  </data>
+  <data name="затворањеНаДенToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 22.75pt</value>
+  </data>
+  <data name="затворањеНаДенToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+End</value>
+  </data>
+  <data name="затворањеНаДенToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>863, 46</value>
+  </data>
+  <data name="затворањеНаДенToolStripMenuItem.Text" xml:space="preserve">
+    <value>Затворање на фискална каса ( ден ) !!! </value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 6</value>
+  </data>
+  <data name="grupaNaArtikliToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="grupaNaArtikliToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F12</value>
+  </data>
+  <data name="grupaNaArtikliToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="grupaNaArtikliToolStripMenuItem.Text" xml:space="preserve">
+    <value>Фискална</value>
+  </data>
+  <data name="печатењеИМаилToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 34</value>
+  </data>
+  <data name="печатењеИМаилToolStripMenuItem.Text" xml:space="preserve">
+    <value>Печатење и маил на партнери</value>
+  </data>
+  <data name="печатењеИМаилToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="пристапДоМодулиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="пристапДоМодулиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 34</value>
+  </data>
+  <data name="пристапДоМодулиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Обработка на податоци</value>
+  </data>
+  <data name="дневенПрометПоДенToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+1</value>
+  </data>
+  <data name="дневенПрометПоДенToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="дневенПрометПоДенToolStripMenuItem.Text" xml:space="preserve">
+    <value>Дневен промет </value>
+  </data>
+  <data name="прегледНаПрометПоДенToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+2</value>
+  </data>
+  <data name="прегледНаПрометПоДенToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="прегледНаПрометПоДенToolStripMenuItem.Text" xml:space="preserve">
+    <value>Дневна потрошувачка на артикли</value>
+  </data>
+  <data name="даденРабатПоДенToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+3</value>
+  </data>
+  <data name="даденРабатПоДенToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="даденРабатПоДенToolStripMenuItem.Text" xml:space="preserve">
+    <value>Даден рабат по ден</value>
+  </data>
+  <data name="toolStripMenuItem16.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+4</value>
+  </data>
+  <data name="toolStripMenuItem16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="toolStripMenuItem16.Text" xml:space="preserve">
+    <value>Преглед на заработка по ден</value>
+  </data>
+  <data name="toolStripMenuItem17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 6</value>
+  </data>
+  <data name="состојбаНаАртиклиToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+K</value>
+  </data>
+  <data name="состојбаНаАртиклиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="состојбаНаАртиклиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Картичка на артикал</value>
+  </data>
+  <data name="состојбаНаАртиклиЗалихаToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+L</value>
+  </data>
+  <data name="состојбаНаАртиклиЗалихаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="состојбаНаАртиклиЗалихаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Состојба на артикли (залиха)</value>
+  </data>
+  <data name="заработкаОдАртикалToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="заработкаОдАртикалToolStripMenuItem.Text" xml:space="preserve">
+    <value>Заработка од артикли (Вредносна залиха)</value>
+  </data>
+  <data name="prodazbaOdSmetki.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+S</value>
+  </data>
+  <data name="prodazbaOdSmetki.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="prodazbaOdSmetki.Text" xml:space="preserve">
+    <value>Продажба од сметки</value>
+  </data>
+  <data name="потрошениМатеријалиВоКујнаToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+A</value>
+  </data>
+  <data name="потрошениМатеријалиВоКујнаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="потрошениМатеријалиВоКујнаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Потрошувачка на артикли</value>
+  </data>
+  <data name="потрошувачкаНаМатеријалиОдНормативиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="потрошувачкаНаМатеријалиОдНормативиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Потрошувачка на материјали од нормативи</value>
+  </data>
+  <data name="toolStripMenuItem27.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+P</value>
+  </data>
+  <data name="toolStripMenuItem27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="toolStripMenuItem27.Text" xml:space="preserve">
+    <value>Картичка на партнер</value>
+  </data>
+  <data name="картичкаНаКупувачДобавувачToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+Z</value>
+  </data>
+  <data name="картичкаНаКупувачДобавувачToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="картичкаНаКупувачДобавувачToolStripMenuItem.Text" xml:space="preserve">
+    <value>Картичка на партнер по документ</value>
+  </data>
+  <data name="toolStripMenuItem24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="toolStripMenuItem24.Text" xml:space="preserve">
+    <value>Салдо на сите партнери</value>
+  </data>
+  <data name="toolStripMenuItem20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="toolStripMenuItem20.Text" xml:space="preserve">
+    <value>Листа на должници/Картица</value>
+  </data>
+  <data name="салдоНаПартнерToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="салдоНаПартнерToolStripMenuItem.Text" xml:space="preserve">
+    <value>Салдо на партнер</value>
+  </data>
+  <data name="btnSpecifikacijaNadokumenti.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="btnSpecifikacijaNadokumenti.Text" xml:space="preserve">
+    <value>Спецификација на документи</value>
+  </data>
+  <data name="извештајНабавениToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="извештајНабавениToolStripMenuItem.Text" xml:space="preserve">
+    <value>Спецификација на приемници</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 6</value>
+  </data>
+  <data name="прегледНаМатеријалиЗаНабавкаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="прегледНаМатеријалиЗаНабавкаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Материјали за набавка</value>
+  </data>
+  <data name="количинаНаИздадениПорцииНормативиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="количинаНаИздадениПорцииНормативиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Количина на издадени порции( нормативи )</value>
+  </data>
+  <data name="нормативиToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="нормативиToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Содржина на нормативи</value>
+  </data>
+  <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 6</value>
+  </data>
+  <data name="пЛТОбраззецToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 34</value>
+  </data>
+  <data name="пЛТОбраззецToolStripMenuItem.Text" xml:space="preserve">
+    <value>ПЛТ образец</value>
+  </data>
+  <data name="еТОбразецToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 34</value>
+  </data>
+  <data name="еТОбразецToolStripMenuItem.Text" xml:space="preserve">
+    <value>ЕТ образец</value>
+  </data>
+  <data name="кДФИОбразецToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 34</value>
+  </data>
+  <data name="кДФИОбразецToolStripMenuItem.Text" xml:space="preserve">
+    <value>КДФИ образец</value>
+  </data>
+  <data name="обрасциToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="обрасциToolStripMenuItem.Text" xml:space="preserve">
+    <value>Обрасци</value>
+  </data>
+  <data name="деталенПрегледНаЛагерЛистаПОПИСToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 34</value>
+  </data>
+  <data name="деталенПрегледНаЛагерЛистаПОПИСToolStripMenuItem.Text" xml:space="preserve">
+    <value>Детален преглед на лагер листа - ПОПИС</value>
+  </data>
+  <data name="подесувањаToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="подесувањаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 34</value>
+  </data>
+  <data name="подесувањаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Материјално</value>
+  </data>
+  <data name="прегледПоВработенToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+1</value>
+  </data>
+  <data name="прегледПоВработенToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледПоВработенToolStripMenuItem.Text" xml:space="preserve">
+    <value>Промет по вработен</value>
+  </data>
+  <data name="прегледНаСметкиToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="прегледНаСметкиToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+2</value>
+  </data>
+  <data name="прегледНаСметкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледНаСметкиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Преглед на сметки по вработен</value>
+  </data>
+  <data name="прегледНаСитеНалозиToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+3</value>
+  </data>
+  <data name="прегледНаСитеНалозиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледНаСитеНалозиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Детален преглед на сметки</value>
+  </data>
+  <data name="toolStripMenuItem28.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+4</value>
+  </data>
+  <data name="toolStripMenuItem28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="toolStripMenuItem28.Text" xml:space="preserve">
+    <value>Детален преглед на сметки по објект</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 6</value>
+  </data>
+  <data name="прегледНаИзменетиИзбришаниСметкиToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="прегледНаИзменетиИзбришаниСметкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледНаИзменетиИзбришаниСметкиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Преглед на изменети/избришани сметки</value>
+  </data>
+  <data name="прегледНаНарачкиПоДенToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледНаНарачкиПоДенToolStripMenuItem.Text" xml:space="preserve">
+    <value>Преглед на нарачки по ден</value>
+  </data>
+  <data name="прегледНаМоменталниКоличини.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледНаМоменталниКоличини.Text" xml:space="preserve">
+    <value>Преглед на моментални количини</value>
+  </data>
+  <data name="прегледНаДокументиЗаПартнер.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледНаДокументиЗаПартнер.Text" xml:space="preserve">
+    <value>Преглед на документи  за партнер</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 6</value>
+  </data>
+  <data name="прегледНаСметкиПоПартнерToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледНаСметкиПоПартнерToolStripMenuItem.Text" xml:space="preserve">
+    <value>Преглед на сметки по партнер</value>
+  </data>
+  <data name="прегледНаСметкиПоПресметковнаЕдиницаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледНаСметкиПоПресметковнаЕдиницаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Преглед на сметки по пресметковна единица</value>
+  </data>
+  <data name="toolStripMenuItem30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="toolStripMenuItem30.Text" xml:space="preserve">
+    <value>Преглед на сите сметки Групирани</value>
+  </data>
+  <data name="прегледНаСитеСметкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледНаСитеСметкиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Преглед на сите сметки</value>
+  </data>
+  <data name="прегледНаСитеСметкиТретаСменаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="прегледНаСитеСметкиТретаСменаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Преглед на сите сметки Трета смена</value>
+  </data>
+  <data name="прегледНаСитеСметкиТретаСменаToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="objektiToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="objektiToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+NumPad1</value>
+  </data>
+  <data name="objektiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 34</value>
+  </data>
+  <data name="objektiToolStripMenuItem.Text" xml:space="preserve">
+    <value>Прегледи</value>
+  </data>
+  <data name="излезToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="излезToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F4</value>
+  </data>
+  <data name="излезToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 34</value>
+  </data>
+  <data name="излезToolStripMenuItem.Text" xml:space="preserve">
+    <value>Излез</value>
+  </data>
+  <data name="sQLMenagementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="sQLMenagementToolStripMenuItem.Text" xml:space="preserve">
+    <value>SQL Menagement</value>
+  </data>
+  <data name="backupDatabaseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="backupDatabaseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Backup Database</value>
+  </data>
+  <data name="enableAllMenuesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="enableAllMenuesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Enable All Menues</value>
+  </data>
+  <data name="restoreDatabaseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="restoreDatabaseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Restore database</value>
+  </data>
+  <data name="restoreRegistriConfigFromDatabaseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="restoreRegistriConfigFromDatabaseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Restore Registri Config from database</value>
+  </data>
+  <data name="reloadCurrentRegistiSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="reloadCurrentRegistiSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reload Current Registi settings</value>
+  </data>
+  <data name="суперАдминToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 34</value>
+  </data>
+  <data name="суперАдминToolStripMenuItem.Text" xml:space="preserve">
+    <value>Супер Админ</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 38</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <data name="statusStrip1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="пратиЗатворањеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 34</value>
+  </data>
+  <data name="пратиЗатворањеToolStripMenuItem.Text" xml:space="preserve">
+    <value>Прати - Затворање</value>
+  </data>
+  <data name="превземиОтворањеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 34</value>
+  </data>
+  <data name="превземиОтворањеToolStripMenuItem.Text" xml:space="preserve">
+    <value>Превземи - Отворање</value>
+  </data>
+  <data name="синхронизирајToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 34</value>
+  </data>
+  <data name="синхронизирајToolStripMenuItem.Text" xml:space="preserve">
+    <value>Синхронизирај</value>
+  </data>
+  <data name="синхронизацијаСоСерверToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 34</value>
+  </data>
+  <data name="синхронизацијаСоСерверToolStripMenuItem.Text" xml:space="preserve">
+    <value>Синхронизација со сервер</value>
+  </data>
+  <data name="синхронизацијаСоСерверToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItem19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>616, 6</value>
+  </data>
+  <data name="книжењеНаСитеДокументиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 34</value>
+  </data>
+  <data name="книжењеНаСитеДокументиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Книжење на сите документи и затворање на фискална</value>
+  </data>
+  <data name="toolStripMenuItem21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 34</value>
+  </data>
+  <data name="toolStripMenuItem21.Text" xml:space="preserve">
+    <value>Книжење на количините </value>
+  </data>
+  <data name="затворањеНаДенToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 34</value>
+  </data>
+  <data name="затворањеНаДенToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Нивелација </value>
+  </data>
+  <data name="toolStripMenuItem18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>616, 6</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>616, 6</value>
+  </data>
+  <data name="заПрограматаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 34</value>
+  </data>
+  <data name="заПрограматаToolStripMenuItem.Text" xml:space="preserve">
+    <value>За програмата</value>
+  </data>
+  <data name="toolStripDropDownButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 41</value>
+  </data>
+  <data name="toolStripDropDownButton1.Text" xml:space="preserve">
+    <value>Напредни операции</value>
+  </data>
+  <data name="mainProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 37</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 38</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Корисник: </value>
+  </data>
+  <data name="lblImeNaKorisnik.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 38</value>
+  </data>
+  <data name="lblImeNaKorisnik.Text" xml:space="preserve">
+    <value>Име</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 38</value>
+  </data>
+  <data name="toolStripStatusLabel2.Text" xml:space="preserve">
+    <value> |   </value>
+  </data>
+  <data name="lblDatum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 38</value>
+  </data>
+  <data name="lblDatum.Text" xml:space="preserve">
+    <value>Датум</value>
+  </data>
+  <data name="toolStripStatusLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 38</value>
+  </data>
+  <data name="toolStripStatusLabel3.Text" xml:space="preserve">
+    <value> |  </value>
+  </data>
+  <data name="txtKonekcija.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 38</value>
+  </data>
+  <data name="txtKonekcija.Text" xml:space="preserve">
+    <value>Конекција </value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 553</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 43</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="alertControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>248, 17</value>
+  </metadata>
+  <data name="alertControl1.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="alertControl1.AppearanceText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <metadata name="bSSSDataset.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>371, 17</value>
+  </metadata>
+  <metadata name="artikliStoTrebaDaSeNabavaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>491, 17</value>
+  </metadata>
+  <metadata name="artikliStoTrebaDaSeNabavaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>769, 17</value>
+  </metadata>
+  <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <data name="flowLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="flowLayoutPanel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flowLayoutPanel1.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>804, 41</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 504</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="quickFlow.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="quickFlow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="quickFlow.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="quickFlow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="quickFlow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 504</value>
+  </data>
+  <data name="quickFlow.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;quickFlow.Name" xml:space="preserve">
+    <value>quickFlow</value>
+  </data>
+  <data name="&gt;&gt;quickFlow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quickFlow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;quickFlow.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>188, 56</value>
+  </metadata>
+  <data name="вчитајГиПовторноСетинзитеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="вчитајГиПовторноСетинзитеToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вчитај ги повторно сетинзите</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 26</value>
+  </data>
+  <data name="contextMenuStrip1.Text" xml:space="preserve">
+    <value>Напредно мени</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 41</value>
+  </data>
+  <data name="pictureBox1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>500, 500</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 504</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 596</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1023, 605</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Администраторски модул</value>
+  </data>
+  <data name="&gt;&gt;edinecniMerkiToolStripMenuItem.Name" xml:space="preserve">
+    <value>edinecniMerkiToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;edinecniMerkiToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;korisniciToolStripMenuItem.Name" xml:space="preserve">
+    <value>korisniciToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;korisniciToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;објектиToolStripMenuItem.Name" xml:space="preserve">
+    <value>објектиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;објектиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;кориснициToolStripMenuItem.Name" xml:space="preserve">
+    <value>кориснициToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;кориснициToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;единечниМеркиToolStripMenuItem.Name" xml:space="preserve">
+    <value>единечниМеркиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;единечниМеркиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;дДВСтапкиToolStripMenuItem.Name" xml:space="preserve">
+    <value>дДВСтапкиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;дДВСтапкиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;типовиНаДокументиToolStripMenuItem.Name" xml:space="preserve">
+    <value>типовиНаДокументиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;типовиНаДокументиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;presmetkovniEdinici.Name" xml:space="preserve">
+    <value>presmetkovniEdinici</value>
+  </data>
+  <data name="&gt;&gt;presmetkovniEdinici.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;валутиToolStripMenuItem.Name" xml:space="preserve">
+    <value>валутиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;валутиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;конфигурацијаToolStripMenuItem.Name" xml:space="preserve">
+    <value>конфигурацијаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;конфигурацијаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;конфигурацијаToolStripMenuItem1.Name" xml:space="preserve">
+    <value>конфигурацијаToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;конфигурацијаToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem9.Name" xml:space="preserve">
+    <value>toolStripMenuItem9</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;бришењеНаКорисничкиПодесувањаToolStripMenuItem.Name" xml:space="preserve">
+    <value>бришењеНаКорисничкиПодесувањаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;бришењеНаКорисничкиПодесувањаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сетирањеНаПринтерToolStripMenuItem.Name" xml:space="preserve">
+    <value>сетирањеНаПринтерToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;сетирањеНаПринтерToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;коминтентиToolStripMenuItem.Name" xml:space="preserve">
+    <value>коминтентиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;коминтентиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;партнериToolStripMenuItem1.Name" xml:space="preserve">
+    <value>партнериToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;партнериToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem11.Name" xml:space="preserve">
+    <value>toolStripMenuItem11</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;банкиToolStripMenuItem1.Name" xml:space="preserve">
+    <value>банкиToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;банкиToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;жироСметкиToolStripMenuItem1.Name" xml:space="preserve">
+    <value>жироСметкиToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;жироСметкиToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;курснаЛистаToolStripMenuItem.Name" xml:space="preserve">
+    <value>курснаЛистаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;курснаЛистаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;групаНаАртиклиToolStripMenuItem.Name" xml:space="preserve">
+    <value>групаНаАртиклиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;групаНаАртиклиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;подгрупиToolStripMenuItem.Name" xml:space="preserve">
+    <value>подгрупиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;подгрупиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;артиклиToolStripMenuItem.Name" xml:space="preserve">
+    <value>артиклиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;артиклиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem13.Name" xml:space="preserve">
+    <value>toolStripMenuItem13</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;нормативиToolStripMenuItem.Name" xml:space="preserve">
+    <value>нормативиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;нормативиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;забелешкиToolStripMenuItem.Name" xml:space="preserve">
+    <value>забелешкиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;забелешкиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;пристапДоМодулиToolStripMenuItem.Name" xml:space="preserve">
+    <value>пристапДоМодулиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;пристапДоМодулиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;касаToolStripMenuItem.Name" xml:space="preserve">
+    <value>касаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;касаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;модулЗаКелнерToolStripMenuItem.Name" xml:space="preserve">
+    <value>модулЗаКелнерToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;модулЗаКелнерToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem26.Name" xml:space="preserve">
+    <value>toolStripMenuItem26</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;приемToolStripMenuItem.Name" xml:space="preserve">
+    <value>приемToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;приемToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;модулЗаМатеријалнаЕвиденцијаToolStripMenuItem.Name" xml:space="preserve">
+    <value>модулЗаМатеријалнаЕвиденцијаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;модулЗаМатеријалнаЕвиденцијаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;електронскиПриемНаДокументиToolStripMenuItem.Name" xml:space="preserve">
+    <value>електронскиПриемНаДокументиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;електронскиПриемНаДокументиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem25.Name" xml:space="preserve">
+    <value>toolStripMenuItem25</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;документиToolStripMenuItem.Name" xml:space="preserve">
+    <value>документиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;документиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;интерниДокументиToolStripMenuItem.Name" xml:space="preserve">
+    <value>интерниДокументиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;интерниДокументиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem29.Name" xml:space="preserve">
+    <value>toolStripMenuItem29</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледПоТипНаДокументToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледПоТипНаДокументToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледПоТипНаДокументToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;фактурирањеToolStripMenuItem.Name" xml:space="preserve">
+    <value>фактурирањеToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;фактурирањеToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;модулЗаФактуриToolStripMenuItem.Name" xml:space="preserve">
+    <value>модулЗаФактуриToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;модулЗаФактуриToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;извештајЗаПериодToolStripMenuItem.Name" xml:space="preserve">
+    <value>извештајЗаПериодToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;извештајЗаПериодToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;листаНаДоспеаниФактуриToolStripMenuItem.Name" xml:space="preserve">
+    <value>листаНаДоспеаниФактуриToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;листаНаДоспеаниФактуриToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;наплатаОдПартнерToolStripMenuItem.Name" xml:space="preserve">
+    <value>наплатаОдПартнерToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;наплатаОдПартнерToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem8.Name" xml:space="preserve">
+    <value>toolStripMenuItem8</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;модулЗаБришењеНаСметкаToolStripMenuItem.Name" xml:space="preserve">
+    <value>модулЗаБришењеНаСметкаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;модулЗаБришењеНаСметкаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;книжењеСторнирањеToolStripMenuItem.Name" xml:space="preserve">
+    <value>книжењеСторнирањеToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;книжењеСторнирањеToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;книжењеНаДокументиToolStripMenuItem.Name" xml:space="preserve">
+    <value>книжењеНаДокументиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;книжењеНаДокументиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Name" xml:space="preserve">
+    <value>toolStripMenuItem7</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сторнирањеНаСитеКнижењаToolStripMenuItem.Name" xml:space="preserve">
+    <value>сторнирањеНаСитеКнижењаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;сторнирањеНаСитеКнижењаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сторнирањеНаКнижењаToolStripMenuItem.Name" xml:space="preserve">
+    <value>сторнирањеНаКнижењаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;сторнирањеНаКнижењаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem14.Name" xml:space="preserve">
+    <value>toolStripMenuItem14</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;издадениФискалнисметкиToolStripMenuItem.Name" xml:space="preserve">
+    <value>издадениФискалнисметкиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;издадениФискалнисметкиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem10.Name" xml:space="preserve">
+    <value>toolStripMenuItem10</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;нарачкиОдКлиентиToolStripMenuItem.Name" xml:space="preserve">
+    <value>нарачкиОдКлиентиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;нарачкиОдКлиентиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grupaNaArtikliToolStripMenuItem.Name" xml:space="preserve">
+    <value>grupaNaArtikliToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;grupaNaArtikliToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;внесНаПрометToolStripMenuItem.Name" xml:space="preserve">
+    <value>внесНаПрометToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;внесНаПрометToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;помошниToolStripMenuItem.Name" xml:space="preserve">
+    <value>помошниToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;помошниToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;завршиСторниранаToolStripMenuItem.Name" xml:space="preserve">
+    <value>завршиСторниранаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;завршиСторниранаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;завршиСметкаToolStripMenuItem.Name" xml:space="preserve">
+    <value>завршиСметкаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;завршиСметкаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сетирањеНаДатумНаФискалнаToolStripMenuItem.Name" xml:space="preserve">
+    <value>сетирањеНаДатумНаФискалнаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;сетирањеНаДатумНаФискалнаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;фискалниИзвештаиToolStripMenuItem.Name" xml:space="preserve">
+    <value>фискалниИзвештаиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;фискалниИзвештаиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;дневенИзвештајЦелосенToolStripMenuItem.Name" xml:space="preserve">
+    <value>дневенИзвештајЦелосенToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;дневенИзвештајЦелосенToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;дневенФинансискиИзвештајБезНулирањеToolStripMenuItem.Name" xml:space="preserve">
+    <value>дневенФинансискиИзвештајБезНулирањеToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;дневенФинансискиИзвештајБезНулирањеToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;отпечатениФискалниСметкиToolStripMenuItem.Name" xml:space="preserve">
+    <value>отпечатениФискалниСметкиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;отпечатениФискалниСметкиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem23.Name" xml:space="preserve">
+    <value>toolStripMenuItem23</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem15.Name" xml:space="preserve">
+    <value>toolStripMenuItem15</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;затворањеНаДенToolStripMenuItem.Name" xml:space="preserve">
+    <value>затворањеНаДенToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;затворањеНаДенToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;печатењеИМаилToolStripMenuItem.Name" xml:space="preserve">
+    <value>печатењеИМаилToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;печатењеИМаилToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;подесувањаToolStripMenuItem.Name" xml:space="preserve">
+    <value>подесувањаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;подесувањаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;дневенПрометПоДенToolStripMenuItem.Name" xml:space="preserve">
+    <value>дневенПрометПоДенToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;дневенПрометПоДенToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаПрометПоДенToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледНаПрометПоДенToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледНаПрометПоДенToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;даденРабатПоДенToolStripMenuItem.Name" xml:space="preserve">
+    <value>даденРабатПоДенToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;даденРабатПоДенToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem16.Name" xml:space="preserve">
+    <value>toolStripMenuItem16</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem17.Name" xml:space="preserve">
+    <value>toolStripMenuItem17</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;состојбаНаАртиклиToolStripMenuItem.Name" xml:space="preserve">
+    <value>состојбаНаАртиклиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;состојбаНаАртиклиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;состојбаНаАртиклиЗалихаToolStripMenuItem.Name" xml:space="preserve">
+    <value>состојбаНаАртиклиЗалихаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;состојбаНаАртиклиЗалихаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;заработкаОдАртикалToolStripMenuItem.Name" xml:space="preserve">
+    <value>заработкаОдАртикалToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;заработкаОдАртикалToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prodazbaOdSmetki.Name" xml:space="preserve">
+    <value>prodazbaOdSmetki</value>
+  </data>
+  <data name="&gt;&gt;prodazbaOdSmetki.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;потрошениМатеријалиВоКујнаToolStripMenuItem.Name" xml:space="preserve">
+    <value>потрошениМатеријалиВоКујнаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;потрошениМатеријалиВоКујнаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;потрошувачкаНаМатеријалиОдНормативиToolStripMenuItem.Name" xml:space="preserve">
+    <value>потрошувачкаНаМатеријалиОдНормативиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;потрошувачкаНаМатеријалиОдНормативиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem27.Name" xml:space="preserve">
+    <value>toolStripMenuItem27</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;картичкаНаКупувачДобавувачToolStripMenuItem.Name" xml:space="preserve">
+    <value>картичкаНаКупувачДобавувачToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;картичкаНаКупувачДобавувачToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem24.Name" xml:space="preserve">
+    <value>toolStripMenuItem24</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem20.Name" xml:space="preserve">
+    <value>toolStripMenuItem20</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;салдоНаПартнерToolStripMenuItem.Name" xml:space="preserve">
+    <value>салдоНаПартнерToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;салдоНаПартнерToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpecifikacijaNadokumenti.Name" xml:space="preserve">
+    <value>btnSpecifikacijaNadokumenti</value>
+  </data>
+  <data name="&gt;&gt;btnSpecifikacijaNadokumenti.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;извештајНабавениToolStripMenuItem.Name" xml:space="preserve">
+    <value>извештајНабавениToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;извештајНабавениToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаМатеријалиЗаНабавкаToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледНаМатеријалиЗаНабавкаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледНаМатеријалиЗаНабавкаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;количинаНаИздадениПорцииНормативиToolStripMenuItem.Name" xml:space="preserve">
+    <value>количинаНаИздадениПорцииНормативиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;количинаНаИздадениПорцииНормативиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;нормативиToolStripMenuItem1.Name" xml:space="preserve">
+    <value>нормативиToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;нормативиToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem12.Name" xml:space="preserve">
+    <value>toolStripMenuItem12</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;обрасциToolStripMenuItem.Name" xml:space="preserve">
+    <value>обрасциToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;обрасциToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;пЛТОбраззецToolStripMenuItem.Name" xml:space="preserve">
+    <value>пЛТОбраззецToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;пЛТОбраззецToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;еТОбразецToolStripMenuItem.Name" xml:space="preserve">
+    <value>еТОбразецToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;еТОбразецToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;кДФИОбразецToolStripMenuItem.Name" xml:space="preserve">
+    <value>кДФИОбразецToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;кДФИОбразецToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;деталенПрегледНаЛагерЛистаПОПИСToolStripMenuItem.Name" xml:space="preserve">
+    <value>деталенПрегледНаЛагерЛистаПОПИСToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;деталенПрегледНаЛагерЛистаПОПИСToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;objektiToolStripMenuItem.Name" xml:space="preserve">
+    <value>objektiToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;objektiToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледПоВработенToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледПоВработенToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледПоВработенToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСметкиToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледНаСметкиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСметкиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСитеНалозиToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледНаСитеНалозиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСитеНалозиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem28.Name" xml:space="preserve">
+    <value>toolStripMenuItem28</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаИзменетиИзбришаниСметкиToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледНаИзменетиИзбришаниСметкиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледНаИзменетиИзбришаниСметкиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаНарачкиПоДенToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледНаНарачкиПоДенToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледНаНарачкиПоДенToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаМоменталниКоличини.Name" xml:space="preserve">
+    <value>прегледНаМоменталниКоличини</value>
+  </data>
+  <data name="&gt;&gt;прегледНаМоменталниКоличини.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаДокументиЗаПартнер.Name" xml:space="preserve">
+    <value>прегледНаДокументиЗаПартнер</value>
+  </data>
+  <data name="&gt;&gt;прегледНаДокументиЗаПартнер.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСметкиПоПартнерToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледНаСметкиПоПартнерToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСметкиПоПартнерToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСметкиПоПресметковнаЕдиницаToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледНаСметкиПоПресметковнаЕдиницаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСметкиПоПресметковнаЕдиницаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem30.Name" xml:space="preserve">
+    <value>toolStripMenuItem30</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСитеСметкиToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледНаСитеСметкиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСитеСметкиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСитеСметкиТретаСменаToolStripMenuItem.Name" xml:space="preserve">
+    <value>прегледНаСитеСметкиТретаСменаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;прегледНаСитеСметкиТретаСменаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;излезToolStripMenuItem.Name" xml:space="preserve">
+    <value>излезToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;излезToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;суперАдминToolStripMenuItem.Name" xml:space="preserve">
+    <value>суперАдминToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;суперАдминToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sQLMenagementToolStripMenuItem.Name" xml:space="preserve">
+    <value>sQLMenagementToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;sQLMenagementToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backupDatabaseToolStripMenuItem.Name" xml:space="preserve">
+    <value>backupDatabaseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;backupDatabaseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enableAllMenuesToolStripMenuItem.Name" xml:space="preserve">
+    <value>enableAllMenuesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;enableAllMenuesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;restoreDatabaseToolStripMenuItem.Name" xml:space="preserve">
+    <value>restoreDatabaseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;restoreDatabaseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;restoreRegistriConfigFromDatabaseToolStripMenuItem.Name" xml:space="preserve">
+    <value>restoreRegistriConfigFromDatabaseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;restoreRegistriConfigFromDatabaseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reloadCurrentRegistiSettingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>reloadCurrentRegistiSettingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;reloadCurrentRegistiSettingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripDropDownButton1.Name" xml:space="preserve">
+    <value>toolStripDropDownButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripDropDownButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;синхронизацијаСоСерверToolStripMenuItem.Name" xml:space="preserve">
+    <value>синхронизацијаСоСерверToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;синхронизацијаСоСерверToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;пратиЗатворањеToolStripMenuItem.Name" xml:space="preserve">
+    <value>пратиЗатворањеToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;пратиЗатворањеToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;превземиОтворањеToolStripMenuItem.Name" xml:space="preserve">
+    <value>превземиОтворањеToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;превземиОтворањеToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;синхронизирајToolStripMenuItem.Name" xml:space="preserve">
+    <value>синхронизирајToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;синхронизирајToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem19.Name" xml:space="preserve">
+    <value>toolStripMenuItem19</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;книжењеНаСитеДокументиToolStripMenuItem.Name" xml:space="preserve">
+    <value>книжењеНаСитеДокументиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;книжењеНаСитеДокументиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem21.Name" xml:space="preserve">
+    <value>toolStripMenuItem21</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;затворањеНаДенToolStripMenuItem1.Name" xml:space="preserve">
+    <value>затворањеНаДенToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;затворањеНаДенToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem18.Name" xml:space="preserve">
+    <value>toolStripMenuItem18</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;заПрограматаToolStripMenuItem.Name" xml:space="preserve">
+    <value>заПрограматаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;заПрограматаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainProgressBar.Name" xml:space="preserve">
+    <value>mainProgressBar</value>
+  </data>
+  <data name="&gt;&gt;mainProgressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblImeNaKorisnik.Name" xml:space="preserve">
+    <value>lblImeNaKorisnik</value>
+  </data>
+  <data name="&gt;&gt;lblImeNaKorisnik.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel2.Name" xml:space="preserve">
+    <value>toolStripStatusLabel2</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDatum.Name" xml:space="preserve">
+    <value>lblDatum</value>
+  </data>
+  <data name="&gt;&gt;lblDatum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel3.Name" xml:space="preserve">
+    <value>toolStripStatusLabel3</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtKonekcija.Name" xml:space="preserve">
+    <value>txtKonekcija</value>
+  </data>
+  <data name="&gt;&gt;txtKonekcija.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;alertControl1.Name" xml:space="preserve">
+    <value>alertControl1</value>
+  </data>
+  <data name="&gt;&gt;alertControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Alerter.AlertControl, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bSSSDataset.Name" xml:space="preserve">
+    <value>bSSSDataset</value>
+  </data>
+  <data name="&gt;&gt;bSSSDataset.Type" xml:space="preserve">
+    <value>BSSR.BSSSDataset, BSSSDataset.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;artikliStoTrebaDaSeNabavaBindingSource.Name" xml:space="preserve">
+    <value>artikliStoTrebaDaSeNabavaBindingSource</value>
+  </data>
+  <data name="&gt;&gt;artikliStoTrebaDaSeNabavaBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;artikliStoTrebaDaSeNabavaTableAdapter.Name" xml:space="preserve">
+    <value>artikliStoTrebaDaSeNabavaTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;artikliStoTrebaDaSeNabavaTableAdapter.Type" xml:space="preserve">
+    <value>BSSR.BSSSDatasetTableAdapters.ArtikliStoTrebaDaSeNabavaTableAdapter, BSSSDataset.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tableAdapterManager.Name" xml:space="preserve">
+    <value>tableAdapterManager</value>
+  </data>
+  <data name="&gt;&gt;tableAdapterManager.Type" xml:space="preserve">
+    <value>BSSR.BSSSDatasetTableAdapters.TableAdapterManager, BSSSDataset.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;вчитајГиПовторноСетинзитеToolStripMenuItem.Name" xml:space="preserve">
+    <value>вчитајГиПовторноСетинзитеToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;вчитајГиПовторноСетинзитеToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSettings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BssBase.frmBaseApp, BSS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
