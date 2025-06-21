@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<setup>
+	<port>COM1</port> 														<!-- Serial port -->
+	<speed>9600</speed>														<!-- Baudrate -->
+	<stopOnFail>false</stopOnFail>								<!-- Stop executing new commands if last command did not return OK status -->
+	<defaultInputFileName>ecrprint.in</defaultInputFileName>	<!-- Default input file name (default is "ecrprint.in") -->
+</setup>
