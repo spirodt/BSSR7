@@ -431,3 +431,5 @@ FodyWeavers.xsd
 *.backup.vscode.json.vscode.json
 *.backup.vscode.json.vscode.json.vscode
 *.bak 
+#AppOut
+[Aa]pp[Oo]ut/
