@@ -21,7 +21,7 @@ jobs:
           git config --global user.email "bspirovski@epodrum.mk"  # Change if needed
 
           # Add remote with PAT authentication (use Basic Auth format)
-          git remote add azdo "https://spirodt:${AZDO_PAT}@devops.epodrum.mk/BSS/BSSR6/_git/BSSR7"
+          git remote add azdo "https://bspirovski:${AZDO_PAT}@devops.epodrum.mk/BSS/BSSR6/_git/BSS7"
 
           # Push to Azure DevOps
           git push azdo --mirror
