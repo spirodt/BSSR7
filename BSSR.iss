@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "BSS"
-#define MyAppVersion "6.2"
+#define MyAppVersion "7.0"
 #define MyAppPublisher "BSSR"
 #define MyAppURL "https://bssr.com/"
 #define MyAppExeName "BSSR.exe"
@@ -26,7 +26,7 @@ DisableProgramGroupPage=yes
 ;PrivilegesRequired=lowest
 OutputDir=BSS_DEPLOY
 OutputBaseFilename=BSS
-SetupIconFile=BSS/AppOut/bssIcon.ico
+SetupIconFile=AppOut/bssIcon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -38,14 +38,14 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "BSS\AppOut\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "BSS\AppOut\*"; DestDir: "{app}";  Excludes: "*.pdb,*.xml"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "BSS\SQL\*"; DestDir: "{app}\SQL"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "AddtionalTools\*.txt"; DestDir: "{app}"; Flags: onlyifdoesntexist  recursesubdirs createallsubdirs
-Source: "AddtionalTools\*.dll"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "AddtionalTools\*.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "AddtionalTools\*.ini"; DestDir: "{app}"; Flags: onlyifdoesntexist 
-Source: "AddtionalTools\*.xml"; DestDir: "{app}"; Flags: onlyifdoesntexist 
+Source: "AppOut\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "AppOut\*"; DestDir: "{app}";  Excludes: "*.pdb,*.xml"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "UpdateScripts\*"; DestDir: "{app}\SQL"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "FsikalnaProgrami\*.txt"; DestDir: "{app}"; Flags: onlyifdoesntexist  recursesubdirs createallsubdirs
+Source: "FsikalnaProgrami\*.dll"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "FsikalnaProgrami\*.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "FsikalnaProgrami\*.ini"; DestDir: "{app}"; Flags: onlyifdoesntexist 
+Source: "FsikalnaProgrami\*.xml"; DestDir: "{app}"; Flags: onlyifdoesntexist 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
