@@ -193,7 +193,7 @@ namespace BSSR
             Server = RegistryData.Read("Server").ToString().Split(';');
 
 
-            Text = $"[{RegistryData.SubKey}] BSSR © 2012 - 2024 Верзија 6.1 {Application.ProductVersion}";
+            Text = $"[{RegistryData.SubKey}] BSSR © 2012 - 2025 Верзија 7.0 {Application.ProductVersion}";
             txtBaza.Items.Clear();
             cmbServer.Items.Clear();
             foreach (var item in Databases)
