@@ -773,7 +773,7 @@ Where  FirmaID = @FirmaID and (Status is null OR Status = 0) and KlucniZborovi i
             lblBrNaSmetka.Text = string.Empty;
             lblVkupnoKol.Text = string.Empty;
             GrupaKomande.Controls.Clear();
-            var Naslov = new Label() { Text = String.Format("{0} \n\n  Вработен: {1}", settings.FirmaNaziv, UserName), TextAlign = ContentAlignment.MiddleCenter, Font = new Font(Font.FontFamily, 36, FontStyle.Italic), AutoSize = true, Dock = DockStyle.Fill };
+            var Naslov = new Label() { Text = String.Format("{0} \n\n  Вработен: {1}", settings.FirmaNaziv, UserName), TextAlign = ContentAlignment.MiddleCenter, Font = new Font(Font.FontFamily, 28, FontStyle.Italic), AutoSize = true, Dock = DockStyle.Fill };
             GrupaKomande.Controls.Add(Naslov);
             IscistiGlavniKomande();
 

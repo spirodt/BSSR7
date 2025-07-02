@@ -835,7 +835,7 @@
     <value>10, 10, 10, 10</value>
   </data>
   <data name="GrupaKomande.Size" type="System.Drawing.Size, System.Drawing">
-    <value>518, 83</value>
+    <value>521, 64</value>
   </data>
   <data name="GrupaKomande.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1222,7 +1222,7 @@
         XTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriXeW/h/sYH6AdFD6UeVjxS
         fNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2dmnafvvF05dOJZ+nPFmYKf5X+
         tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/MF72Rf3P4LeNt37vwd5MLWe+x7ys/
-        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALEQAACxEBf2RfkQAAFexJREFUeF7tnAdUFdfW
+        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALDgAACw4BQL7hQQAAFexJREFUeF7tnAdUFdfW
         xy9cOghYuAiJJRo1MQqWz/JMMTEx+eILX4gUvRhFhaDxxV5RVECaIkERFSmKBcWKCoKKYkOqiJQLXBAp
         Yu8tiabsb/2PHDKOA2gk0WS9Weu/7swwd2bP7+yzzz7lIiMi2X9Vv5468V89qd93/sCmp6fXrnv37i7W
         1tajraysmLDfr18/tt+9e/e6z4bUrVu351L37t3HdO3adbSurm5LsU1NsTUZIAsLC/sTJ05QWVkZqVQq
@@ -1375,7 +1375,7 @@
         XTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriXeW/h/sYH6AdFD6UeVjxS
         fNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2dmnafvvF05dOJZ+nPFmYKf5X+
         tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/MF72Rf3P4LeNt37vwd5MLWe+x7ys/
-        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALEQAACxEBf2RfkQAAFexJREFUeF7tnAdUFdfW
+        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALDgAACw4BQL7hQQAAFexJREFUeF7tnAdUFdfW
         xy9cOghYuAiJJRo1MQqWz/JMMTEx+eILX4gUvRhFhaDxxV5RVECaIkERFSmKBcWKCoKKYkOqiJQLXBAp
         Yu8tiabsb/2PHDKOA2gk0WS9Weu/7swwd2bP7+yzzz7lIiMi2X9Vv5468V89qd93/sCmp6fXrnv37i7W
         1tajraysmLDfr18/tt+9e/e6z4bUrVu351L37t3HdO3adbSurm5LsU1NsTUZIAsLC/sTJ05QWVkZqVQq
@@ -1528,7 +1528,7 @@
         XTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriXeW/h/sYH6AdFD6UeVjxS
         fNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2dmnafvvF05dOJZ+nPFmYKf5X+
         tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/MF72Rf3P4LeNt37vwd5MLWe+x7ys/
-        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALEQAACxEBf2RfkQAAFexJREFUeF7tnAdUFdfW
+        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALDgAACw4BQL7hQQAAFexJREFUeF7tnAdUFdfW
         xy9cOghYuAiJJRo1MQqWz/JMMTEx+eILX4gUvRhFhaDxxV5RVECaIkERFSmKBcWKCoKKYkOqiJQLXBAp
         Yu8tiabsb/2PHDKOA2gk0WS9Weu/7swwd2bP7+yzzz7lIiMi2X9Vv5468V89qd93/sCmp6fXrnv37i7W
         1tajraysmLDfr18/tt+9e/e6z4bUrVu351L37t3HdO3adbSurm5LsU1NsTUZIAsLC/sTJ05QWVkZqVQq
@@ -1691,7 +1691,7 @@
   <data name="ToolKomandi.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAACOZJREFUWEeVVmtMk2kW7v7a+bmbzMZk9ofZ5c8MRIWFtgKKlNJyB2m5tZQCLRTa
+        vgAADr4B6kKxwAAACOZJREFUWEeVVmtMk2kW7v7a+bmbzMZk9ofZ5c8MRIWFtgKKlNJyB2m5tZQCLRTa
         cmu59cLNKILQirB4QxAEFY1ouQ3IKCLReL9mdV13dTXGmBiN2ckkk51dk7N5TmmF7mRn501O+vX9znue
         c3nOeT+B4P9Yd+/e/WJ5eTlhcXHReOHCBdv/EuhAF2cC7fzsdenSJeXcwsK8x+P5bnJqiiYnp8jjmaTJ
         ScgUYW9qZR973nfePY9n8ruFhYX5paWlrEC7P7kWFhZCZ2dnr3g8HhoZOUa9vX3kcrn94oa4IXv94uL/
@@ -1807,20 +1807,23 @@
   <data name="GlavniKomande.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="GlavniKomande.AutoScroll" type="System.Boolean, mscorlib">
+  <data name="GlavniKomande.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="GlavniKomande.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="GlavniKomande.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 126</value>
+    <value>3, 102</value>
+  </data>
+  <data name="GlavniKomande.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
   </data>
   <data name="GlavniKomande.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
+    <value>10, 0, 10, 10</value>
   </data>
   <data name="GlavniKomande.Size" type="System.Drawing.Size, System.Drawing">
-    <value>515, 437</value>
+    <value>515, 461</value>
   </data>
   <data name="GlavniKomande.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -8702,8 +8705,8 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADAAwAA8A8AAA==
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultLocation</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Нарачки</value>

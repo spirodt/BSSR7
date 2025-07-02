@@ -3476,7 +3476,7 @@ public static partial class Tools
 
     public static void UpdateSoftware(Utility.ModifyRegistry.ModifyRegistry RegistryData = null)
     {
-        Tools.DownloadFile($"http://bssr.mk/bss/Installer/Setup%20Files/{Tools.base64ToText(BssBase.UpdateSettings.UpdateCode)}/BSS.exe",
+        Tools.DownloadFile($"http://bssr.mk/bss/Installer/BSSR7/BSS.exe",
             BssBase.UpdateSettings.UpdateDIR + "\\BSS.exe", false, true).ContinueWith((c) =>
             {
                 if (RegistryData == null)

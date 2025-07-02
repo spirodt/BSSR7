@@ -66,7 +66,7 @@ namespace MKelner.Forms
             {
                 Text = "Фискална" + Environment.NewLine + sumaNaSmetka,
                 Dock = DockStyle.Bottom,
-                Size = new Size(this.Width, this.Height - (150)),
+                Size = new Size(this.Width, this.Height - (120)),
                 BackColor = Color.DeepSkyBlue,
                 Name = _IDSmetka.ToString(),
             };
