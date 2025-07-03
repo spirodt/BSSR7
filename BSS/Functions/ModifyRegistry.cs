@@ -238,7 +238,12 @@ namespace Utility.ModifyRegistry
                 {
                     return false;
                 }
-                if(File.Exists(filePath))
+                if(!Directory.Exists(Path.GetDirectoryName(filePath)) == false)
+                {
+                    Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+                }
+
+                if (File.Exists(filePath))
                 {
                     File.Delete(filePath);
                 }
