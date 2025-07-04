@@ -43,7 +43,6 @@ Source: "AppOut\*"; DestDir: "{app}";  Excludes: "*.pdb,*.xml"; Flags: ignorever
 Source: "UpdateScripts\*"; DestDir: "{app}\SQL"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "FsikalnaProgrami\*.txt"; DestDir: "{app}"; Flags: onlyifdoesntexist  recursesubdirs createallsubdirs
 Source: "FsikalnaProgrami\*.dll"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "DLL\*.dll"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "FsikalnaProgrami\*.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "FsikalnaProgrami\*.ini"; DestDir: "{app}"; Flags: onlyifdoesntexist 
 Source: "FsikalnaProgrami\*.xml"; DestDir: "{app}"; Flags: onlyifdoesntexist 
