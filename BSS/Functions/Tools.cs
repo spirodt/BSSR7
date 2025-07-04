@@ -3476,6 +3476,13 @@ public static partial class Tools
 
     public static void UpdateSoftware(Utility.ModifyRegistry.ModifyRegistry RegistryData = null)
     {
+        if(string.IsNullOrEmpty(BssBase.UpdateSettings.UpdateDIR) || Directory.Exists(BssBase.UpdateSettings.UpdateDIR) == false)
+        {
+            BssBase.UpdateSettings.UpdateDIR = "C:\\BSS_EXPORT\\";      
+            Directory.CreateDirectory(BssBase.UpdateSettings.UpdateDIR);
+            RegistryData.Write("UpdateDIR", BssBase.UpdateSettings.UpdateDIR, false);
+        }
+
         Tools.DownloadFile($"http://bssr.mk/bss/Installer/BSSR7/BSS.exe",
             BssBase.UpdateSettings.UpdateDIR + "\\BSS.exe", false, true).ContinueWith((c) =>
             {
