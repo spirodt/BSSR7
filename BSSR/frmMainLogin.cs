@@ -193,7 +193,7 @@ namespace BSSR
             Server = RegistryData.Read("Server").ToString().Split(';');
 
 
-            Text = $"[{RegistryData.SubKey}] BSSR © 2012 - 2025 Верзија 7.0 {Application.ProductVersion}";
+            Text = $"[{RegistryData.SubKey}] BSSR © 2012 - {DateTime.Now.Year} Верзија 7.0 {Application.ProductVersion}";
             txtBaza.Items.Clear();
             cmbServer.Items.Clear();
             foreach (var item in Databases)
@@ -1090,7 +1090,16 @@ namespace BSSR
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             this.btnUpdate.Enabled = false;
-            
+            if ((Control.ModifierKeys & Keys.Shift) == Keys.Shift)
+            {
+                this.btnUpdate.BackColor = Color.Red;
+                if (DialogResult.Yes == MessageBox.Show("Дали сакате да ја превземете последната стабилна верзија", "Превземање на стабилна верзија", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                {
+                    Tools.UpdateSoftware(RegistryData,true);
+                    return;
+                }
+            }
+            this.btnUpdate.BackColor = Color.Green;
             Tools.UpdateSoftware(RegistryData);
         }
 

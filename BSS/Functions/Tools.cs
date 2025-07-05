@@ -3474,7 +3474,7 @@ public static partial class Tools
         return null;
     }
 
-    public static void UpdateSoftware(Utility.ModifyRegistry.ModifyRegistry RegistryData = null)
+    public static void UpdateSoftware(Utility.ModifyRegistry.ModifyRegistry RegistryData = null, bool revertToStable = false)
     {
         if(string.IsNullOrEmpty(BssBase.UpdateSettings.UpdateDIR) || Directory.Exists(BssBase.UpdateSettings.UpdateDIR) == false)
         {
@@ -3482,8 +3482,13 @@ public static partial class Tools
             Directory.CreateDirectory(BssBase.UpdateSettings.UpdateDIR);
             RegistryData.Write("UpdateDIR", BssBase.UpdateSettings.UpdateDIR, false);
         }
+        string fileName = $"http://bssr.mk/bss/Installer/BSSR7/BSS.exe";
+        if (revertToStable)
+        {
+            fileName = $"http://bssr.mk/bss/Installer/BSSR7/BSS_STABLE.exe";
+        }
 
-        Tools.DownloadFile($"http://bssr.mk/bss/Installer/BSSR7/BSS.exe",
+        Tools.DownloadFile(fileName,
             BssBase.UpdateSettings.UpdateDIR + "\\BSS.exe", false, true).ContinueWith((c) =>
             {
                 if (RegistryData == null)
