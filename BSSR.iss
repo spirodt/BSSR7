@@ -2,18 +2,18 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "BSS"
-#define MyAppVersion "7.0"
 #define MyAppPublisher "BSSR"
 #define MyAppURL "https://bssr.mk/bss/Installer/BSSR7/"
 #define MyAppExeName "BSSR.exe"
+#define AppVersion GetEnv('AppVersion')
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{07F3621F-5E57-4AD1-A1C6-39660E750D6A}
 AppName={#MyAppName}
-AppVersion={AppVersion}
-AppVerName={#MyAppName} {#MyAppVersion}
+AppVersion={#AppVersion}
+AppVerName={#MyAppName} {#AppVersion}
 AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
