@@ -3499,6 +3499,7 @@ public static partial class Tools
                 RegistryData.Write("VersionBeforeUpdate", Application.ProductVersion, false);
                 RegistryData.Write("Version", "NOVA", false);
                 Application.Exit();
+
             });
     }
 
