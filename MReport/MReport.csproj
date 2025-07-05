@@ -370,6 +370,10 @@
     <Folder Include="Reports\mk\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\BSS\Properties\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="BSSRDataSet.cs">
       <DependentUpon>BSSRDataSet.xsd</DependentUpon>
     </Compile>
@@ -545,7 +549,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Properties\SharedAssemblyInfo.cs" />
     <Compile Include="Reports\IzvestajPoVrabotenSkraten.cs">
       <DependentUpon>IzvestajPoVrabotenSkraten.rpt</DependentUpon>
       <AutoGen>True</AutoGen>

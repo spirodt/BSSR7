@@ -283,6 +283,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\BSS\Properties\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="FakturiDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -399,7 +403,6 @@
       <DependentUpon>frmFaktura.cs</DependentUpon>
     </Compile>
     <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="Properties\SharedAssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmBanki.resx">
       <DependentUpon>frmBanki.cs</DependentUpon>
     </EmbeddedResource>

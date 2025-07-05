@@ -208,6 +208,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\BSS\Properties\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="BSSRDataSet.cs">
       <DependentUpon>BSSRDataSet.xsd</DependentUpon>
     </Compile>
@@ -280,7 +284,6 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Properties\SharedAssemblyInfo.cs" />
     <Compile Include="Reporti\KujnaPrint50.cs">
       <DependentUpon>KujnaPrint50.rpt</DependentUpon>
       <AutoGen>True</AutoGen>

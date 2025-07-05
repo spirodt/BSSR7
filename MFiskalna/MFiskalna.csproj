@@ -142,6 +142,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\BSS\Properties\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="FiscalCash.cs" />
     <Compile Include="FiscalProduct.cs" />
     <Compile Include="frmPecatiFiskalnaOddelno.cs">
@@ -150,7 +154,6 @@
     <Compile Include="frmPecatiFiskalnaOddelno.Designer.cs">
       <DependentUpon>frmPecatiFiskalnaOddelno.cs</DependentUpon>
     </Compile>
-    <Compile Include="Properties\SharedAssemblyInfo.cs" />
     <EmbeddedResource Include="frmPecatiFiskalnaOddelno.resx">
       <DependentUpon>frmPecatiFiskalnaOddelno.cs</DependentUpon>
     </EmbeddedResource>

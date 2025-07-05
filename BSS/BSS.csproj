@@ -737,7 +737,9 @@
     <Compile Include="Functions\ToolsBase.cs" />
     <Compile Include="Functions\UpdateSettings.cs" />
     <Compile Include="Functions\WebApiSync.cs" />
-    <Compile Include="Properties\SharedAssemblyInfo.cs" />
+    <Compile Include="Properties\SharedAssemblyInfo.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Resources\PrevedeniPoraki-EN.Designer.cs">
       <DependentUpon>PrevedeniPoraki-EN.resx</DependentUpon>
       <AutoGen>True</AutoGen>

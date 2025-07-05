@@ -355,6 +355,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\BSS\Properties\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="BSSSDataset.cs">
       <DependentUpon>BSSSDataset.xsd</DependentUpon>
     </Compile>
@@ -610,7 +614,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\SharedAssemblyInfo.cs" />
     <Compile Include="Service References\BSDataMain\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
