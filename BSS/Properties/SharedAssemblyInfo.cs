@@ -1,18 +1,18 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("BSSR")]
-[assembly: AssemblyDescription("DEV")]
+[assembly: AssemblyTitle("BSS")]
+[assembly: AssemblyDescription("BSS Solutions")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BSSR")]
+[assembly: AssemblyCompany("BSS")]
+[assembly: AssemblyProduct("BSS")]
 [assembly: AssemblyCopyright("Copyright ©  2012 - 2025")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("BSS")]
 [assembly: AssemblyCulture("")]
 
-[assembly: ComVisible(false)]
+[assembly: ComVisible(true)]
 
-[assembly: Guid("819f098d-6edb-48df-bd6c-f8493e754cb4")]
+[assembly: Guid("bfbb307a-2256-421f-8540-a95bdf1585ec")]
 
 // Version information for an assembly consists of the following four values:
 //

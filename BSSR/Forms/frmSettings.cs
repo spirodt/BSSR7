@@ -158,7 +158,7 @@ namespace BSSR.Forms
             }
 
 
-            Text += string.Format(" {1} ( BSSR © 2012 - 2024 - Верзија {0} ) ", Application.ProductVersion, BssBase.settings.RegPath.Split('\\').LastOrDefault());
+            Text += string.Format(" {1} ( BSSR © 2012 - 2025 - Верзија {0} ) ", Application.ProductVersion, BssBase.settings.RegPath.Split('\\').LastOrDefault());
             SetirajPrivilegiiNaPrograma();
             setirajPrivilegieSporedTxtIdFirma();
 
