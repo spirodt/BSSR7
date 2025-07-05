@@ -612,6 +612,7 @@
     </Compile>
     <Compile Include="..\BSS\Properties\AssemblyInfo.cs">
       <Link>Properties\AssemblyInfo.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Service References\BSDataMain\Reference.cs">
       <AutoGen>True</AutoGen>
