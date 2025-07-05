@@ -5,7 +5,9 @@
 #define MyAppPublisher "BSSR"
 #define MyAppURL "https://bssr.mk/bss/Installer/BSSR7/"
 #define MyAppExeName "BSSR.exe"
-#define AppVersion GetEnv('AppVersion')
+#ifndef AppVersion
+  #define AppVersion "0.0.0"
+#endif
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
