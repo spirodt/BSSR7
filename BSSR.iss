@@ -20,7 +20,7 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName=BSS\{#MyAppName}
+DefaultDirName=C:\BSS
 DisableProgramGroupPage=yes
 ;InfoBeforeFile=C:\BSS\InformationBeforeInstall.txt
 ;InfoAfterFile=C:\BSS\InformationAfterInstall.txt
@@ -32,7 +32,7 @@ SetupIconFile=AppOut/bssIcon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
-DefaultDirName=C:\BSS
+
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
