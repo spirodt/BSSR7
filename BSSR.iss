@@ -4,7 +4,7 @@
 #define MyAppName "BSS"
 #define MyAppVersion "7.0"
 #define MyAppPublisher "BSSR"
-#define MyAppURL "https://bssr.com/"
+#define MyAppURL "https://bssr.mk/bss/Installer/BSSR7/"
 #define MyAppExeName "BSSR.exe"
 
 [Setup]
