@@ -610,10 +610,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="..\BSS\Properties\AssemblyInfo.cs">
-      <Link>Properties\AssemblyInfo.cs</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
+    <Compile Include="Properties\SharedAssemblyInfo.cs" />
     <Compile Include="Service References\BSDataMain\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
