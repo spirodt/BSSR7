@@ -392,6 +392,7 @@
     </Compile>
     <Compile Include="Forms\KulaB\MailItem.cs" />
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Properties\SharedAssemblyInfo.cs" />
     <Compile Include="Reporti\DocumentsFaktura.cs">
       <DependentUpon>DocumentsFaktura.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -871,9 +872,6 @@
       <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="..\BSS\Properties\AssemblyInfo.cs">
-      <Link>Properties\AssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>

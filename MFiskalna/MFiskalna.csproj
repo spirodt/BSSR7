@@ -150,6 +150,7 @@
     <Compile Include="frmPecatiFiskalnaOddelno.Designer.cs">
       <DependentUpon>frmPecatiFiskalnaOddelno.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\SharedAssemblyInfo.cs" />
     <EmbeddedResource Include="frmPecatiFiskalnaOddelno.resx">
       <DependentUpon>frmPecatiFiskalnaOddelno.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,9 +159,6 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="..\BSS\Properties\AssemblyInfo.cs">
-      <Link>Properties\AssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>

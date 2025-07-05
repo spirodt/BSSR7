@@ -535,9 +535,6 @@
       <DependentUpon>frmSodrzinaNaNormativi.cs</DependentUpon>
     </Compile>
     <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="..\BSS\Properties\AssemblyInfo.cs">
-      <Link>Properties\AssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -548,6 +545,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Properties\SharedAssemblyInfo.cs" />
     <Compile Include="Reports\IzvestajPoVrabotenSkraten.cs">
       <DependentUpon>IzvestajPoVrabotenSkraten.rpt</DependentUpon>
       <AutoGen>True</AutoGen>

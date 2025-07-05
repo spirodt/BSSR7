@@ -280,6 +280,7 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\SharedAssemblyInfo.cs" />
     <Compile Include="Reporti\KujnaPrint50.cs">
       <DependentUpon>KujnaPrint50.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -342,9 +343,6 @@
       <LastGenOutput>DResources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="..\BSS\Properties\AssemblyInfo.cs">
-      <Link>Properties\AssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="Properties\DResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>DResources.resx</DependentUpon>
