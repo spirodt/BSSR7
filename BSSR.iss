@@ -32,6 +32,7 @@ SetupIconFile=AppOut/bssIcon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
+DefaultDirName=C:\BSS
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
