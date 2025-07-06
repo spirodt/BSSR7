@@ -1,5 +1,6 @@
 ﻿using DevExpress.DocumentServices.ServiceModel.DataContracts;
 using DevExpress.Xpo.DB.Helpers;
+using DevExpress.XtraRichEdit.Fields;
 using DevExpress.XtraRichEdit.Import.Html;
 
 using httpHelpers;
@@ -23,6 +24,7 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Net.Mail;
 using System.Net.Security;
 using System.Reflection;
@@ -3474,34 +3476,61 @@ public static partial class Tools
         return null;
     }
 
+    private static List<string> ListStableVersions()
+    {
+        var fileList = new List<string>();
+        var c = new HttpClient();
+            var files = c.ListAllFilesInWebDirectory("https://bssr.mk/bss/Installer/BSSR7/", BssBase.UpdateSettings.UpdateDIR);
+        if (files == null || files.Any())
+        {
+            fileList = files.Where(x => x.Contains("BSS_STABLE")).ToList();
+        }
+
+        return fileList;
+    }
+
     public static void UpdateSoftware(Utility.ModifyRegistry.ModifyRegistry RegistryData = null, bool revertToStable = false)
     {
-        if(string.IsNullOrEmpty(BssBase.UpdateSettings.UpdateDIR) || Directory.Exists(BssBase.UpdateSettings.UpdateDIR) == false)
+        if (string.IsNullOrEmpty(BssBase.UpdateSettings.UpdateDIR) || Directory.Exists(BssBase.UpdateSettings.UpdateDIR) == false)
         {
-            BssBase.UpdateSettings.UpdateDIR = "C:\\BSS_EXPORT\\";      
+            BssBase.UpdateSettings.UpdateDIR = "C:\\BSS_EXPORT\\";
             Directory.CreateDirectory(BssBase.UpdateSettings.UpdateDIR);
             RegistryData.Write("UpdateDIR", BssBase.UpdateSettings.UpdateDIR, false);
         }
         string fileName = $"http://bssr.mk/bss/Installer/BSSR7/BSS.exe";
         if (revertToStable)
         {
+
             fileName = $"http://bssr.mk/bss/Installer/BSSR7/BSS_STABLE.exe";
-        }
+            var filesForRevet = ListStableVersions();
 
-        Tools.DownloadFile(fileName,
-            BssBase.UpdateSettings.UpdateDIR + "\\BSS.exe", false, true).ContinueWith((c) =>
+            if(filesForRevet != null && filesForRevet.Count == 1)
             {
-                if (RegistryData == null)
-                {
-                    RegistryData = new Utility.ModifyRegistry.ModifyRegistry();
-                    RegistryData.SubKey = BssBase.settings.RegPath;
-                }
-                RegistryData.Write("VersionBeforeUpdate", Application.ProductVersion, false);
-                RegistryData.Write("Version", "NOVA", false);
-                Application.Exit();
+                fileName = filesForRevet.FirstOrDefault();
+            } else
+            {
+                fileName = filesForRevet.OrderByDescending(x => x).FirstOrDefault();
+            }
 
-            });
+                MessageBox.Show($"Почнува преземање на новата верзија на БСС. {fileName} {Environment.NewLine}" +
+                    $"По завршувањето на преземањето, програмата ќе се рестартира автоматски.{Environment.NewLine}Притиснете  ОК да продолжите !!!", "Преземање на нова верзија", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            Tools.DownloadFile(fileName,
+                BssBase.UpdateSettings.UpdateDIR + "\\BSS.exe", false, true).ContinueWith((c) =>
+                {
+                    if (RegistryData == null)
+                    {
+                        RegistryData = new Utility.ModifyRegistry.ModifyRegistry();
+                        RegistryData.SubKey = BssBase.settings.RegPath;
+                    }
+                    RegistryData.Write("VersionBeforeUpdate", Application.ProductVersion, false);
+                    RegistryData.Write("Version", "NOVA", false);
+                    Application.Exit();
+
+                });
+        }
     }
+
 
     public static async Task DownloadFile(string fileLocation, string fileSaveLocation, bool showMessage, bool executeFile)
     {
