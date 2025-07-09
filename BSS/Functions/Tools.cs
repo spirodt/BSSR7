@@ -3513,8 +3513,8 @@ public static partial class Tools
                 fileName = filesForRevet.OrderByDescending(x => x).FirstOrDefault();
             }
         }
-         
-        DialogResult dialogResult =  MessageBox.Show($"Почнува преземање на новата верзија на БСС. {fileName} {Environment.NewLine}" +
+
+        DialogResult dialogResult = MessageBox.Show($"Почнува преземање на новата верзија на БСС. {fileName} {Environment.NewLine}" +
                     $"По завршувањето на преземањето, програмата ќе се рестартира автоматски.{Environment.NewLine}Притиснете  ОК да продолжите !!!", "Преземање на нова верзија", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
         if (dialogResult != DialogResult.Yes)
@@ -3537,7 +3537,7 @@ public static partial class Tools
         {
             MessageBox.Show("Прекинување на преземањето на новата верзија", "Прекинување", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
+    }
 
     public static async Task DownloadFile(string fileLocation, string fileSaveLocation, bool showMessage, bool executeFile)
     {
