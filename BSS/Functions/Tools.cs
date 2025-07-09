@@ -1,4 +1,5 @@
-﻿using DevExpress.DocumentServices.ServiceModel.DataContracts;
+﻿using BssBase;
+using DevExpress.DocumentServices.ServiceModel.DataContracts;
 using DevExpress.Xpo.DB.Helpers;
 using DevExpress.XtraRichEdit.Fields;
 using DevExpress.XtraRichEdit.Import.Html;
@@ -2537,6 +2538,46 @@ public static partial class Tools
             broj++;
         }
     }
+    public static void CreateDefaulFoldersIfNotExists()
+    {
+        if (!Directory.Exists("C:\\BSS_EXPORT\\BackUpDB\\"))
+        {
+            Directory.CreateDirectory("C:\\BSS_EXPORT\\BackUpDB\\");
+            settings.InitSettings.WriteToRegistry("BackupNaServerPateka", "C:\\BSS_EXPORT\\BackUpDB\\");
+        }
+
+        if (!Directory.Exists("C:\\BSS\\Images\\Images"))
+        {
+            Directory.CreateDirectory("C:\\BSS\\Images\\Images");
+            settings.InitSettings.WriteToRegistry("ImagesPath", "C:\\BSS\\Images\\Images");
+        }
+
+        if (!Directory.Exists("C:\\BSS\\logo.jpg"))
+        {
+            Directory.CreateDirectory("C:\\BSS\\Images\\Images");
+            settings.InitSettings.WriteToRegistry("PATEKADOLOGO", "C:\\BSS\\Images\\Images");
+        }
+
+        if (!Directory.Exists("C:\\BSS\\SQL\\UpdateScripts"))
+        {
+            Directory.CreateDirectory("C:\\BSS\\SQL\\UpdateScripts");
+            settings.InitSettings.WriteToRegistry("SQLPROGRAMDIR", "C:\\BSS\\SQL\\UpdateScripts");
+        }
+
+        if (!Directory.Exists("C:\\BSS_EXPORT\\Print"))
+        {
+            Directory.CreateDirectory("C:\\BSS_EXPORT\\Print");
+            settings.InitSettings.WriteToRegistry("PRINTFOLDER", "C:\\BSS_EXPORT\\Print");
+        }
+
+        if (!Directory.Exists("C:\\BSS_EXPORT\\"))
+        {
+            Directory.CreateDirectory("C:\\BSS_EXPORT\\");
+            settings.InitSettings.WriteToRegistry("UPDATEDIR", "C:\\BSS_EXPORT\\");
+        }
+
+    }
+
     public static string base64ToText(string sbase64)
     {
         var bytes = Convert.FromBase64String(sbase64);
