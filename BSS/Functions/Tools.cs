@@ -3504,17 +3504,21 @@ public static partial class Tools
             fileName = $"http://bssr.mk/bss/Installer/BSSR7/BSS_STABLE.exe";
             var filesForRevet = ListStableVersions();
 
-            if(filesForRevet != null && filesForRevet.Count == 1)
+            if (filesForRevet != null && filesForRevet.Count == 1)
             {
                 fileName = filesForRevet.FirstOrDefault();
-            } else
+            }
+            else
             {
                 fileName = filesForRevet.OrderByDescending(x => x).FirstOrDefault();
             }
+        }
+         
+        DialogResult dialogResult =  MessageBox.Show($"Почнува преземање на новата верзија на БСС. {fileName} {Environment.NewLine}" +
+                    $"По завршувањето на преземањето, програмата ќе се рестартира автоматски.{Environment.NewLine}Притиснете  ОК да продолжите !!!", "Преземање на нова верзија", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                MessageBox.Show($"Почнува преземање на новата верзија на БСС. {fileName} {Environment.NewLine}" +
-                    $"По завршувањето на преземањето, програмата ќе се рестартира автоматски.{Environment.NewLine}Притиснете  ОК да продолжите !!!", "Преземање на нова верзија", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+        if (dialogResult != DialogResult.Yes)
+        {
             Tools.DownloadFile(fileName,
                 BssBase.UpdateSettings.UpdateDIR + "\\BSS.exe", false, true).ContinueWith((c) =>
                 {
@@ -3529,7 +3533,10 @@ public static partial class Tools
 
                 });
         }
-    }
+        else
+        {
+            MessageBox.Show("Прекинување на преземањето на новата верзија", "Прекинување", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
 
 
     public static async Task DownloadFile(string fileLocation, string fileSaveLocation, bool showMessage, bool executeFile)
