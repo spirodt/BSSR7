@@ -126,7 +126,7 @@ namespace BSSR
             loading = true;
             InitializeComponent();
 
-
+            Tools.CreateDefaulFoldersIfNotExists();
             if (RegistryData.Read("IMENAFIRMA").ToString() == "N/A" || registriAcces == "NewSetup")
             {
                 tabControlBase1.TabPages.Remove(tabPage1);
