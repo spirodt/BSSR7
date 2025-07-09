@@ -3515,9 +3515,9 @@ public static partial class Tools
         }
 
         DialogResult dialogResult = MessageBox.Show($"Почнува преземање на новата верзија на БСС. {fileName} {Environment.NewLine}" +
-                    $"По завршувањето на преземањето, програмата ќе се рестартира автоматски.{Environment.NewLine}Притиснете  ОК да продолжите !!!", "Преземање на нова верзија", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    $"По завршувањето на преземањето, програмата ќе се рестартира автоматски.{Environment.NewLine}Притиснете Yes да продолжите !!!", "Преземање на нова верзија", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-        if (dialogResult != DialogResult.Yes)
+        if (dialogResult == DialogResult.Yes)
         {
             Tools.DownloadFile(fileName,
                 BssBase.UpdateSettings.UpdateDIR + "\\BSS.exe", false, true).ContinueWith((c) =>
